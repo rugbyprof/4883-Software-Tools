@@ -16,6 +16,7 @@
 - Git / GitHib
 - LaTex
 - Graphing Software (GraphViz)
+- Visualization (MatPlotLib possibly)
 - Image Manipulation Software (ImageMagick)
 - Scripting (Bash / Python)
 - Slack
