@@ -1,17 +1,9 @@
-<<<<<<< HEAD
-# 5143-Operating-Systems - Syllabus
+4883 - Software Tools
+=====================
 
-<img src="https://images-na.ssl-images-amazon.com/images/I/51ccTouNn-L._SX361_BO1,204,203,200_.jpg" width="100">
-- Title: Operating Systems: Internals and Design Principles (7th Edition)
-- Author: William Stallings 
-- Publisher: Pearson
-- Language: English
-- ISBN-10: 013230998X
-
-
-- Days: MW 400pm - 520pm 
+- Days: MW 100pm - 220pm 
 - Location: BO 320
-- [Final Exam](https://msutexas.edu/registrar/_assets/files/pdfs/spring19finals.pdf): Mon May 6<sup>th</sup>, 5:45-7:45 p.m. `(Final is Mandatory no leaving before finals week.)`
+- [Final Exam](https://msutexas.edu/registrar/_assets/files/pdfs/spring19finals.pdf): Mon May 6<sup>th</sup>, 3:30-5:30 p.m. `(Final is Mandatory no leaving before finals week.)`
 - Dates: January 14 - May 3
 - Holidays: 
     - Martin Luther King: January 21 
@@ -21,24 +13,7 @@
 
 ## Topics
 
-- Processes
-    - Concurrency
-    - Synchronization
-    - Semaphores
-    - Deadlock
-- Memory Management
-    - Paging
-    - Segmentation
-    - Virtual Memory
-- Scheduling Algorithms
-    - Uniprocessor
-    - Multiprocessor & Multicore
-- I/O & Disk Scheduling
-    - Devices
-    - Buffering
-    - RAID
-    - Disk Cache
-- File Management
+TBD
    
 
 
@@ -71,7 +46,6 @@
 
 - Periodically homework assignments will be taken up and graded. It is the student's responsibility to keep up with assignments and to ask questions over the assigned work, even if absent. All homework assignments are due at the specified time that may or may not be in conjunction with a class day. All assignments / homeworks will be uploaded via Github.
 
-=======
-4883 - Software Tools
-=====================
->>>>>>> e8b3a956f189a45d9d3500b72fa79f3448bf857a
+
+
+
