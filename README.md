@@ -13,7 +13,7 @@
 
 ## Topics
 
-- Git / GitHib
+- Git / GitHub
 - LaTex
 - Graphing Software (GraphViz)
 - Visualization (MatPlotLib possibly)
