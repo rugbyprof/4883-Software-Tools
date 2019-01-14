@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 5143-Operating-Systems - Syllabus
 
 <img src="https://images-na.ssl-images-amazon.com/images/I/51ccTouNn-L._SX361_BO1,204,203,200_.jpg" width="100">
@@ -70,3 +71,7 @@
 
 - Periodically homework assignments will be taken up and graded. It is the student's responsibility to keep up with assignments and to ask questions over the assigned work, even if absent. All homework assignments are due at the specified time that may or may not be in conjunction with a class day. All assignments / homeworks will be uploaded via Github.
 
+=======
+4883 - Software Tools
+=====================
+>>>>>>> e8b3a956f189a45d9d3500b72fa79f3448bf857a
