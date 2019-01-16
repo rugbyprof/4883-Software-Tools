@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  16 JAN 2019 12:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  16 JAN 2019 12:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/griffin/Code/Courses/4883-Software-Tools/Resources/Latex/document_1.tex
-(/Users/griffin/Code/Courses/4883-Software-Tools/Resources/Latex/document_1.tex
+**/Users/griffin/Code/Courses/4883-Software-Tools/Resources/Latex/Doc1/document_1.tex
+(/Users/griffin/Code/Courses/4883-Software-Tools/Resources/Latex/Doc1/document_1.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
@@ -283,12 +283,12 @@ Overfull \vbox (1.50815pt too high) has occurred while \output is active []
  (.//document_1.bbl) [6] (.//document_1.aux) ) 
 Here is how much of TeX's memory you used:
  3236 strings out of 492649
- 49249 string characters out of 6129622
+ 49264 string characters out of 6129622
  116347 words of memory out of 5000000
  7079 multiletter control sequences out of 15000+600000
  9668 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,8n,40p,579b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,8n,40p,584b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 Output written on .//document_1.pdf (7 pages, 212755 bytes).
 PDF statistics:

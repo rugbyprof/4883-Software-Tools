@@ -1,8 +1,8 @@
-PWD /Users/griffin/Code/Courses/4883-Software-Tools/Resources/Latex
+PWD /Users/griffin/Code/Courses/4883-Software-Tools/Resources/Latex/Doc1
 INPUT /usr/local/texlive/2018/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/griffin/Code/Courses/4883-Software-Tools/Resources/Latex/document_1.tex
+INPUT /Users/griffin/Code/Courses/4883-Software-Tools/Resources/Latex/Doc1/document_1.tex
 OUTPUT .//document_1.log
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls

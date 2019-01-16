@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1547663261 "/Users/griffin/Code/Courses/4883-Software-Tools/Resources/Latex/document_1.tex" "document_1.pdf" "document_1" 1547663261
-  "/Users/griffin/Code/Courses/4883-Software-Tools/Resources/Latex/document_1.tex" 1547663260 5004 580784b5f75361bafc02ac2b9907c4bd ""
+["pdflatex"] 1547664239 "/Users/griffin/Code/Courses/4883-Software-Tools/Resources/Latex/Doc1/document_1.tex" "document_1.pdf" "document_1" 1547664240
+  "/Users/griffin/Code/Courses/4883-Software-Tools/Resources/Latex/Doc1/document_1.tex" 1547664238 5004 580784b5f75361bafc02ac2b9907c4bd ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -68,12 +68,12 @@
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
   "boat.jpg" 1547662206 7811 bffa061c581a44becd934492117d43ee ""
   "coffee.jpg" 1547662100 65489 075ac1b4eb66151544935e980c927e9f ""
-  "document_1.aux" 1547663261 1377 a06b491a40e37d0666a35f756762edc0 ""
-  "document_1.tex" 1547663260 5004 580784b5f75361bafc02ac2b9907c4bd ""
+  "document_1.aux" 1547664240 1377 a06b491a40e37d0666a35f756762edc0 ""
+  "document_1.tex" 1547664238 5004 580784b5f75361bafc02ac2b9907c4bd ""
   (generated)
   "document_1.lot"
-  "document_1.log"
   "document_1.toc"
   "document_1.aux"
-  "document_1.lof"
+  "document_1.log"
   "document_1.pdf"
+  "document_1.lof"
