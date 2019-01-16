@@ -1,4 +1,4 @@
-## Latex Starter
+## Latex Starter - Little Overview
 #### Due: N/A
 
 ### Install Latex
