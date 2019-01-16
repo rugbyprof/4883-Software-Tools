@@ -1,0 +1,175 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{setspace}
+
+\title{Title of my document}
+\date{2013-09-01}
+\author{John Doe}
+
+\setcounter{tocdepth}{1} % Show sections
+%\setcounter{tocdepth}{2} % + subsections
+%\setcounter{tocdepth}{3} % + subsubsections
+%\setcounter{tocdepth}{4} % + paragraphs
+%\setcounter{tocdepth}{5} % + subparagraphs
+
+\begin{document}
+
+
+
+\maketitle
+\pagenumbering{gobble}
+\newpage
+\pagenumbering{arabic}
+
+
+
+\doublespacing
+\tableofcontents
+\singlespacing
+
+\newpage
+
+\section{Introduction}
+
+Bacon ipsum dolor amet salami \cite{DUMMY:1} chicken alcatra turducken venison burgdoggen. Alcatra porchetta salami, andouille ground round pig prosciutto. Ham hock capicola kielbasa shank alcatra. Shankle ground round pig, short ribs buffalo salami chuck pork belly. Ribeye kevin fatback shank doner ham hock.
+\\
+
+Filet mignon andouille corned beef cow buffalo pig pork jowl t-bone kevin. Shank turkey chuck pork belly, cow meatloaf bacon tenderloin strip steak sirloin t-bone rump pork capicola pancetta. Boudin kielbasa pork belly spare ribs pork frankfurter burgdoggen alcatra. Pork chop tongue shank cow venison leberkas prosciutto corned beef cupim jowl salami short loin ham capicola chuck.
+\\
+
+Capicola burgdoggen turkey kevin pig chuck short loin beef ribs shankle. Leberkas meatball burgdoggen andouille tenderloin boudin, shankle prosciutto ball tip turducken drumstick. Pork bacon jerky turducken. Ham sirloin chuck frankfurter sausage pig porchetta t-bone cupim hamburger kevin leberkas flank tenderloin ground round.
+\\
+
+Fatback rump ground round beef short ribs tri-tip kielbasa jerky bacon jowl turkey flank pork. Bacon t-bone chuck spare ribs flank, short loin tenderloin short ribs prosciutto. Hamburger pork biltong brisket cow. Landjaeger pork belly meatloaf, corned beef frankfurter pork turducken picanha alcatra. T-bone swine buffalo, short ribs turducken salami capicola ball tip. Ground round chicken drumstick shoulder salami, bacon frankfurter ham hock tenderloin bresaola. Kevin flank tongue pastrami cow.
+\\
+
+Tri-tip bacon chuck meatball ball tip shank turkey pork brisket jerky pastrami pork belly spare ribs biltong beef. Flank pig sausage brisket ribeye alcatra andouille boudin leberkas strip steak. Turducken beef ribs ribeye pork chop t-bone brisket ham hock flank tongue. Ham drumstick fatback, kevin tongue capicola ribeye pork loin picanha strip steak venison ground round. Landjaeger short loin turducken pancetta strip steak swine tri-tip tongue brisket.
+\\
+
+Hello World! $f(x) = x^2$
+
+\section{Equations}
+
+\begin{equation}
+    f(x) = x^2
+  \end{equation}
+  
+  \begin{equation*}
+    1 + 2 = 3 
+  \end{equation*}
+  
+  \begin{equation*}
+    1 = 3 - 2
+  \end{equation*}
+  
+  \begin{align*}
+    1 + 2 &= 3\\
+    1 &= 3 - 2
+  \end{align*}
+
+  \begin{align*}
+    f(x) = x^2&\\
+    g(x) = \frac{1}{x}&\\
+    F(x) = \int^a_b \frac{1}{3}x^3&
+  \end{align*}
+  \begin{equation}
+  \left[
+    \begin{matrix}
+      f(x) = x^2 & g(x) = \frac{1}{x}\\
+      \int^a_b \frac{1}{3}x^3 & \int^a_b \frac{1}{3}x^3
+    \end{matrix}
+    \right]
+  \end{equation}
+
+  $\left(\frac{1}{\sqrt{x}}\right)$
+
+\newpage
+\subsection{Subsection}
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{boat.jpg}
+  \caption{A boat.}
+  \label{fig:boat1}
+\end{figure}
+
+Figure \ref{fig:boat1} shows a boat.
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{coffee.jpg}
+  \caption{Some Coffee.}
+  \label{fig:coffee1}
+\end{figure}
+
+Figure \ref{fig:coffee1} shows some coffee.
+
+Structuring a document is easy!
+
+\subsection{Subsection}
+
+Structuring a document is easy!
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{coffee.jpg}
+    \caption{Coffee.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{coffee.jpg}
+    \caption{More coffee.}
+  \end{subfigure}
+  \caption{The same cup of coffee. Two times.}
+  \label{fig:coffee}
+\end{figure}
+
+\subsubsection{Subsubsection}
+
+More text.
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[b]{0.2\linewidth}
+    \includegraphics[width=\linewidth]{coffee.jpg}
+     \caption{Coffee.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.2\linewidth}
+    \includegraphics[width=\linewidth]{coffee.jpg}
+    \caption{More coffee.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.2\linewidth}
+    \includegraphics[width=\linewidth]{coffee.jpg}
+    \caption{Tasty coffee.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.5\linewidth}
+    \includegraphics[width=\linewidth]{coffee.jpg}
+    \caption{Too much coffee.}
+  \end{subfigure}
+  \caption{The same cup of coffee. Multiple times.}
+  \label{fig:coffee3}
+\end{figure}
+
+\paragraph{Paragraph}
+
+Some more text.
+
+\subparagraph{Subparagraph}
+
+Even more text.
+
+\begin{table}
+  \caption{Dummy table}
+\end{table}
+
+\section{Another section}
+
+\begin{appendix}
+  \listoffigures
+  \listoftables
+\end{appendix}
+
+\bibliography{document_1} 
+\bibliographystyle{ieeetr}
+
+\end{document}
