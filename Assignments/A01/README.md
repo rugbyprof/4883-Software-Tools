@@ -33,6 +33,7 @@ a means to push your files to a central repository. So if your using a lab or pe
     - `4883-SWTools-yourlastname`
     - replace the `yourlastname` with your last name to make it unique.
 - Check the box that says: "Add a README.md file"
+- Update the google doc [HERE](https://docs.google.com/spreadsheets/d/1OEuAnqqOMWrFlcd9CkjvuM9arK-rXictHin-ETtBCL0/edit?usp=sharing) as well with your info.
 
 #### Edit the README.md 
 (20%)

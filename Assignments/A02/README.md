@@ -1,5 +1,4 @@
-Assignment 2
-============
+## Assignment 2 - Software Tool
 ### Due: January 16<sup>th</sup> by classtime.
 
 ### Cool Software
@@ -25,4 +24,5 @@ Assignment 2
   - In `Assignments` create a folder called `A02`
   - Create a `README.md` in `A02`
   - In your readme provide a link and description of your tool and why you picked it.
+  - Update the google doc [HERE](https://docs.google.com/spreadsheets/d/1eOoajgL9zivinx8ckG92ngQVtKgkcDjdbiUbfTezDKc/edit?usp=sharing) as well.
   
