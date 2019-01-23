@@ -1,5 +1,7 @@
 from beautifulscraper import BeautifulScraper
 from pprint import pprint
+import sys
+
 scraper = BeautifulScraper()
 
 url = "http://www.hubertiming.com/results/2017GPTR10K"
@@ -17,6 +19,7 @@ print(headers)
 for th in headers.find_all('th'):
     categories.append(th.text)
 
+
 for tr in table.tbody.find_all('tr'):
     temp = {}
     i = 0
@@ -25,4 +28,19 @@ for tr in table.tbody.find_all('tr'):
         i += 1
     data.append(temp)
 
-pprint(data)
+f = open("run_data.csv","w")
+
+for cat in categories:
+    sys.stdout.write(cat+',')
+    f.write(cat+',')
+    sys.stdout.flush()
+f.write("\n")
+sys.stdout.write("\n")
+for row in data:
+    for k,v in row.items():
+        sys.stdout.write(v+',')
+        f.write(v+',')
+    sys.stdout.write("\n")
+    f.write("\n")
+
+
