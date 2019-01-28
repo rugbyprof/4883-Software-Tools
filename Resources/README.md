@@ -2,5 +2,6 @@
 | Folder | Resource | Description|
  | ------------|------------|------------|
  | [Latex](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/Latex) | [ Latex Starter ](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/Latex) | [ Little Overview](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/Latex) | [Latex](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/Latex) | [ Install Latex](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/Latex) | [Latex](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/Latex) | [ Overview of Latex](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/Latex) | [N/A](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/Latex) |
+ | [scraping](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/scraping) | [ Resources scraping ](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/scraping) | [ No Description](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/scraping) | [N/A](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/scraping) |
 
-<sup>Last Updated: 2019-01-23 (Wed @ 12:55)</sup>
+<sup>Last Updated: 2019-01-28 (Mon @ 12:45)</sup>
