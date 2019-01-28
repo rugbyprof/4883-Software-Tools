@@ -12,7 +12,7 @@ Using `python2` or `python3` and `beautifulsoup` obtain all of the NFL stats fro
 
 Examples on how to scrape sites can be found [HERE](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/scraping) or on the web. 
 
-The nfl liveupdate site will provide us with the stats, but it requires a specific game id. We get the game id's from the nfl.com's schedule page. So lets start there.
+The nfl liveupdate site will provide us with the stats, but it requires a specific game id. We get the game id's from nfl.com's schedule page. So lets start there.
 
 ### Schedule
 
@@ -30,16 +30,26 @@ http://www.nfl.com/schedules/2010/REG3
 http://www.nfl.com/schedules/2014/REG15
 ```
 
-The url basically has three important components: `year`, `season type` (PRE/POST), and `week`. We can build our URL like so:
+The url basically has three important components: `year`, `season type` (PRE/POST), and `week`. Knowing this, we can build our URL like so:
 
 ```python
 year = 2018
 stype = "REG"
 week = 15
 url = "http://www.nfl.com/schedules/%d/%s%d" % (year,stype,week)
+
+# or
+
+year = 2016
+stype = "POST"
+week = "" # Not needed
+url = "http://www.nfl.com/schedules/%d/%s%s" % (year,stype,str(week))
+
+## How you handle strings and ints is up to you. It might be wise to cast all to string so you can use the same business logic to build your URL everytime.
+
 ```
 
-This gives us the knowledge to peruse the entire NFL's schedule for any year from now back to 1970. What we really want from `nfl.com` is a specific reference or identifier for each game. I know this from inspecting the second url we need: http://www.nfl.com/liveupdate/game-center/ .
+This gives us the knowledge to peruse the entire NFL's schedule for any year from now back to 1970. However, what we really want from `nfl.com` is a specific reference or identifier for each game. I know this from inspecting the second site we need: http://www.nfl.com/liveupdate/game-center/ .
 
 ### Next Step
 
