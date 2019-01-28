@@ -45,7 +45,8 @@ stype = "POST"
 week = "" # Not needed
 url = "http://www.nfl.com/schedules/%d/%s%s" % (year,stype,str(week))
 
-## How you handle strings and ints is up to you. It might be wise to cast all to string so you can use the same business logic to build your URL everytime.
+# How you handle strings and ints is up to you. It might be wise to cast all to 
+# string so you can use the same business logic to build your URL everytime.
 
 ```
 
