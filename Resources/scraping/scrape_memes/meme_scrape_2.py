@@ -42,17 +42,27 @@ if __name__ == '__main__':
     # Ignore first link (its the home page) using [1:]
     
     for category in category_links[1:]:
+        # add a small delay so you don't hammer the server
         sleep(.02)
+
+        # show progress by printing a dot to the screen
         sys.stdout.write('.')
         sys.stdout.flush()
+
+        # grab the category page
         page = scraper.go(category)
+
+        # get a list of sub categories
         sub_category_links = get_category_links(page)
+
+        # append would create a list of lists where extend just adds
+        # items keeping a single list of items
         all_links.extend(sub_category_links)
     sys.stdout.write("\n")
     print(all_links)
     print(len(all_links))
 
+    # write all of our links to a json file
     f = open('meme_links.json','w')
-
     f.write(json.dumps(all_links))
     f.close()
