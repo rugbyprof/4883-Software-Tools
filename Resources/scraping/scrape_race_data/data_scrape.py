@@ -36,6 +36,7 @@ for cat in categories:
     sys.stdout.flush()
 f.write("\n")
 sys.stdout.write("\n")
+
 for row in data:
     for k,v in row.items():
         sys.stdout.write(v+',')

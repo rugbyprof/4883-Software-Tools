@@ -5,6 +5,7 @@ url = "https://ifunny.co"
 page = scraper.go(url)
 
 # find all of the links to each category (other pages)
+# they happen to be in line item (li) tags
 for li in page.find_all("li",{"class":"categories-list__item"}):
     print(li)
     print(li.a)
