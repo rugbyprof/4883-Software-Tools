@@ -79,9 +79,98 @@ url = "http://www.nfl.com/liveupdate/game-center/%s/%s_gtd.json" % (sgameid)
 
 ### NFL Json
 
-The NFL json files that you will scrape will contain a games worth of statistics stored 
+The NFL json files that you will scrape will contain a games worth of statistics. If you scrape all of the files from 2009 until present day you will have a complete set of statistics for the NFL from 2009 - 2018 (minus the Super Bowl this year). Here is a collapsed version of a game object:
 
-all of the stats from 2009 until present day. Once the super bowl is played this year, 2018 season will be complete. 
+```json
+{
+    "2009102505": {
+        "home": {
+            "score": {
+                "1": 3,
+                "2": 0,
+                "3": 3,
+                "4": 0,
+                "5": 0,
+                "T": 6
+            },
+            "abbr": "STL",
+            "to": 3,
+            "stats": {},      // 10 items
+            "players": null
+        },
+        "away": {
+            "score": {
+                "1": 14,
+                "2": 7,
+                "3": 7,
+                "4": 14,
+                "5": 0,
+                "T": 42
+            },
+            "abbr": "IND",
+            "to": 3,
+            "stats": {},      // 10 items
+            "players": null
+        },
+        "drives": {},         // 22 items
+        "scrsummary": {},     // 8 items
+        "weather": null,
+        "media": null,
+        "yl": "",
+        "qtr": "Final",
+        "note": null,
+        "down": 0,
+        "togo": 0,
+        "redzone": true,
+        "clock": "00:17",
+        "posteam": "STL",
+        "stadium": null
+    },
+    "nextupdate": 258
+}
+```
+
+- A summary of the game stats can be found in: `["2009102505"]["home" or "away"]["stats"]`.
+- Individual player stats are located under `["2009102505"]["drives"][X]["plays"][Y]["players"]` where `X` = `drive-number` and `Y` = `play-id`.
+
+Here is an example play in a drive:
+```json
+"3068": {
+    "sp": 0,
+    "qtr": 4,
+    "down": 1,
+    "time": "09:40",
+    "yrdln": "IND 20",
+    "ydstogo": 10,
+    "ydsnet": 25,
+    "posteam": "IND",
+    "desc": "(9:40) J.Addai left tackle to IND 32 for 12 yards (O.Atogwe).",
+    "note": null,
+    "players": {
+        "0": [{
+            "sequence": 1,
+            "clubcode": "IND",
+            "playerName": "",
+            "statId": 3,              // means first down
+            "yards": 0
+        }],
+        "00-0023501": [{
+            "sequence": 3,
+            "clubcode": "STL",
+            "playerName": "O.Atogwe",
+            "statId": 79,             // solo tackle
+            "yards": 0
+        }],
+        "00-0024245": [{
+            "sequence": 2,
+            "clubcode": "IND",
+            "playerName": "J.Addai",
+            "statId": 10,             // rushing yards
+            "yards": 12             
+        }]
+    }
+}
+```
 
 ## Assignment
 
