@@ -77,8 +77,11 @@ url = "http://www.nfl.com/liveupdate/game-center/%d/%d_gtd.json" % (igameid)
 url = "http://www.nfl.com/liveupdate/game-center/%s/%s_gtd.json" % (sgameid)
 ```
 
-### Nfl Json
+### NFL Json
 
+The NFL json files that you will scrape will contain a games worth of statistics stored 
+
+all of the stats from 2009 until present day. Once the super bowl is played this year, 2018 season will be complete. 
 
 ## Assignment
 
