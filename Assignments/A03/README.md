@@ -95,7 +95,7 @@ The NFL json files that you will scrape will contain a games worth of statistics
             },
             "abbr": "STL",
             "to": 3,
-            "stats": {},      // 10 items
+            "stats": {},      
             "players": null
         },
         "away": {
@@ -109,11 +109,11 @@ The NFL json files that you will scrape will contain a games worth of statistics
             },
             "abbr": "IND",
             "to": 3,
-            "stats": {},      // 10 items
+            "stats": {},     
             "players": null
         },
-        "drives": {},         // 22 items
-        "scrsummary": {},     // 8 items
+        "drives": {},        
+        "scrsummary": {},     
         "weather": null,
         "media": null,
         "yl": "",
@@ -133,7 +133,12 @@ The NFL json files that you will scrape will contain a games worth of statistics
 - A summary of the game stats can be found in: `["2009102505"]["home" or "away"]["stats"]`.
 - Individual player stats are located under `["2009102505"]["drives"][X]["plays"][Y]["players"]` where `X` = `drive-number` and `Y` = `play-id`.
 
-Here is an example play in a drive:
+Here is an example play in a drive. Each player involved in a play is listed in the "players" array. The statId describes what they did. In this play we have three stats:
+
+- statId : 3 = First down.
+- statId : 79 = Solo Tackle.
+- statId : 10 = Rushing Yards
+
 ```json
 "3068": {
     "sp": 0,
@@ -151,21 +156,21 @@ Here is an example play in a drive:
             "sequence": 1,
             "clubcode": "IND",
             "playerName": "",
-            "statId": 3,              // means first down
+            "statId": 3,              
             "yards": 0
         }],
         "00-0023501": [{
             "sequence": 3,
             "clubcode": "STL",
             "playerName": "O.Atogwe",
-            "statId": 79,             // solo tackle
+            "statId": 79,             
             "yards": 0
         }],
         "00-0024245": [{
             "sequence": 2,
             "clubcode": "IND",
             "playerName": "J.Addai",
-            "statId": 10,             // rushing yards
+            "statId": 10,             
             "yards": 12             
         }]
     }
