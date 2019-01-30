@@ -181,3 +181,9 @@ Notice that every play also has a `clubcode` so the cummulative team stats can b
 
 ## Assignment
 
+- Find the player(s) that played for the most teams.
+- Find the player(s) that had the most rushes for a loss.
+- Find number of passes for a loss.
+- Find the team with the most penalties.
+- Find the team with the most yards in penalties.
+- Find the correlation between most penalized teams and games won / lost.
