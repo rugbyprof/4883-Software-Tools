@@ -133,11 +133,11 @@ The NFL json files that you will scrape will contain a games worth of statistics
 - A summary of the game stats can be found in: `["2009102505"]["home" or "away"]["stats"]`.
 - Individual player stats are located under `["2009102505"]["drives"][X]["plays"][Y]["players"]` where `X` = `drive-number` and `Y` = `play-id`.
 
-Here is an example play in a drive. Each player involved in a play is listed in the "players" array. The statId describes what they did. In this play we have three stats:
+Here is an example play in a drive. Each player involved in a play is listed in the "players" array. The `statId` describes what they did. In this play we have three stats:
 
-- statId : 3 = First down.
-- statId : 79 = Solo Tackle.
-- statId : 10 = Rushing Yards
+- `statId` : 3 = First down.
+- `statId` : 79 = Solo Tackle.
+- `statId` : 10 = Rushing Yards
 
 ```json
 "3068": {
