@@ -187,3 +187,6 @@ Notice that every play also has a `clubcode` so the cummulative team stats can b
 - Find the team with the most penalties.
 - Find the team with the most yards in penalties.
 - Find the correlation between most penalized teams and games won / lost.
+- Average number of plays in a game.
+- Longest field goal.
+- Most field goals.
