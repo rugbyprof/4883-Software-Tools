@@ -208,7 +208,9 @@ Notice that every play also has a `clubcode` so the cummulative team stats can b
 - Do not put all your scraped json files on github (unless you want to).
 - Name your json files with the same convention I used: `gameid.json` (e.g. `2014110901.json`) that way I can run your code on my local files.
 - If your code uses data structures that you created and saved to a file, those should be either uploaded or provided to me with instructions on how to create them.
-- In addition to the two scraping files, there should be one more called `calculate_stats.py` that I can run which will provide the answers to the above stat questions. It should create an output file that clearly portrays which question is being answered, along with your calculated answer:
+- In addition to the two scraping files, there should be one more called `calculate_stats.py` that I can run which will provide the answers to the above stat questions. It should create an output file that clearly portrays which question is being answered, along with your calculated answer (see below).
+- Your code should be organized with functions, preferrably one function per stat to find. Each function should be commented (see below).
+
 
 #### Example Output
 ```
@@ -232,3 +234,38 @@ Player 2 played for X teams.
 Player A. Smith made XX fields goals.
 ```
 
+### Example Comments
+
+
+### File Comment
+```python
+"""
+Course: cmps 4883
+Assignemt: A03
+Date: 2/04/19
+Github username: dorknuts
+Repo url: https://github.com/yourgithubusername/reponame
+Name: John Magee
+Description: 
+    A small description of the program ....
+
+"""
+
+```
+
+#### Function or Class Comment
+
+```python
+##############################################################
+# calculateMostFieldGoals(p1,p2,...)
+# This function does something to be described here...
+# 
+# Params: 
+#    p1 [type] : description
+#    p2 [type] : description 
+#    etc
+# Returns: 
+#    What it returns and its type
+def calculateMostFieldGoals(p1,p2,p3):
+  # function body here...
+```
