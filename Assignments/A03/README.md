@@ -1,5 +1,12 @@
 ## Data Scraping - Beautiful Soup and NFL Data
-### Due: Wednesday February 6<sup>th</sup> by classtime
+### Due: Wednesday February 6<sup>th</sup> and Friday February 8<sup>th</sup>
+
+
+#### Due Dates:
+- Wednesday these files are due:
+    - `scrape_game_ids.py`
+    - `scrape_game_data.py`
+- Friday your stats output and fully commented code is due.
 
 ## Background
 
