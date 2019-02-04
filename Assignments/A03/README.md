@@ -181,16 +181,54 @@ Notice that every play also has a `clubcode` so the cummulative team stats can b
 
 ## Assignment
 
-- Find the player(s) that played for the most teams.
-- Find the player(s) that played for multiple teams in one year.
-- Find the player(s) that had the most yards rushed for a loss.
-- Find the player(s) that had the most rushes for a loss.
-- Find number of passes for a loss.
-- Find the team with the most penalties.
-- Find the team with the most yards in penalties.
-- Find the correlation between most penalized teams and games won / lost.
-- Average number of plays in a game.
-- Longest field goal.
-- Most field goals.
-- Most missed field goals.
-- Most dropped passes (Search for "pass" and "dropped" in play description, and stat-id 115).
+### Stats to Find
+1. Find the player(s) that played for the most teams.
+2. Find the player(s) that played for multiple teams in one year.
+3. Find the player(s) that had the most yards rushed for a loss.
+4. Find the player(s) that had the most rushes for a loss.
+5. Find the player(s) with the most number of passes for a loss.
+6. Find the team with the most penalties.
+7. Find the team with the most yards in penalties.
+8. Find the correlation between most penalized teams and games won / lost.
+9. Average number of plays in a game.
+10. Longest field goal.
+11. Most field goals.
+12. Most missed field goals.
+13. Most dropped passes (Search for "pass" and "dropped" in play description, and stat-id 115).
+
+>NOTE: If any of the results returns more than 10 items, just provide the top 10. For example if #2 returns a lot of players then list the players that played for the most teams first and the remaining will be alphabetical. 
+
+### Deliverables
+
+- Create a folder called `A03` in your assignments folder.
+- Create a `README.md` that lists all the files, a description of your project, and provides all necessary instructions for me to run your code.  
+- At a minimum you should have two files that gather the information and they should be named:
+    - `scrape_game_ids.py`
+    - `scrape_game_data.py`
+- Do not put all your scraped json files on github (unless you want to).
+- Name your json files with the same convention I used: `gameid.json` (e.g. `2014110901.json`) that way I can run your code on my local files.
+- If your code uses data structures that you created and saved to a file, those should be either uploaded or provided to me with instructions on how to create them.
+- In addition to the two scraping files, there should be one more called `calculate_stats.py` that I can run which will provide the answers to the above stat questions. It should create an output file that clearly portrays which question is being answered, along with your calculated answer:
+
+#### Example Output
+```
+Name: your name
+Assignment: A03 - Nfl Stats 
+Date: the date
+
+==================================================================================
+1. Find the player(s) that played for the most teams.
+
+Answer:
+
+Player 1 played for X teams.
+Player 2 played for X teams.
+
+...
+
+==================================================================================
+11. Most field goals.
+
+Player A. Smith made XX fields goals.
+```
+
