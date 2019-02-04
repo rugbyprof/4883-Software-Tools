@@ -183,6 +183,7 @@ Notice that every play also has a `clubcode` so the cummulative team stats can b
 
 - Find the player(s) that played for the most teams.
 - Find the player(s) that played for multiple teams in one year.
+- Find the player(s) that had the most yards rushed for a loss.
 - Find the player(s) that had the most rushes for a loss.
 - Find number of passes for a loss.
 - Find the team with the most penalties.
@@ -192,4 +193,4 @@ Notice that every play also has a `clubcode` so the cummulative team stats can b
 - Longest field goal.
 - Most field goals.
 - Most missed field goals.
-- Most dropped passes.
+- Most dropped passes (Search for "pass" and "dropped" in play description, and stat-id 115).
