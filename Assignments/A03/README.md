@@ -1,5 +1,5 @@
 ## Data Scraping - Beautiful Soup and NFL Data
-### Due: Wednesday February 6<sup>th</sup> and Friday February 13<sup>th</sup>
+### Due: Wednesday February 6<sup>th</sup> and Wednesday February 13<sup>th</sup>
 
 
 #### Due Dates:
