@@ -2,6 +2,8 @@
 //Connect to mysql
 $host = "cs2.mwsu.edu";             // server name
 $user = "software_tools";           // user name
+
+// Get username and password from slack
 $password = "******************";   // password 
 $database = "******************";   // database 
 $mysqli = mysqli_connect($host, $user, $password, $database);
