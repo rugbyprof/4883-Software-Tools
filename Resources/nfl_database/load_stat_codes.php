@@ -1,8 +1,8 @@
 <?php
 $config = [
-    'servername' => "localhost",
-    'username' => "nfl_data",
-    'password' => "xDYfaR0rPomiQY6M",
+    'servername' => "cs2.mwsu.edu",
+    'username' => "software_tools",
+    'password' => "horseblanketdonkey",
     'dbname' => "nfl_data"
 ];
 
