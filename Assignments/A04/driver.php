@@ -2,8 +2,8 @@
 //Connect to mysql
 $host = "cs2.mwsu.edu";             // server name
 $user = "software_tools";           // user name
-$password = "horseblanketdonkey";   // password 
-$database = "nfl_data";             // database 
+$password = "******************";   // password 
+$database = "******************";   // database 
 $mysqli = mysqli_connect($host, $user, $password, $database);
 
 if (mysqli_connect_errno($mysqli)) {
