@@ -1,4 +1,4 @@
-## Intro to Sql - NFL Data Report using Sql
+## Intro to Sql - NFL Stat Mining using Sql
 ### Due: Wednesday February 20<sup>th</sup>
 
 
