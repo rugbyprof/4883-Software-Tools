@@ -1,4 +1,4 @@
-## Sql - NFL Data Report
+## Intro to Sql - NFL Data Report using Sql
 ### Due: Wednesday February 20<sup>th</sup>
 
 
