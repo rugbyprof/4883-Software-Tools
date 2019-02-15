@@ -6,4 +6,4 @@
  | [A03](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A03) | [ Data Scraping ](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A03) | [ Beautiful Soup and NFL Data](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A03) | [Wednesday February 6<sup>th</sup> and Wednesday February 13<sup>th</sup>](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A03) |
  | [A04](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A04) | [ Sql ](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A04) | [ NFL Data Report](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A04) | [Wednesday February 20<sup>th</sup>](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A04) |
 
-<sup>Last Updated: 2019-02-13 (Wed @ 20:46)</sup>
+<sup>Last Updated: 2019-02-14 (Thu @ 18:10)</sup>

@@ -1,8 +1,8 @@
 <?php
 $config = [
     'servername' => "localhost",
-    'username' => "nfl_data",
-    'password' => "xDYfaR0rPomiQY6M",
+    'username' => "griffin",
+    'password' => "Rugger33!",
     'dbname' => "nfl_data"
 ];
 
@@ -19,7 +19,7 @@ function secondsToTime($s)
 
 class NflTeamCode{
     function __construct(){
-        $this->team_codes = json_decode(file_get_contents("./json_data/team_codes.json"),true);
+        $this->team_codes = json_decode(file_get_contents("team_codes.json"),true);
     }
 
     function correctTeamCode($code){
@@ -99,6 +99,7 @@ class NflDbHelper{
                 `ptyds` int(4) NOT NULL,
                 `ptavg` int(4) NOT NULL,
                 `top` varchar(6) NOT NULL,
+                `homeaway` varchar(4) NOT NULL,
                 PRIMARY KEY (`gameid`,`club`))",
             'comment' => "Creating `game_totals` table"
             ],
@@ -162,7 +163,7 @@ class NflDbHelper{
                 echo ".... success \n";
             } else {
                 echo "..... ooops. Failed\n"; 
-                printf("Errormessage: %s\n", $this->conn->error);
+                printf("Errormessage in createTables: %s\n", $this->conn->error);
             }
         }
     }
@@ -172,7 +173,7 @@ class NflDbHelper{
         $result = $this->conn->query($sql);
         
         if (!$result) {
-            printf("Errormessage: %s\n", $this->conn->error);
+            printf("Errormessage in addGame: %s\n", $this->conn->error);
         }
     }
 
@@ -180,18 +181,17 @@ class NflDbHelper{
         $sql = "INSERT INTO `game_totals` VALUES ('{$gameid}','{$season}',";
         foreach($totals_data as $key => $value){
             $sql .= "'{$value}'";
-            if($key != 'top'){
+            if($key != 'homeaway'){
                 $sql .= ',';
             }
         }
         $sql .= ")\n";
-        //print($sql);
         $result = $this->conn->query($sql);
         
 
 
         if (!$result) {
-            printf("Errormessage: %s\n", $this->conn->error);
+            printf("Errormessage in addGameTotals: %s\n", $this->conn->error);
         }
     }
 
@@ -205,19 +205,6 @@ class NflDbHelper{
         $yards = $stat['yards'];
         $name = $stat['playerName'];
         $sql = "INSERT INTO `players_stats` VALUES ('{$gameid}','{$playerid}','{$playid}','{$seq}','{$season}','{$club}','{$id}','{$yards}');";
-
-        // if($gameid != $this->currentGameId){
-        //     if (get_resource_type($this->filePointer ) == 'handle') { 
-        //         fclose($this->filePointer);
-        //     } 
-
-        //     $this->currentGameId = $gameid;
-            
-        //     $this->filePointer = fopen($this->savePath.$this->currentGameId.".sql","w");
-            
-        // }
-        
-        // fwrite($this->filePointer,$sql."\n");
 
         $result = $this->conn->query($sql);
         $this->addPlayer($playerid,$name,$season,$club);
@@ -261,12 +248,13 @@ class NflDbHelper{
 
     function loadStatCodes(){
 
-        $stats = json_decode(file_get_contents("./json_data/stat_codes.json"),true);
+        $stats = json_decode(file_get_contents("stat_codes.json"),true);
+        print_r($stats);
         foreach($stats as $id => $code){
             $n = addslashes ($code['Name']);
             $c = addslashes ($code['Comment']);
             $sql = "INSERT INTO `stat_codes` VALUES ('$id','{$n}','{$c}')";
-            $result = $conn->query($sql);
+            $result = $this->conn->query($sql);
             echo"$sql\n";
         }
     }
@@ -281,16 +269,22 @@ class processNflLiveData{
         $this->away = [];
         $this->codeFix = new NflTeamCode();
         $this->db = new NflDbHelper();
-        $this->db->createTables();
-        $this->readFileDirectory();
-        $this->processJson();
+        // $this->db->createTables();
+        // $this->readFileDirectory();
+        // $this->processJson();
         $this->db->loadStatCodes();
     }
 
     function loadStatCodes(){
         
+        $stat_codes = json_decode(file_get_contents("./stat_codes.json"),true);
 
-
+        foreach($stat_codes as $id => $code){
+            $n = addslashes ($code['Name']);
+            $c = addslashes ($code['Comment']);
+            $sql = "INSERT INTO `stat_codes` VALUES ('$id','{$n}','{$c}')";
+            $result = $conn->query($sql);
+        }
     }
 
     function getSeason($gameid){
@@ -332,7 +326,7 @@ class processNflLiveData{
         $this->db->addGame($gameid,$home,$away,$season,$home_score,$away_score);
     }
 
-    function addGameTotals($gameid,$season,$data){
+    function addGameTotals($gameid,$season,$data,$homeaway){
         $code = $this->codeFix->correctTeamCode($data['abbr']);
         if(!$code){
             return;
@@ -349,7 +343,8 @@ class processNflLiveData{
             'pt' => $data['stats']['team']['pt'],
             'ptyds' => $data['stats']['team']['ptyds'],
             'ptavg' => $data['stats']['team']['ptavg'],
-            'top' => $data['stats']['team']['top']
+            'top' => $data['stats']['team']['top'],
+            'homeaway' => $homeaway
         ];
         
         $this->db->addGameTotals($gameid,$season,$qData);
@@ -367,11 +362,11 @@ class processNflLiveData{
 
     // 
     function processJson(){
-        // $this->db->truncateTable('games');
-        // $this->db->truncateTable('game_totals');
-        // $this->db->truncateTable('players');
-        // $this->db->truncateTable('player_stats');
-        // $this->db->truncateTable('plays');
+        $this->db->truncateTable('games');
+        $this->db->truncateTable('game_totals');
+        $this->db->truncateTable('players');
+        $this->db->truncateTable('player_stats');
+        $this->db->truncateTable('plays');
 
         $starttime = microtime(true);
         foreach($this->files as $file){
@@ -388,8 +383,8 @@ class processNflLiveData{
                 $this->addGames($gameid,$season,$data);
 
                 $gameTotalsStartTime = microtime(true);
-                $this->addGameTotals($gameid,$season,$data[$gameid]['home']);
-                $this->addGameTotals($gameid,$season,$data[$gameid]['away']);
+                $this->addGameTotals($gameid,$season,$data[$gameid]['home'],'home');
+                $this->addGameTotals($gameid,$season,$data[$gameid]['away'],'away');
                 $gameTotalsStopTime = microtime(true);
                 echo "Game Add Time: ".secondsToTime(microtime(true) - $filetime)."\n";
 
@@ -424,6 +419,7 @@ function getStatDefs(){
 }
 
 
+$datapath = '/Users/griffin/Code/NflDataLoader/json_data/live_update_data';
+$p = new processNflLiveData($datapath);
 
-$p = new processNflLiveData("./json_data/live_update_data");
 

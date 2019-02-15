@@ -5,4 +5,4 @@
  | [nfl_database](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/nfl_database) | [ Resources nfl_database ](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/nfl_database) | [ No Description](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/nfl_database) | [N/A](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/nfl_database) |
  | [scraping](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/scraping) | [ Resources scraping ](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/scraping) | [ No Description](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/scraping) | [N/A](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/scraping) |
 
-<sup>Last Updated: 2019-02-13 (Wed @ 20:46)</sup>
+<sup>Last Updated: 2019-02-14 (Thu @ 18:10)</sup>

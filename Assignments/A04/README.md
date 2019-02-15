@@ -8,6 +8,8 @@ Processing `json` files can be tedious work, especially large complex ones. Anot
 
 The questions below are the same questions I asked you to calculate processing your 2000+ `json` files we acquired from the NFL. Lets see how much easier it can be if we use `SQL` to get it done. 
 
+#### Old Requirements 
+
 - Find the player(s) that played for the most teams.
 - Find the player(s) that played for multiple teams in one year.
 - Find the player(s) that had the most yards rushed for a loss.
@@ -22,8 +24,15 @@ The questions below are the same questions I asked you to calculate processing y
 - Most missed field goals.
 - Most dropped passes (Search for "pass" and "dropped" in play description, and stat-id 115).
 
+#### New Requirements
+
 - Find the game with the largest total yards (passing and rushing)
   - Print out the Season, Home Team, Away Team, Passing, Rushing, Total (Passing + Rushing)
+- Find the top 5 players that had the most yards rushed for a loss in a single season.
+  - Print out the Player Name, Season, and Yards Rushed 
+
+
+
 
 ### PHP YaY!
 
