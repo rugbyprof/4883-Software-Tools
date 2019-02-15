@@ -10,7 +10,7 @@
 |         |                                                                       |         |        |
 |   1.1   | `assignments` folder exists in Repo                                   |         |        |
 |   1.2   | `A03` folder exists in `assignments` with appropriate README.md       |         |        |
-|   1.3   | along with all of the python code. Json files optional.               |         |        |
+|         | along with all of the python code. Json files optional.               |         |        |
 |  <hr>   | <hr>                                                                  |  <hr>   |  <hr>  |
 | ***2*** | ***Organization***                                                    | **25**  |        |
 |         |                                                                       |         |        |
