@@ -1,5 +1,5 @@
 ## Intro to Sql - NFL Stat Mining using Sql
-### Due: Wednesday February 20<sup>th</sup>
+### Due: Wednesday February 25<sup>th</sup>
 
 
 ### Overview
@@ -10,29 +10,15 @@ The questions below are the same questions I asked you to calculate processing y
 
 #### Old Requirements 
 
-- Find the player(s) that played for the most teams.
-- Find the player(s) that played for multiple teams in one year.
-- Find the player(s) that had the most yards rushed for a loss.
-- Find the player(s) that had the most rushes for a loss.
-- Find the player(s) with the most number of passes for a loss.
-- Find the team with the most penalties.
-- Find the team with the most yards in penalties.
-- Find the correlation between most penalized teams and games won / lost.
-- Average number of plays in a game.
-- Longest field goal.
-- Most field goals.
-- Most missed field goals.
-- Most dropped passes (Search for "pass" and "dropped" in play description, and stat-id 115).
-
-#### New Requirements
-
-- Find the game with the largest total yards (passing and rushing)
-  - Print out the Season, Home Team, Away Team, Passing, Rushing, Total (Passing + Rushing)
-- Find the top 5 players that had the most yards rushed for a loss in a single season.
-  - Print out the Player Name, Season, and Yards Rushed 
-
-
-
+- Count number of teams a player played for.
+- Find the top 5 rushing players per year.
+- Find the bottom 5 passing players per year.
+- Find the top 5 that had the most rushes for a loss.
+- Find the top 5 teams with the most penalties.
+- Find the average number of penalties per year.
+- Find the average number of plays in a game.
+- Find the top 5 players that had field goals over 40 yards.
+- Top 5 Most missed field goals.
 
 ### PHP YaY!
 
