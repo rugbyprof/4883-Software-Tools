@@ -1,7 +1,5 @@
 ## Intro to Sql - NFL Stat Mining using Sql
-### Due: Wednesday February 25<sup>th</sup>
-
-# Making formatting changes and some SQL changes, will be done by close of business Feb 21st
+### Due: Wednesday February 27<sup>th</sup>
 
 ### Overview
 
@@ -92,9 +90,34 @@ Average number of plays in a game:
 - Find the top 5 players with the shortest avg field goal length.
     - Output: you have an idea
     
-- Top 5 Most missed field goals.
-    - Output: you have an idea
+- Rank the NFL by win loss percentage (worst first).
+```
+NFL by win/loss percentage:
+
+#     Team         Won/Loss %
+================================================
+32     ???           ###
+31     ???           ###
+30     ???           ###
+29     ???           ###
+...
+```
+    
+    
 - Find the top 5 most common last names in the NFL.
+```
+Common Names:
+
+#     Name         Occurences
+================================================
+1     ???           ###
+2     ???           ###
+3     ???           ###
+4     ???           ###
+5     ???           ###
+...
+```
+
 
 ### PHP YaY!
 
@@ -105,26 +128,19 @@ Average number of plays in a game:
 - [query_function.php](./query_function.php)
 
 #### Example Output
+
+- Same as for A04.
+- Make sure you use strpad to line up your columns
+- Header below, and use examples above as your guideline.
+
 ```
 Name: your name
-Assignment: A03 - Nfl Stats 
+Assignment: A04 - Nfl Stats 
 Date: the date
 
 ==================================================================================
-1. Find the player(s) that played for the most teams.
 
-Answer:
 
-Player 1 played for X teams.
-Player 2 played for X teams.
 
-...
-
-==================================================================================
-11. Most field goals.
-
-Player A. Smith made XX fields goals.
 ```
-
-### Example Comments
 
