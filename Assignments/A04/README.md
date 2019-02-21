@@ -118,6 +118,15 @@ Common Names:
 ...
 ```
 
+#### Bonus
+
+- Find average penalties per week (NFL wide). (They should go down?)
+- Find the most penalized players.
+- Find the best 'away' team for every year. (Table: `games` column: `win_type`)
+- Find the highest and lowest scoring teams per year.
+- Find the most mentioned player (stats, penalties, etc.) (I'm guessing a quarterback).
+- Find the player with the most solo tackles (per year).
+
 
 ### PHP YaY!
 
