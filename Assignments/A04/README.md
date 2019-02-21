@@ -1,6 +1,8 @@
 ## Intro to Sql - NFL Stat Mining using Sql
 ### Due: Wednesday February 27<sup>th</sup>
 
+# Few more additions (formatting only)
+
 ### Overview
 
 Processing `json` files can be tedious work, especially large complex ones. Another software tool that can make the task of aggregating data much much easier is `SQL`. This is not a database class, but running some simple queries is not beyond the scope of our skills. 
@@ -121,8 +123,38 @@ Common Names:
 #### Bonus
 
 - Find average penalties per week (NFL wide). (They should go down?)
+
+```
+Year        w1   w2   w3 ...   w17
+================================================
+2009       ###  ###  ###      ###
+2010       ###  ###  ###      ###
+...
+2018       ###  ###  ###      ###
+```
+
 - Find the most penalized players.
+
+```
+Year       ARI / Pen#       ATL / Pen#    BAL / Pen#   ...    TB / Pen#       TEN / Pen#       WAS / Pen#
+=========================================================================================================
+2009       ???????/##.#     ???????/##.#  ???????/##.#        ???????/##.#    ???????/##.#?    ???????/##.#
+2010       ???????/##.#     ???????/##.#  ???????/##.#        ???????/##.#    ???????/##.#?    ???????/##.#
+...
+2018       ???????/##.#     ???????/##.#  ???????/##.#        ???????/##.#    ???????/##.#?    ???????/##.#
+```
+
 - Find the best 'away' team for every year. (Table: `games` column: `win_type`)
+
+```
+Year       Team     Away %
+================================================
+2009       ???      ###.#
+2010       ???      ###.#
+...
+2018       ???      ###.#
+```
+
 - Find the highest and lowest scoring teams per year.
 - Find the most mentioned player (stats, penalties, etc.) (I'm guessing a quarterback).
 - Find the player with the most solo tackles (per year).
