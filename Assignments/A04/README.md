@@ -1,8 +1,6 @@
 ## Intro to Sql - NFL Stat Mining using Sql
 ### Due: Wednesday February 27<sup>th</sup>
 
-# Few more additions (formatting only)
-
 ### Overview
 
 Processing `json` files can be tedious work, especially large complex ones. Another software tool that can make the task of aggregating data much much easier is `SQL`. This is not a database class, but running some simple queries is not beyond the scope of our skills. 
@@ -120,7 +118,7 @@ Common Names:
 ...
 ```
 
-#### Bonus
+### Bonus
 
 - Find average penalties per week (NFL wide). (They should go down?)
 
@@ -155,10 +153,17 @@ Year       Team     Away %
 2018       ???      ###.#
 ```
 
-- Find the highest and lowest scoring teams per year.
-- Find the most mentioned player (stats, penalties, etc.) (I'm guessing a quarterback).
-- Find the player with the most solo tackles (per year).
+- Find the highest and lowest scoring teams per year with their record.
+- Find the player(s) with the least and most tackles (any kind) and least per team per year.
 
+### Extra Bonus
+
+- Find the best defense in the NFL (per year) where "best" could be defined as:
+    - They minimized offensive total yards
+    - Maximized offensive turnovers
+    - Maximized offensive penalties
+    - Minimized offensive time of possession (TOP)
+    - Maximized defensive scoring
 
 ### PHP YaY!
 
