@@ -142,7 +142,7 @@ Year       ARI / Pen#       ATL / Pen#    BAL / Pen#   ...    TB / Pen#       TE
 2018       ???????/##.#     ???????/##.#  ???????/##.#        ???????/##.#    ???????/##.#?    ???????/##.#
 ```
 
-- Find the best 'away' team for every year. (Table: `games` column: `win_type`)
+- Find the best 'away' team for every year Where away percentage is = ` away wins / away total games`. (Table: `games` column: `win_type`)
 
 ```
 Year       Team     Away %
