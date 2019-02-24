@@ -22,6 +22,8 @@ If we place our code on a server "inside" the firewall (aka cs2), we can run php
     - Windows: (Ctrl+Shift+P)
     - Mac (Cmd+Shift+P)
 
+When you type "SFTP" into the command palette, you get filtered choices. Choose `SFTP:Config`.
+
 <img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/sftp_config.png" width="250">
 
 
