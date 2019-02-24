@@ -180,22 +180,22 @@ if($response['success']){
 Then goto `http://cs2.mwsu.edu/~yourusername/software_tools/team_games.php` and you should see:
 
 ```
-DAL 2018 16 8 CAR home 
-NYG 2018 20 13 DAL home 
-DAL 2018 24 13 SEA home 
-DET 2018 26 24 DAL home 
-DAL 2018 19 16 HOU home 
-JAX 2018 40 7 DAL home 
-DAL 2018 20 17 WAS home 
-TEN 2018 14 28 TEN away 
-DAL 2018 20 27 DAL away 
-DAL 2018 19 22 DAL away 
-WAS 2018 31 23 DAL home 
-NO 2018 13 10 DAL home 
-PHI 2018 29 23 DAL home 
-DAL 2018 23 0 IND home 
-TB 2018 27 20 DAL home 
-DAL 2018 35 36 DAL away 
-SEA 2018 24 22 DAL home 
-DAL 2018 30 22 LA home 
+2018 DAL:16  DAL:8 CAR home 
+2018 NYG:20  NYG:13 DAL home 
+2018 DAL:24  DAL:13 SEA home 
+2018 DET:26  DET:24 DAL home 
+2018 DAL:19  DAL:16 HOU home 
+2018 JAX:40  JAX:7 DAL home 
+2018 DAL:20  DAL:17 WAS home 
+2018 TEN:14  TEN:28 TEN away 
+2018 DAL:20  DAL:27 DAL away 
+2018 DAL:19  DAL:22 DAL away 
+2018 WAS:31  WAS:23 DAL home 
+2018 NO:13  NO:10 DAL home 
+2018 PHI:29  PHI:23 DAL home 
+2018 DAL:23  DAL:0 IND home 
+2018 TB:27  TB:20 DAL home 
+2018 DAL:35  DAL:36 DAL away 
+2018 SEA:24  SEA:22 DAL home 
+2018 DAL:30  DAL:22 LA home 
 ```
