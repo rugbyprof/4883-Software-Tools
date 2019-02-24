@@ -172,7 +172,7 @@ echo "<pre>";   // so whitespace matters
 
 if($response['success']){
     foreach($response['result'] as $row){
-        echo "{$row['season']} {$row['away_club']}:{$row['home_score']}  {$row['away_club']}:{$row['away_score']} {$row['winner']} {$row['win_type']} \n";";
+        echo "{$row['season']} {$row['home_club']}:{$row['home_score']}  {$row['away_club']}:{$row['away_score']} {$row['winner']} {$row['win_type']} \n";";
     }
 }
 ```
@@ -180,22 +180,22 @@ if($response['success']){
 Then goto `http://cs2.mwsu.edu/~yourusername/software_tools/team_games.php` and you should see:
 
 ```
-2018 DAL:16  DAL:8 CAR home 
-2018 NYG:20  NYG:13 DAL home 
-2018 DAL:24  DAL:13 SEA home 
-2018 DET:26  DET:24 DAL home 
-2018 DAL:19  DAL:16 HOU home 
-2018 JAX:40  JAX:7 DAL home 
-2018 DAL:20  DAL:17 WAS home 
-2018 TEN:14  TEN:28 TEN away 
-2018 DAL:20  DAL:27 DAL away 
-2018 DAL:19  DAL:22 DAL away 
-2018 WAS:31  WAS:23 DAL home 
-2018 NO:13  NO:10 DAL home 
-2018 PHI:29  PHI:23 DAL home 
-2018 DAL:23  DAL:0 IND home 
-2018 TB:27  TB:20 DAL home 
-2018 DAL:35  DAL:36 DAL away 
-2018 SEA:24  SEA:22 DAL home 
-2018 DAL:30  DAL:22 LA home 
+2018 CAR:16  DAL:8 CAR home 
+2018 DAL:20  NYG:13 DAL home 
+2018 SEA:24  DAL:13 SEA home 
+2018 DAL:26  DET:24 DAL home 
+2018 HOU:19  DAL:16 HOU home 
+2018 DAL:40  JAX:7 DAL home 
+2018 WAS:20  DAL:17 WAS home 
+2018 DAL:14  TEN:28 TEN away 
+2018 PHI:20  DAL:27 DAL away 
+2018 ATL:19  DAL:22 DAL away 
+2018 DAL:31  WAS:23 DAL home 
+2018 DAL:13  NO:10 DAL home 
+2018 DAL:29  PHI:23 DAL home 
+2018 IND:23  DAL:0 IND home 
+2018 DAL:27  TB:20 DAL home 
+2018 NYG:35  DAL:36 DAL away 
+2018 DAL:24  SEA:22 DAL home 
+2018 LA:30  DAL:22 LA home
 ```
