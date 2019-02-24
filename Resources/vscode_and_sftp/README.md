@@ -74,3 +74,15 @@ Once you have added the `SFTP` config file, try to add a file to cs2. Create a f
 <img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/sftp_create_index.png" width="300">
 
 <img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/sftp_upload_file.png" width="300">
+
+If you then go to your own url, you should see: 
+
+<img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/sftp_itworks.png" width="300">
+
+What is your URL?? 
+
+```
+http://cs2.mwsu.edu/~yourusername/software_tools/
+```
+
+The `public_html` is assume by the server and doesn't need to be in the path.
