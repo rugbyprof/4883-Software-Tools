@@ -19,7 +19,8 @@
  */
 
 // Require the config file with credentials
-require("/Users/griffin/Code/1-Current_Courses/.config.php");
+include("/Users/griffin/Code/1-Current_Courses/.config.php");
+include("../4883_db_config.php");
 
 //Connect to mysql
 $mysqli = mysqli_connect($host, $user, $password, $database);
@@ -31,6 +32,11 @@ if (mysqli_connect_errno($mysqli)) {
 
 // Helper function to run sql
 require "query_function.php";
+
+function f(){
+    ob_flush();
+    flush();
+}
 
 /**
  * Pulls a player out of players table and returns:
@@ -58,16 +64,20 @@ function getPlayer($playerId){
  * Returns:
  *     header [string] : Question with border below
  */
-function printHeader($question,$pads){
+function printHeader($question,$pads,$cols){
     if(strlen($question) > array_sum($pads)){
         $padding = strlen($question);
     }else{
         $padding = array_sum($pads);
     }
-    $header = "\n";
-    $header .= "{$question}\n";
-    $header .= str_repeat("=",$padding);
-    $header .= "\n";
+    $header = "\n<b>";
+    $header .= "{$question}\n\n";
+    for($i=0;$i<sizeof($cols);$i++){
+        $header .= str_pad($cols[$i],$pads[$i]);
+    }
+    $header .= "\n".str_repeat("=",$padding);
+
+    $header .= "</b>\n";
 
     return $header;
 }
@@ -103,7 +113,15 @@ function formatRows($row,$pads){
  */
 function displayQuery($question,$sql,$cols,$pads){
     global $mysqli;
-    echo printHeader($question,$pads);
+
+    $parts = explode('.',$question);
+    if($parts[0]%2==0){
+        $color="#C0C0C0";
+    }else{
+        $color = "";
+    }
+    echo"<pre style='background-color:{$color}'>";
+    echo printHeader($question,$pads,$cols);
     $response = runQuery($mysqli,$sql);
 
     if($response['success']){
@@ -119,6 +137,8 @@ function displayQuery($question,$sql,$cols,$pads){
             echo formatRows($row,$pads);
         }
     }
+    echo"</pre>";
+    f();
 }
 
 /**
@@ -271,23 +291,23 @@ displayQuery($question,$sql,$cols,$pads);
 /**
  * Question 13
  */
-$question = "13. Most dropped passes.";
-$pads = [3,12,15,5];
-$sql1 = "SELECT gameid,playid FROM `players_stats` WHERE statid LIKE '115'";
-$response1 = runQuery($mysqli,$sql1);
+// $question = "13. Most dropped passes.";
+// $pads = [3,12,15,5];
+// $sql1 = "SELECT gameid,playid FROM `players_stats` WHERE statid LIKE '115'";
+// $response1 = runQuery($mysqli,$sql1);
 
-if($response1['success']){
-    foreach($response1['result'] as $row){
-        $sql2 = "SELECT `gameid`,`description` FROM plays 
-                 WHERE `gameid` LIKE '{$row['gameid']}' 
-                 AND `playid` LIKE '{$row['playid']}'
-                 AND `description` LIKE '%dropped%'";
-        $response2 = runQuery($mysqli,$sql2);
+// if($response1['success']){
+//     foreach($response1['result'] as $row){
+//         $sql2 = "SELECT `gameid`,`description` FROM plays 
+//                  WHERE `gameid` LIKE '{$row['gameid']}' 
+//                  AND `playid` LIKE '{$row['playid']}'
+//                  AND `description` LIKE '%dropped%'";
+//         $response2 = runQuery($mysqli,$sql2);
         
-        print_r($response2['result']);
+//         print_r($response2['result']);
         
-    }
-}
+//     }
+// }
 // $cols = ['id','playerid','name','drops'];
 // displayQuery($question,$sql,$cols,$pads);
 
