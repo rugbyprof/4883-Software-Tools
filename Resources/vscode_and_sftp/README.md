@@ -10,10 +10,67 @@ The reason we are putting our code on a remote server is because of the schools 
 
 If we place our code on a server "inside" the firewall (aka cs2), we can run php code that connects to `localhost` and eliminate the firewall issues. So, how do we do that?
 
-#### Pre-Requisites 
+#### Getting Started 
 
 - Install VSCode: https://code.visualstudio.com/
 - Install SFTP
 
 <img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/install_sftp.png" width="300">
 
+- Create an `sftp` config file:
+- From the Command Palette 
+    - Windows: (Ctrl+Shift+P)
+    - Mac (Cmd+Shift+P)
+
+<img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/sftp_config.png" width="250">
+
+
+A file will appear that looks like:
+
+```json
+{
+    "name": "My Server",
+    "host": "localhost",
+    "protocol": "sftp",
+    "port": 22,
+    "username": "username",
+    "remotePath": "/",
+    "uploadOnSave": true
+}
+```
+
+Change it to look like the following, but replace:
+
+- "username": "`yourusername`",
+- "password":"`yourpassword`",
+- "remotePath": "/home/`yourusername`/public_html/software_tools"
+
+```json
+{
+    "name": "cs2 SoftwareTools",
+    "host": "cs2.mwsu.edu",
+    "protocol": "sftp",
+    "port": 22,
+    "username": "yourusername",
+    "password":"yourpassword",
+    "remotePath": "/home/yourusername/public_html/software_tools",
+    "uploadOnSave": true,
+    "ignore":[
+        ".vscode",
+        ".git",
+        ".DS_Store"
+    ]
+}
+```
+
+>NOTE: This assumes you have a folder called `public_html` in your home folder. If you don't, you need to create one. If that is the case (probably because you already had a cs2 account and I didn't make a folder for you) log in to cs2 and make one. If you need help with that, slack me.
+
+Once you have added the `SFTP` config file, try to add a file to cs2. Create a file called `index.html` and add the following to it:
+
+```html
+<h1>IT WORKED!</h1>
+```
+
+<img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/sftp_create_index.png" width="250">
+
+<img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/sftp_upload_file.png" width="250">
