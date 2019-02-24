@@ -172,7 +172,7 @@ echo "<pre>";   // so whitespace matters
 
 if($response['success']){
     foreach($response['result'] as $row){
-        echo "{$row['away_club']} {$row['season']} {$row['home_score']} {$row['away_score']} {$row['winner']} {$row['win_type']} \n";
+        echo "{$row['season']} {$row['away_club']}:{$row['home_score']}  {$row['away_club']}:{$row['away_score']} {$row['winner']} {$row['win_type']} \n";";
     }
 }
 ```
