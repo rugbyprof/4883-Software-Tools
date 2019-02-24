@@ -84,6 +84,7 @@ Uploading it by right clicking on the file, and choose upload:
 If you then go to your own url, you should see: 
 
 <img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/sftp_itworks.png" width="300">
+>NOTE: This path is a little different because I created a user called `software_tools` and put my code directly into `public_html`.
 
 What is your URL?? 
 
