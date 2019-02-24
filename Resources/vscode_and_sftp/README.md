@@ -71,6 +71,6 @@ Once you have added the `SFTP` config file, try to add a file to cs2. Create a f
 <h1>IT WORKED!</h1>
 ```
 
-<img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/sftp_create_index.png" width="250">
+<img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/sftp_create_index.png" width="300">
 
-<img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/sftp_upload_file.png" width="250">
+<img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/sftp_upload_file.png" width="300">
