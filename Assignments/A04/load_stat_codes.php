@@ -2,7 +2,10 @@
 
 function load_stat_codes($mysqli,$filename){
 
+    // read contents of stats into file
     $data = file_get_contents($filename);
+
+    // loads json and decodes it (true => associative array)
     $stat_codes = json_decode($data,true);
 
     foreach($stat_codes as $id => $code){

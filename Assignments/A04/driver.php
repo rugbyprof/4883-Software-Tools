@@ -1,11 +1,8 @@
 <?php
 //Connect to mysql
-$host = "cs2.mwsu.edu";             // server name
-$user = "software_tools";           // user name
+require(".config.php");
 
-// Get username and password from slack
-$password = "******************";   // password 
-$database = "******************";   // database 
+
 $mysqli = mysqli_connect($host, $user, $password, $database);
 
 if (mysqli_connect_errno($mysqli)) {
@@ -31,7 +28,7 @@ $choices = [
 ];
 
 // choose 1-4
-switch ($choices[4]) {
+switch ($choices[2]) {
     case 'loadStats':
         // This won't run when running with 'software_tools' user. It doesn't have permissions
         // to insert data.
@@ -67,9 +64,10 @@ switch ($choices[4]) {
 
             // loop through our result array
             for ($i = 0; $i < sizeof($data); $i++) {
-                echo "{$data[$i]['total_yards']}\n";
+                echo "\t{$data[$i]['playerid']} \t{$data[$i]['total_yards']}\n";
             }
         }
+	break;
     case 'example4':
         // This query finds all the player stats with the word "goal" in the stat name
         // and only returns the first 1000 results (so my console doesn't print over a million rows)
@@ -83,6 +81,8 @@ switch ($choices[4]) {
         // Send it to our runQuery function with our mysqli resource variable
         $response = runQuery($mysqli, $sql);
 
+
+	print_r($response);
         // handle the response
         if ($response['success']) {
             // pull the data out of the result array

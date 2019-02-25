@@ -19,7 +19,12 @@
  */
 
 // Require the config file with credentials
-require("/Users/griffin/Code/1-Current_Courses/.config.php");
+//require("/Users/griffin/Code/1-Current_Courses/.config.php");
+
+$host = 'cs2.mwsu.edu';
+$user = 'software_tools';
+$password = 'horseblanketdonkey';
+$database = 'nfl_data';
 
 //Connect to mysql
 $mysqli = mysqli_connect($host, $user, $password, $database);
@@ -271,26 +276,27 @@ displayQuery($question,$sql,$cols,$pads);
 /**
  * Question 13
  */
-$question = "13. Most dropped passes.";
-$pads = [3,12,15,5];
-$sql1 = "SELECT gameid,playid FROM `players_stats` WHERE statid LIKE '115'";
-$response1 = runQuery($mysqli,$sql1);
+// $question = "13. Most dropped passes.";
+// $pads = [3,12,15,5];
+// $sql1 = "SELECT gameid,playid FROM `players_stats` WHERE statid LIKE '115'";
+// $response1 = runQuery($mysqli,$sql1);
 
-if($response1['success']){
-    foreach($response1['result'] as $row){
-        $sql2 = "SELECT `gameid`,`description` FROM plays 
-                 WHERE `gameid` LIKE '{$row['gameid']}' 
-                 AND `playid` LIKE '{$row['playid']}'
-                 AND `description` LIKE '%dropped%'";
-        $response2 = runQuery($mysqli,$sql2);
+// if($response1['success']){
+//     foreach($response1['result'] as $row){
+//         $sql2 = "SELECT `gameid`,`description` FROM plays 
+//                  WHERE `gameid` LIKE '{$row['gameid']}' 
+//                  AND `playid` LIKE '{$row['playid']}'
+//                  AND `description` LIKE '%dropped%'";
+//         $response2 = runQuery($mysqli,$sql2);
         
-        print_r($response2['result']);
+//         print_r($response2['result']);
         
-    }
-}
+//     }
+// }
 // $cols = ['id','playerid','name','drops'];
 // displayQuery($question,$sql,$cols,$pads);
 
 
     //SELECT * FROM `plays` where lower(description) like '%pass%' and lower(description) like '%dropped%'
     //SELECT * FROM players_stats WHERE playerid IN (SELECT playerid FROM `players_stats` WHERE statid LIKE '115')
+
