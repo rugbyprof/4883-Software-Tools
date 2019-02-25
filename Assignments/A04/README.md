@@ -15,7 +15,7 @@ https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/vscode_an
 
 **Q1**
 - Count number of teams an individual player played for.
-- Limit your output to the top 10 most teams played for.
+- Limit your output to the top 10 players that played for the most teams.
 - Output
 
 ```
