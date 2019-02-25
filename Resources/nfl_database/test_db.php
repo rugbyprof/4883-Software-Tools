@@ -4,10 +4,6 @@ $username = "nfl_data";
 $password = "xDYfaR0rPomiQY6M";
 $dbname = "nfl_data";
 
-function hello(){
-    
-}
-
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
