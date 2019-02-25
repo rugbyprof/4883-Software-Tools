@@ -217,3 +217,14 @@ Date: the date
 
 ```
 
+### Deliverables
+
+- Folder `A04` in your repo.
+- All php files in your `A04` folder.
+- All php files appropriately commented.
+- Properly formatted output file. 
+- `README.md` with:
+  - project overview (description)
+  - list of files, 
+  - file descriptions, 
+  - any instructions needed to run or help grade your project
