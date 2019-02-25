@@ -120,7 +120,7 @@ $user = "software_tools";        // user name
 // The DB username and pass not the ones
 // I sent you to log into the server.
 $password = "************";         // password 
-$database = "nfl_data"              // database 
+$database = "nfl_data";              // database 
 $mysqli = mysqli_connect($host, $user, $password, $database);
 
 if (mysqli_connect_errno($mysqli)) {
@@ -172,7 +172,7 @@ echo "<pre>";   // so whitespace matters
 
 if($response['success']){
     foreach($response['result'] as $row){
-        echo "{$row['season']} {$row['home_club']}:{$row['home_score']}  {$row['away_club']}:{$row['away_score']} {$row['winner']} {$row['win_type']} \n";";
+        echo "{$row['season']} {$row['home_club']}:{$row['home_score']}  {$row['away_club']}:{$row['away_score']} {$row['winner']} {$row['win_type']} \n";
     }
 }
 ```
