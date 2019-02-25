@@ -2,7 +2,7 @@
 $config = [
     'servername' => "localhost",
     'username' => "nfl_data",
-    'password' => "xDYfaR0rPomiQY6M",
+    'password' => "***********",
     'dbname' => "nfl_data"
 ];
 
