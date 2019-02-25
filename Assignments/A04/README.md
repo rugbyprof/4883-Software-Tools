@@ -9,8 +9,10 @@ The questions below are the same questions I asked you to calculate processing y
 
 #### Requirements 
 
-- Count number of teams a player played for.
-    - Output
+**Q1**
+- Count number of teams an individual player played for.
+- Limit your output to the top 10 most teams played for.
+- Output
 
 ```
 Teams played for:
@@ -22,43 +24,57 @@ Teams played for:
 3         ''           ''            ''
 ```
 
-- Find the top 5 rushing players per year.
-    - Output
+**Q2**
+- Find the players with the highest total rushing yards by year, and limit the result to top 5.
+- This means to sum up all players rushing yards per year, and list the top 5 (most yards) in your output.
+- Output
 
 ```
 Top 5 rushing players:
 
 #     PlayerID      Name        Year    # Yards
 ================================================
-1     00-00001234   D. Smith    2011      ####
-2         ''           ''                  ''
-3         ''           ''                  ''
+1     00-00001234   D. Smith    2010      ####
+2     00-00005678   E. Hall     2017      ####
+3     00-00003333   T. Brad     2012      ####
+4     00-00001255   M. Turk     2010      ####
+4     00-00002266   Z. Zoro     2013      ####
 ```
 
+**Q3**
 - Find the bottom 5 passing players per year.
-    - Output
+- This is the similar to previous question, just change top to bottom, and most to least.
+- Output
 
 ```
 Bottom 5 passing players:
 
 #     PlayerID      Name        Year    # Yards
 ================================================
-1     00-00001234   D. Smith    2011      ####
-2         ''           ''                  ''
-3         ''           ''                  ''
+1     00-00001234   D. Xxxx     2018      ####
+2     00-00005678   E. Bbbb     2014      ####
+3     00-00003333   T. Mmmm     2014      ####
+4     00-00001255   M. Aaaa     2010      ####
+4     00-00002266   Z. Pppp     2012      ####
 ```
 
+**Q4**
 - Find the top 5 players that had the most rushes for a loss.
-    - Output: Same as previous 
+- This is not grouped by year, this is over a players career.
+- Output: Formatted same as previous 
 
+**Q5**
 - Find the top 5 teams with the most penalties.
-    - Output: Same as previous 
-    
+- This is not grouped by year, this is over a players career.
+- Output: Formatted same as previous
+
+**Q5**
 - Find the average number of penalties per year.
-    - Output:
+- Average Penalties = Sum of all penalties per year / Total games played that year
+- Output: List the top 10 seasons by highest average number of penalties.
 
 ```
-Bottom 5 passing players:
+Average Penalties Per Year:
 
 #     Season     Total Penalties   Avg Penalties
 ================================================
@@ -69,8 +85,12 @@ Bottom 5 passing players:
 10    2018         ####                 ###
 ```
 
+**Q6**
 - Find the Team with the least amount of average plays every year.
-    - Output (Not accurate I made up values)
+- Average Plays is by game.
+- Total Plays is per year. 
+- Output: List the top 10 teams by lowest average number of plays.
+
 ```
 Average number of plays in a game:
 
@@ -83,13 +103,16 @@ Average number of plays in a game:
                       ...
 10    OAK          2018                 ###
 ```
-    
+
+**Q7**
 - Find the top 5 players that had field goals over 40 yards.
-    - Output: you have an idea
-    
+- Output: you have an idea
+
+**Q8**
 - Find the top 5 players with the shortest avg field goal length.
-    - Output: you have an idea
-    
+- Output: you have an idea
+
+**Q9**
 - Rank the NFL by win loss percentage (worst first).
 ```
 NFL by win/loss percentage:
@@ -103,7 +126,7 @@ NFL by win/loss percentage:
 ...
 ```
     
-    
+**Q10**
 - Find the top 5 most common last names in the NFL.
 ```
 Common Names:
@@ -120,6 +143,7 @@ Common Names:
 
 ### Bonus
 
+**QB1**
 - Find average penalties per week (NFL wide). (They should go down?)
 
 ```
@@ -131,6 +155,7 @@ Year        w1   w2   w3 ...   w17
 2018       ###  ###  ###      ###
 ```
 
+**QB2**
 - Find the most penalized players.
 
 ```
@@ -142,6 +167,7 @@ Year       ARI / Pen#       ATL / Pen#    BAL / Pen#   ...    TB / Pen#       TE
 2018       ???????/##.#     ???????/##.#  ???????/##.#        ???????/##.#    ???????/##.#?    ???????/##.#
 ```
 
+**QB3**
 - Find the best 'away' team for every year Where away percentage is = ` away wins / away total games`. (Table: `games` column: `win_type`)
 
 ```
@@ -158,6 +184,7 @@ Year       Team     Away %
 
 ### Extra Bonus
 
+**QBB!!**
 - Find the best defense in the NFL (per year) where "best" could be defined as:
     - They minimized offensive total yards
     - Maximized offensive turnovers
