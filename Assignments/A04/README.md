@@ -7,6 +7,10 @@ Processing `json` files can be tedious work, especially large complex ones. Anot
 
 The questions below are the same questions I asked you to calculate processing your 2000+ `json` files we acquired from the NFL. Lets see how much easier it can be if we use `SQL` to get it done. 
 
+### VSCode
+
+https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/vscode_and_sftp
+
 #### Requirements 
 
 **Q1**
