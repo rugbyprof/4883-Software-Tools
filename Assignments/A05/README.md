@@ -39,5 +39,5 @@ txtImg.save('output.jpg')
 
 1. Read in an image and store it in a list.
 2. Loop through (process) the image and assign an appropriate unicode character based on its RGB value.
-3. Write said unicode character to a new image.
+3. Write said unicode character to a new image as the same RGB value in the old image.
 4. Save the new image somewhere.
