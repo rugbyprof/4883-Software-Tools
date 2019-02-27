@@ -17,3 +17,23 @@ Notice the skew in aspect ratio. This is because ascii characters are printed on
 
 
 https://www.compart.com/en/unicode/
+
+```python
+txtImg = Image.new('RGBA', size, (255,255,255,255))
+
+# get a font
+fnt = ImageFont.truetype(self.font_name, self.font_size)
+
+# get a drawing context
+d = ImageDraw.Draw(txtImg)
+
+# add a character to some xy 
+d.text((x,y), c, font=fnt, fill=(255,0,0))
+
+
+# Display the image
+txtImg.show()
+
+# Save the image (must be a jpg image).
+txtImg.save('output.jpg')
+```
