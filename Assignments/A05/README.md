@@ -10,5 +10,8 @@ One version of `Ascii Art` is the conversion of photographs or images into a "pl
 |:----------:|:-----------:|
 | <img src="vans-logo.png" width="200"> | <img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/vans.png" width="200"> |
 
-Here is a simple program to do just that can be found [HERE]
+Here is a simple program to do just that can be found [HERE](./ascii_art.py). Notice the skew in aspect ratio. This is because ascii characters are printed on lines with added space. We can fix that, but not in this assignment. This assignment we are going to create ascii art "images", not just plain text representations of images.
+
+
+
 
