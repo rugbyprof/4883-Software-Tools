@@ -81,6 +81,7 @@ newImg.save('output.jpg')
         - Output file name (path and name of where to save it)
         - True type font (a path and name to a true type font)
         - Font size (integer of what font size they want)
-    - Python sends command line arguments to your program as a list that is named `sys.argv`. You must `import sys`.
+    - Python sends command line arguments to your program as a list that is named `sys.argv`. 
+    - You must `import sys` to use `sys.argv`
     
     
