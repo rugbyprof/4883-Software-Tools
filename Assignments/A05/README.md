@@ -15,7 +15,6 @@ Here is a simple program to do just that can be found [HERE](./ascii_art.py).
 Notice the skew in aspect ratio. This is because ascii characters are printed on lines with added space. We can fix that by reducing the number of lines we output, but not in this assignment. This assignment we are going to create ascii art "images", not just plain text representations of images.
 
 
-
 https://www.compart.com/en/unicode/
 
 ```python
@@ -37,3 +36,8 @@ txtImg.show()
 # Save the image (must be a jpg image).
 txtImg.save('output.jpg')
 ```
+
+1. Read in an image and store it in a list.
+2. Loop through (process) the image and assign an appropriate unicode character based on its RGB value.
+3. Write said unicode character to a new image.
+4. Save the new image somewhere.
