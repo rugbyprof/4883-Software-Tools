@@ -1,4 +1,4 @@
-## Emoji Scraper - Getting necessary emojis for image Mosaic
+## Emoji Scraper - Emojis for image Mosaic
 #### Due: Monday 11<sup>th</sup> of March at class time.
 
 
