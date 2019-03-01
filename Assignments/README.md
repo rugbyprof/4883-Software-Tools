@@ -8,4 +8,4 @@
  | [A05](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A05) | [ Ascii Art ](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A05) | [ Twist on the classic](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A05) | [March 6<sup>th</sup> by classtime.](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A05) |
  | [A06](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A06) | [ Emoji Scraper ](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A06) | [ Emojis for image Mosaic](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A06) | [Monday 11<sup>th</sup> of March at class time.](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A06) |
 
-<sup>Last Updated: 2019-02-28 (Thu @ 12:06)</sup>
+<sup>Last Updated: 2019-03-01 (Fri @ 16:48)</sup>
