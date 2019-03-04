@@ -10,7 +10,8 @@ def img_to_ascii(**kwargs):
     0 - 25 = '#' (darkest character)
     250-255 = '.' (lightest character)
     """
-    ascii_chars = [ u'🦍', 'A', '@', '%', 'S', '+', '<', '*', ':', ',', '.']
+    
+    ascii_chars = [ "#", 'A', '@', '%', 'S', '+', '<', '*', ':', ',', '.']
   
     width = kwargs.get('width',200)
     path = kwargs.get('path',None)
@@ -29,8 +30,9 @@ def img_to_ascii(**kwargs):
 
     i = 1
     for val in imlist:
-        ch = ascii_chars[val // 25].decode('utf-8')
-        sys.stdout.write()
+        uni = ascii_chars[val // 25]
+        uni = uni.encode('utf-8')
+        sys.stdout.write(uni)
         i += 1
         if i % width == 0:
             sys.stdout.write("\n")
@@ -53,5 +55,8 @@ def resize(img,width):
 
 
 if __name__=='__main__':
-    path = 'vans.jpg'
-    Ascii = img_to_ascii(path=path,width=150)
+    path = '/Users/griffin/Dropbox/Scripts-random/image_projects/AsciiStepbyStep/Apple_Rainbow.png'
+    #path = '/Users/griffin/Dropbox/Scripts-random/image_projects/AsciiArt/original_images/superman.jpg'
+    #path = '/Users/griffin/Dropbox/Scripts-random/image_projects/AsciiArt/original_images/vans-logo.png'
+    Ascii = img_to_ascii(path=path,width=200)
+    
