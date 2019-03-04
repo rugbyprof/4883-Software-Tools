@@ -69,7 +69,7 @@ Bottom 5 passing players:
 
 **Q5**
 - Find the top 5 teams with the most penalties.
-- This is not grouped by year, this is over a players career.
+- This is not grouped by year, this is over a teams career.
 - Output: Formatted same as previous
 
 **Q6**
