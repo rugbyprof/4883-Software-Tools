@@ -19,17 +19,8 @@
  */
 
 // Require the config file with credentials
-<<<<<<< HEAD
 //require("/Users/griffin/Code/1-Current_Courses/.config.php");
 
-$host = 'cs2.mwsu.edu';
-$user = 'software_tools';
-$password = 'horseblanketdonkey';
-$database = 'nfl_data';
-=======
-include("/Users/griffin/Code/1-Current_Courses/.config.php");
-include("../4883_db_config.php");
->>>>>>> 1f125aed3043bba1c6427c4e098cb715dba0e894
 
 //Connect to mysql
 $mysqli = mysqli_connect($host, $user, $password, $database);
