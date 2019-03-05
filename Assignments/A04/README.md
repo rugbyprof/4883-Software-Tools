@@ -69,10 +69,10 @@ Bottom 5 passing players:
 
 **Q5**
 - Find the top 5 teams with the most penalties.
-- This is not grouped by year, this is over a players career.
+- This is not grouped by year, this is over a teams career.
 - Output: Formatted same as previous
 
-**Q5**
+**Q6**
 - Find the average number of penalties per year.
 - Average Penalties = Sum of all penalties per year / Total games played that year
 - Output: List the top 10 seasons by highest average number of penalties.
@@ -89,7 +89,7 @@ Average Penalties Per Year:
 10    2018         ####                 ###
 ```
 
-**Q6**
+**Q7**
 - Find the Team with the least amount of average plays every year.
 - Average Plays is by game.
 - Total Plays is per year. 
@@ -108,15 +108,15 @@ Average number of plays in a game:
 10    OAK          2018                 ###
 ```
 
-**Q7**
+**Q8**
 - Find the top 5 players that had field goals over 40 yards.
 - Output: you have an idea
 
-**Q8**
+**Q9**
 - Find the top 5 players with the shortest avg field goal length.
 - Output: you have an idea
 
-**Q9**
+**Q10**
 - Rank the NFL by win loss percentage (worst first).
 ```
 NFL by win/loss percentage:
@@ -130,7 +130,7 @@ NFL by win/loss percentage:
 ...
 ```
     
-**Q10**
+**Q11**
 - Find the top 5 most common last names in the NFL.
 ```
 Common Names:
