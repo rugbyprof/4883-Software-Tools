@@ -9,4 +9,4 @@
  | [A06](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A06) | [ Emoji Scraper ](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A06) | [ Emojis for image Mosaic](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A06) | [Monday 11<sup>th</sup> of March at class time.](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A06) |
  | [A07](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07) | [ Image Compare ](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07) | [ Mean Square Error](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07) | [TBD](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07) |
 
-<sup>Last Updated: 2019-03-04 (Mon @ 12:44)</sup>
+<sup>Last Updated: 2019-03-04 (Mon @ 21:07)</sup>
