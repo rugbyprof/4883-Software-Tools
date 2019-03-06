@@ -357,7 +357,7 @@ displayQuery($question,null,$cols,$pads,$data);
 /**
  * Question 8
  */
-$question = "8A. Find the top 5 players that had field goals over 40 yards.";
+$question = "8. Find the top 5 players that had field goals over 40 yards.";
 $pads = [3,18,17,15,12];
 $sql = "SELECT `playerid`, count(*) as `attempts` 
         FROM `players_stats` 
