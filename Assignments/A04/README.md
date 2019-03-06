@@ -1,5 +1,5 @@
 ## Intro to Sql - NFL Stat Mining using Sql
-### Due: Friday February 29<sup>th</sup>
+### Due: Friday, February 29<sup>th</sup> by classtime.
 
 ### Overview
 

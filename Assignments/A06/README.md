@@ -1,5 +1,5 @@
 ## Emoji Scraper - Emojis for image Mosaic
-#### Due: Monday 11<sup>th</sup> of March at class time.
+#### Due: Monday, March 11<sup>th</sup> by class time.
 
 
 ### Overview

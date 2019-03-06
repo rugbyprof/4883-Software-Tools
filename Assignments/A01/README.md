@@ -1,5 +1,5 @@
 ## Assignment 1 - Creating a repository
-#### Due: January 16<sup>th</sup> by Classtime
+#### Due: Wednesday, January 16<sup>th</sup> by classtime
 
 ## ![](http://f.cl.ly/items/3R3r0z1g3G0o0r2T1i0t/heavy_exclamation_mark_symbol_emoji_2757.jpg) Important:
 

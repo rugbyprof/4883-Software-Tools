@@ -1,5 +1,5 @@
 ## Assignment 2 - Software Tool
-### Due: January 16<sup>th</sup> by classtime.
+### Due: Wednesday, January 16<sup>th</sup> by classtime.
 
 ### Cool Software
 

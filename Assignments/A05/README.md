@@ -1,5 +1,5 @@
 ## Ascii Art - Twist on the classic
-#### Due: March 6<sup>th</sup> by classtime.
+#### Due: Wednesday, March 6<sup>th</sup> by classtime.
 
 
 ### Overview
