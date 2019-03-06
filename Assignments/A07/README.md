@@ -1,5 +1,5 @@
 ## Image Compare - Mean Square Error
-#### Due: March 15<sup>th</sup> by Classtime
+#### Due: Friday, March 15<sup>th</sup> by Classtime
 
 
 ### Overview
