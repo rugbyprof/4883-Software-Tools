@@ -1,0 +1,207 @@
+<pre style='background-color:'>
+    <b>1. Count number of teams an individual player played for.
+    Limit your output to the top 10 players that played for the most teams.
+    
+    id name              count            
+    =========================================================</b>
+    1  S.Graham          8                     
+    2  M.Spurlock        7                     
+    3  C.Butler          6                     
+    4  T.Cadet           6                     
+    5  L.Cohen           6                     
+    6  S.Draughn         6                     
+    7  J.Forsett         6                     
+    8  B.Hoyer           6                     
+    9  R.Jean Francois   6                     
+    10 B.Marshall        6                     
+    </pre>
+    
+    
+    <pre style='background-color:#C0C0C0'>
+    <b>2. Find the players with the highest total rushing yards by year, and limit the result to top 5.
+    This means to sum up all players rushing yards per year, and list the top 5 (most yards) in your output.
+    
+    id playerid          name             season rushing
+    ================================================================================================</b>
+    1  00-0028009        D.Murray         2014   1961 
+    2  00-0025394        A.Peterson       2012   1875 
+    3  00-0030496        L.Bell           2016   1587 
+    4  00-0026796        A.Foster         2012   1574 
+    5  00-0029141        A.Morris         2012   1562 
+    </pre>
+    
+    
+    <pre style='background-color:'>
+    <b>3. Find the bottom 5 passing players per year.
+    This is the similar to previous question, just change top to bottom, and most to least.
+    
+    id playerid          name             season passing
+    ==================================================</b>
+    1  00-0022738        C.Cooley         2009   -23  
+    2  00-0027770        S.Schillinger    2013   -8   
+    3  00-0022084        A.Boldin         2010   -6   
+    4  00-0023742        J.Ryan           2017   -4   
+    5  00-0024417        S.Koch           2015   -3   
+    </pre>
+    
+    
+    <pre style='background-color:#C0C0C0'>
+    <b>4. Find the top 5 players that had the most rushes for a loss.
+    This is not grouped by year, this is over a players career.
+    
+    id playerid          name             rushes_for_loss
+    ==============================================================</b>
+    1  00-0027029        L.McCoy          333  
+    2  00-0025394        A.Peterson       313  
+    3  00-0023500        F.Gore           252  
+    4  00-0026164        C.Johnson        242  
+    5  00-0025399        M.Lynch          216  
+    </pre>
+    
+    
+    <pre style='background-color:'>
+    <b>5. Find the top 5 teams with the most penalties.
+    This is not grouped by year, this is over a teams career.
+    
+    id club              penalties      
+    ================================================</b>
+    1  OAK               160            
+    2  OAK               151            
+    3  SEA               146            
+    4  OAK               146            
+    5  SEA               146            
+    </pre>
+    
+    
+    <pre style='background-color:#C0C0C0'>
+    <b>6. Find the average number of penalties per year.
+    Average Penalties = Sum of all penalties per year / Total games played that year
+    
+    id club   season    total_penalties   avg_penalties  
+    =====================================================</b>
+    1  OAK    2011      160               10             
+    2  OAK    2016      151               8.88           
+    3  SEA    2014      146               7.68           
+    4  OAK    2010      146               9.13           
+    5  SEA    2013      146               7.68           
+    6  SEA    2017      144               9              
+    7  KC     2018      142               7.89           
+    8  BAL    2012      140               7              
+    9  BUF    2015      138               8.63           
+    10 TB     2015      137               8.56           
+    </pre>
+    
+    
+    <pre style='background-color:'>
+    <b>7. Find the Team with the least amount of average plays every year.
+    Average Plays is by game.
+    Total Plays is per year.
+    Output: List the top 10 teams by lowest average number of plays.
+    
+    id team   year      avg               
+    ===================================================================</b>
+    1  NE     2012      94.89                            
+    2  DEN    2013      92.16                            
+    3  DET    2012      91.44                            
+    4  PHI    2014      91                               
+    5  NE     2013      90.67                            
+    6  DEN    2012      89.88                            
+    7  BAL    2018      89.53                            
+    8  BUF    2013      89.13                            
+    9  IND    2014      89.11                            
+    10 IND    2012      89.06                            
+    </pre>
+    
+    
+    <pre style='background-color:#C0C0C0'>
+    <b>8A. Find the top 5 players that had field goals over 40 yards.
+    
+    id playerid          name             attempts       
+    =================================================================</b>
+    1  00-0016919        A.Vinatieri      112                        
+    2  00-0029597        J.Tucker         106                        
+    3  00-0024333        S.Gostkowski     104                        
+    4  00-0019646        S.Janikowski     103                        
+    5  00-0023853        M.Prater         101                        
+    </pre>
+    
+    
+    <pre style='background-color:'>
+    <b>9A. Find the top 5 players with the shortest avg field goal length.
+    
+    id playerid          name             attempts       avg_yards   
+    ===================================================================</b>
+    1  00-0028872        J.Hekker         1              20.0000     
+    2  00-0027405        A.Pettrey        2              23.5000     
+    3  00-0023234        M.Koenen         1              24.0000     
+    4  00-0031093        N.Freese         3              28.3333     
+    5  00-0033138        S.Ficken         5              29.0000     
+    </pre>
+    
+    
+    <pre style='background-color:'>
+    <b>9B. Find the top 5 players with the shortest avg field goal length AND more than 19 attempts.
+    
+    id playerid          name             attempts       avg_yards   
+    =============================================================================================</b>
+    1  00-0010373        O.Mare           80             32.4000     
+    2  00-0031112        T.Coons          35             32.4286     
+    3  00-0001980        K.Brown          25             32.4400     
+    4  00-0019778        L.Tynes          106            32.6321     
+    5  00-0020737        J.Reed           51             32.8627     
+    </pre>
+    
+    
+    <pre style='background-color:#C0C0C0'>
+    <b>10. Rank the NFL by win loss percentage (worst first).
+    
+    id club              win_loss_pct     
+    ======================================================</b>
+    1  CLE               0.26             
+    2  JAX               0.33             
+    3  TB                0.34             
+    4  OAK               0.38             
+    5  WAS               0.39             
+    6  LA                0.41             
+    7  BUF               0.42             
+    8  TEN               0.43             
+    9  DET               0.44             
+    10 NYJ               0.45             
+    11 MIA               0.45             
+    12 CHI               0.47             
+    13 NYG               0.47             
+    14 SF                0.48             
+    15 CAR               0.5              
+    16 HOU               0.5              
+    17 ARI               0.5              
+    18 CIN               0.51             
+    19 MIN               0.51             
+    20 LAC               0.53             
+    21 KC                0.54             
+    22 DAL               0.55             
+    23 PHI               0.55             
+    24 IND               0.55             
+    25 DEN               0.56             
+    26 ATL               0.56             
+    27 BAL               0.58             
+    28 SEA               0.59             
+    29 NO                0.62             
+    30 GB                0.62             
+    31 PIT               0.63             
+    32 NE                0.76             
+    </pre>
+    
+    
+    <pre style='background-color:'>
+    <b>11. Find the top 5 most common last names in the NFL.
+    
+    id last_name         name_count       
+    =================================================================</b>
+    1  Williams          353                                         
+    2  Smith             311                                         
+    3  Johnson           293                                         
+    4  Jones             262                                         
+    5  Brown             215                                         
+    </pre>
+    
+    

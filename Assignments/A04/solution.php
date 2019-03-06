@@ -402,8 +402,50 @@ displayQuery($question,$sql,$cols,$pads);
 /**
  * Question 10
  */
-//SELECT COUNT(*),season,club FROM `game_totals`  WHERE wonloss = 'won' GROUP BY season,club AS wins
-//SELECT COUNT(*),season,club FROM `game_totals`  GROUP BY season,club AS games
+$question = "10. Rank the NFL by win loss percentage (worst first).";
+$pads = [3,18,17];
+$cols = ['id','club','win_loss_pct'];
+$sql = "SELECT distinct(`club`) FROM `game_totals`";
+$response = runQuery($mysqli,$sql);
+
+if(in_array('result',$response)){
+    $teams = $response['result'];
+}
+
+$summary = [];
+
+for($i=0;$i<sizeof($teams);$i++){
+
+    $club = $teams[$i]['club'];
+
+    $sql1 = "SELECT count(*) as `games` FROM `game_totals` WHERE `club` LIKE '{$club}'";
+    $response1 = runQuery($mysqli,$sql1);
+
+    if(in_array('result',$response1)){
+        $games = $response1['result'][0]['games'];
+    }
+
+    $sql2 = "SELECT count(*) as `wins` FROM `game_totals` WHERE `club` LIKE '{$club}' AND `wonloss` LIKE 'won'";
+    $response2 = runQuery($mysqli,$sql2);
+
+    if(in_array('result',$response2)){
+        $wins = $response2['result'][0]['wins'];
+    }
+
+    $summary[] = ['club'=>$club,'win_loss_pct'=>round($wins/$games,2)];
+}
+
+function cmp($a, $b)
+{
+    if ($a == $b) {
+        return 0;
+    }
+    return ($a['win_loss_pct'] < $b['win_loss_pct']) ? -1 : 1;
+}
+
+usort($summary,'cmp');
+
+displayQuery($question,null,$cols,$pads,$summary);
 
 /**
  * Question 11
