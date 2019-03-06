@@ -8,7 +8,7 @@
 - Holidays: 
     - Martin Luther King: January 21 
     - Spring Break: March 18-22
-    - Easter Break March 17-19
+    - Easter Break April 17-19
 - Last Day for “W”: March 25
 
 ## Topics
