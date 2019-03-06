@@ -432,7 +432,7 @@ for($i=0;$i<sizeof($teams);$i++){
         $wins = $response2['result'][0]['wins'];
     }
 
-    $summary[] = ['club'=>$club,'win_loss_pct'=>round($wins/$games,2)];
+    $summary[] = ['club'=>$club,'win_loss_pct'=>round($wins/$games,3)];
 }
 
 function cmp($a, $b)
