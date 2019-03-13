@@ -106,8 +106,8 @@ Having the ability to quantify the "dominant" or "average" color of an image is 
 
 ### Approach As Discussed In Class
 
-- Determine a `chunk` size. 
-- Divide original image into chunks, where a chunk is some `NxN` subsection of original. 
+- Determine a `chunk` size: `N`. `N=16` is a good place to start. Any smaller and sub images will stop being very identifiable.
+- The divide original image into chunks, where each chunk is some `NxN` subsection of original. 
 - Process each `chunk` and determine the `dominant` colors.
 - Compare 1 or more of those `dominant` colors to your folder of possible `subimages`.
   - The color values for your `subimages` should be pre processed so you only have a 1 time cost.
