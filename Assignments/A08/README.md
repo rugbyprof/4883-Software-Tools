@@ -129,7 +129,9 @@ Having the ability to quantify the "dominant" or "average" color of an image is 
 
 >Note: Image will grow by a factor of subimage size (100x400 image will be 1600x6400 using a 16x16 subimage).
 
+### Helper Functions
 
+- Go HERE for some helper code.
 
 ### Deliverables
 
