@@ -119,7 +119,13 @@ Having the ability to quantify the "dominant" or "average" color of an image is 
 - How will you handle object edges? This only matters in images with a transparent background.
 - Should you rotate `subimages` to better match original?
 
+### Deliverables
+
+
 ### References
+
+- https://en.wikipedia.org/wiki/Photographic_mosaic
+
 
 [1]: https://en.wikipedia.org/wiki/Photographic_mosaic
 
