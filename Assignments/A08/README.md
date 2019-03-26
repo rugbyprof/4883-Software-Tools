@@ -124,18 +124,78 @@ Having the ability to quantify the "dominant" or "average" color of an image is 
 
 - Read a pixel
 - Get the color value for said pixel
-- Find subimage with dominant color = to pixel color
+- Find subimage with dominant color ~ (similar) to pixel color
 - Replace pixel with subimage
 
 >Note: Image will grow by a factor of subimage size (100x400 image will be 1600x6400 using a 16x16 subimage).
 
 ### Helper Functions
 
-- Go HERE for some helper code.
+- [Dominant Colors](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A08/DominantColors)
+
+- Argv keyword args helper
+```python
+def process_argv(args):
+    """Takes arguments of type k=v and places them into 
+    a dictionary. Arguments must ALL be k=v and not have
+    any spaces.
+    
+    Example:
+        python3 program.py key1=val1 key2=val2 key3=val3
+
+        results in:
+
+        {key1:val1,key2:val2,key3:val3}
+
+    Arguments:
+        argv   -- [list] sys.argv list of arguments
+    Returns:
+        dictionary
+    """
+    argd = {}
+    for arg in args[1:]:
+        k,v = arg.split('=')
+        argd[k] = v
+    return argd
+ ```
 
 ### Deliverables
 
-
+- Create a folder called `A08` in your assignments folder.
+- Place all your code in a file called `mosaic.py`
+- Use functions when appropriate.
+- Comment using a code block at the top of your file and for each function.
+- Your README.md should be very ... very descriptive with a summary of all your files and such with instructions on how to run your program.
+- Images used as your 'subimages' should be read from a folder `specified by user`. 
+- The result of your program should be written to a folder `specified by user`, or if `none` is specified, rename the original image with `_mosaic` on the end (not after the extension!). (Example: `lillys_400.png` => `lillys_400_mosaic.png`). 
+  - For help with this: 
+ 
+```python
+ name,ext = filename.split('.')
+ newname = name+'_mosaic'+'.'+ext
+```
+ 
+- If an output folder is specified, simply write to the folder with the same name. (Be carefull when testing, you will overwrite your original image :) ).
+- Output images should be made up of (at a minimum) replacing 1 pixel with one image, the size of which is chosen by user at run time.
+- If you are using emojis, making them overlap by some small value my improve the overall look of your result.
+- **Important**
+    - A user should be able to run your program from the command line using named arguments:
+        - input_file: Input file (image to process)
+        - input_folder: Input folder (sub-image folder used as replacement images)
+        - size: Sub-image size (e.g 16 => 16x16 subimage for every pixel)
+        - output_folder: Output folder (if specifed write output image to this folder)
+    - Python sends command line arguments to your program as a list that is named `sys.argv`. 
+    - You must `import sys` to use `sys.argv`
+    - Example command:
+      - python mosaic.py input_file=lilly.png input_folder=SubImages size=16 output_folder=Mosaics
+- **Effiecient**
+- Your program should make an attempt at being efficient:
+  - Do not print values to the screen unless your really need to. Print sparingly to help your program run faster. 
+  - Do not do somthing N times for something you can do ONCE. For example, pre-process your sub-images to get color values so you do not have to do this at every iteration. 
+- **Hints**
+  - Use the alpha channel to keep transparency. 
+  - Resize and copy original image to use as background. Used in conjunction with alpha, this could help make image look better. Don't overdo it, however. We want to see the subimages.
+  
 ### References
 
 - https://en.wikipedia.org/wiki/Photographic_mosaic
