@@ -7,30 +7,34 @@ from image_package.color_functions import color_distance
 import glob
 import random
 
+"""
+Draws an old timey tv image pixel using three vertical bars: r g b
+                                                             r g b
+                                                             r g b
+https://retrocomputing.stackexchange.com/questions/2215/square-pixels-and-tv-output
+                                                        
+"""
 def tv_pixel(draw,x,y,rgb):
 
+    # shift xy by 3 times
     x *= 3
     y *= 3
 
+    # make each vert line = to amount of R or G or B
     red = (rgb[0],0,0)
     green = (0,rgb[1],0)
     blue = (0,0,rgb[2])
 
-    # draw.line((xy[0]-1, xy[0]-1, xy[0]-1, xy[0]+1), fill = red)
-    # draw.line((xy[0]  , xy[0]-1, xy[0],   xy[0]+1), fill = green)
-    # draw.line((xy[0]+1 ,xy[0]-1, xy[0]+1, xy[0]+1), fill = blue)
-
+    # draw the vert lines
     draw.line((x,  y, x,   y+2), fill = red)
     draw.line((x+1,y, x+1, y+2), fill = green)
     draw.line((x+2,y, x+2, y+2), fill = blue)
-
-    #draw.point((100, 100), 'red')
 
 
 if __name__=='__main__':
     
 
-    im = Image.open('Apple_Rainbow.png')
+    im = Image.open('nvidia.png')
     ow,oh = im.size
 
     nw = ow * 3
@@ -40,8 +44,6 @@ if __name__=='__main__':
     draw = ImageDraw.Draw(tvim)
 
     data = list(im.getdata())
-
-    print(len(data))
 
     x = 0
     y = 0
@@ -53,16 +55,5 @@ if __name__=='__main__':
         if x >= ow:
             x = 0
             y += 1
-        print("%d,%d"%(x,y))
     tvim.show()
     tvim.save('tvout.png')
-    #     
-    #     #print(pix)
-    #     x += 1
-    #     i += 1
-    #     if x > w:
-    #         x = 0
-    #         y += 3
-    #         i = i - (i%256)
-    #         print(i)
-    #     #print("%d,%d"%(x,y))
