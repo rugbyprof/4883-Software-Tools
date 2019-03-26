@@ -104,7 +104,42 @@ Having the ability to quantify the "dominant" or "average" color of an image is 
 - https://williamedwardscoder.tumblr.com/post/84505278488/making-image-mosaics
 
 
+### Approaches 
+
+**Approach 1**
+- Determine a `chunk` size: `N`. `N=16` is a good place to start. Any smaller and sub images will stop being very identifiable.
+- The divide original image into chunks, where each chunk is some `NxN` subsection of original. 
+- Process each `chunk` and determine the `dominant` colors.
+- Compare 1 or more of those `dominant` colors to your folder of possible `subimages`.
+  - The color values for your `subimages` should be pre processed so you only have a 1 time cost.
+- Replace the current `chunk` with the closest matching `subimage`
+
+**Thoughts**
+
+- Should shape matter? I think it could improve overall result if shape is accounted for.
+- How will you handle object edges? This only matters in images with a transparent background.
+- Should you rotate `subimages` to better match original?
+
+**Approach 2** (easier)
+
+- Read a pixel
+- Get the color value for said pixel
+- Find subimage with dominant color = to pixel color
+- Replace pixel with subimage
+
+>Note: Image will grow by a factor of subimage size (100x400 image will be 1600x6400 using a 16x16 subimage).
+
+### Helper Functions
+
+- Go HERE for some helper code.
+
+### Deliverables
+
+
 ### References
+
+- https://en.wikipedia.org/wiki/Photographic_mosaic
+
 
 [1]: https://en.wikipedia.org/wiki/Photographic_mosaic
 
