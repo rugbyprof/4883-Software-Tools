@@ -161,6 +161,8 @@ def process_argv(args):
 
 ### Deliverables
 
+
+- **1st** If you used a file in your program (images, code, whatever) it should be IN your repository!
 - Create a folder called `A08` in your assignments folder.
 - Place all your code in a file called `mosaic.py`
 - Use functions when appropriate.
