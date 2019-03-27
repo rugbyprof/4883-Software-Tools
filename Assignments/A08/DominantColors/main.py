@@ -80,9 +80,7 @@ def extract_cluster_color_values(hist, centroids,ignore_background=False):
                 colors.append({'percent':round(float(percent),2),'rgb':rgb})
         else:
             colors.append({'percent':round(float(percent),2),'rgb':rgb})
-        else:
-            print("background")
-            print(rgb)
+
     return colors
 
 def plot_colors(hist, centroids):
