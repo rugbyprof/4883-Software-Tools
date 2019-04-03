@@ -54,7 +54,7 @@ def get_color_data(r,g,b,d=3):
     return r.json()
 
 
-def extract_cluster_color_values(hist, centroids,ignore_background=True):
+def extract_cluster_color_values(hist, centroids,ignore_background=False):
     """Get the dominant colors of an image.
 
     Arguments:
@@ -75,11 +75,12 @@ def extract_cluster_color_values(hist, centroids,ignore_background=True):
             c = round(float(c))
             total += c
             rgb.append(c)
-        if total > 15 and total < 750:
-            colors.append({'percent':round(float(percent),2),'rgb':rgb})
+        if ignore_background:
+            if total > 15 and total < 750:
+                colors.append({'percent':round(float(percent),2),'rgb':rgb})
         else:
-            print("background")
-            print(rgb)
+            colors.append({'percent':round(float(percent),2),'rgb':rgb})
+
     return colors
 
 def plot_colors(hist, centroids):

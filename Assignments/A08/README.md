@@ -173,6 +173,7 @@ def process_argv(args):
   - For help with this: 
  
 ```python
+ filename = os.path.basename(image_path) # get only filename if image is read with a path. 
  name,ext = filename.split('.')
  newname = name+'_mosaic'+'.'+ext
 ```
