@@ -9,6 +9,13 @@ VARIABLE KEY
 'message' -> 'stores the string to be encoded or decoded' 
 '''
 
+from pydub import AudioSegment
+from pydub.playback import play
+import sys
+import os
+from time import sleep
+import numpy as np
+
 # Dictionary representing the morse code chart 
 MORSE_CODE_DICT = { 'A':'.-', 'B':'-...', 
 					'C':'-.-.', 'D':'-..', 'E':'.', 
@@ -19,6 +26,7 @@ MORSE_CODE_DICT = { 'A':'.-', 'B':'-...',
 					'R':'.-.', 'S':'...', 'T':'-', 
 					'U':'..-', 'V':'...-', 'W':'.--', 
 					'X':'-..-', 'Y':'-.--', 'Z':'--..', 
+
 					'1':'.----', '2':'..---', '3':'...--', 
 					'4':'....-', '5':'.....', '6':'-....', 
 					'7':'--...', '8':'---..', '9':'----.', 
@@ -29,7 +37,7 @@ MORSE_CODE_DICT = { 'A':'.-', 'B':'-...',
 # Function to encrypt the string 
 # according to the morse code chart 
 def encrypt(message): 
-	cipher = '' 
+	cipher = []
 	for letter in message: 
 		if letter != ' ': 
 
@@ -37,11 +45,11 @@ def encrypt(message):
 			# correspponding morse code 
 			# along with a space to separate 
 			# morse codes for different characters 
-			cipher += MORSE_CODE_DICT[letter] + ' '
+			cipher.append(MORSE_CODE_DICT[letter])
 		else: 
 			# 1 space indicates different characters 
 			# and 2 indicates different words 
-			cipher += ' '
+			cipher.append(' ')
 
 	return cipher 
 
@@ -83,13 +91,77 @@ def decrypt(message):
 				.values()).index(citext)] 
 				citext = '' 
 
-	return decipher 
+	return decipher
+
+def msound(beep,milli_length=500):
+	millis = len(beep)
+	start = 0
+	end = milli_length
+	return beep[start:end]
 
 # Hard-coded driver function to run the program 
 def main(): 
 	message = "This is a morse code message."
-	result = encrypt(message.upper()) 
-	print (result) 
+	code = encrypt(message.upper()) 
+	print (code) 
+
+	beep = AudioSegment.from_mp3("./sound_files/beep-09.mp3")
+
+	dot = msound(beep,150)
+	dash = msound(beep,500)
+
+	result = beep[:10]
+
+	for letter in code:
+		for c in letter:
+			if '-' in c:
+				result += dash
+			elif '.' in c:
+				result += dot
+			else:
+				#sleep(.3)
+				pass
+
+	#play(result)
+
+	#sound = AudioSegment.from_mp3("test.mp3")
+
+	# get raw audio data as a bytestring
+	raw_data = result.raw_data
+	# get the frame rate
+	sample_rate = result.frame_rate
+	# get amount of bytes contained in one sample
+	sample_size = result.sample_width
+	# get channels
+	channels = result.channels
+
+	raw_nums = np.fromstring(raw_data, dtype=np.int16)
+
+	f = open("raw.dat","w")
+	for i in raw_nums:
+		f.write(str(int(i)))
+		f.write("\n")
+	f.close()
+		
+
+	print("")
+	print(sample_rate)
+	print(sample_size)
+	print(channels)
+	print(len(raw_data))
+
+
+
+
+    # word = word_list[0][chunk:]
+    # sentence = word[:len(word)-chunk]
+    # for word in word_list[1:]:
+    #     temp = word[chunk:]
+    #     sentence += temp[:len(temp)-chunk]
+
+	# morse_sound.export("morse_code.mp3", format="mp3")
+
+	# vlc.play("/Users/griffin/Code/Courses/1-Current_Courses/4883-Software-Tools/Resources/morse_code/sentence.mp3")
 
 	# message = "--. . . -.- ... -....- ..-. --- .-. -....- --. . . -.- ... "
 	# result = decrypt(message) 
