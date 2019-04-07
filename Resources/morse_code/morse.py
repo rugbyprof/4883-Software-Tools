@@ -1,12 +1,12 @@
+#!/usr/local/bin/python3
 # Python program to implement Morse Code Translator 
 # https://www.geeksforgeeks.org/morse-code-translator-python/
 ''' 
-VARIABLE KEY 
-'cipher' -> 'stores the morse translated form of the english string' 
-'decipher' -> 'stores the english translated form of the morse string' 
-'citext' -> 'stores morse code of a single character' 
-'i' -> 'keeps count of the spaces between morse characters' 
-'message' -> 'stores the string to be encoded or decoded' 
+short mark, dot or "dit" (▄): "dot duration" is one time unit long
+longer mark, dash or "dah" (▄ ▄ ▄): three time units long
+inter-element gap between the dots and dashes within a character: one dot duration or one unit long
+short gap (between letters): three time units long
+medium gap (between words): seven time units long
 '''
 
 from pydub import AudioSegment
@@ -15,6 +15,8 @@ import sys
 import os
 from time import sleep
 import numpy as np
+
+os.chdir("/Users/griffin/Code/Courses/1-Current_Courses/4883-Software-Tools/Resources/morse_code")
 
 # Dictionary representing the morse code chart 
 MORSE_CODE_DICT = { 'A':'.-', 'B':'-...', 
@@ -107,8 +109,20 @@ def main():
 
 	beep = AudioSegment.from_mp3("./sound_files/beep-09.mp3")
 
-	dot = msound(beep,150)
-	dash = msound(beep,500)
+	dot = AudioSegment.from_ogg("./sound_files/dot.ogg")
+	dash = AudioSegment.from_ogg("./sound_files/dash.ogg")
+
+	raw_dot = dot.raw_data
+	raw_dash = dash.raw_data
+
+	print(len(dot))
+	print(len(dash))
+
+	sys.exit()
+
+
+	# dot = msound(beep,150)
+	# dash = msound(beep,500)
 
 	result = beep[:10]
 
@@ -124,8 +138,6 @@ def main():
 
 	#play(result)
 
-	#sound = AudioSegment.from_mp3("test.mp3")
-
 	# get raw audio data as a bytestring
 	raw_data = result.raw_data
 	# get the frame rate
@@ -135,7 +147,7 @@ def main():
 	# get channels
 	channels = result.channels
 
-	raw_nums = np.fromstring(raw_data, dtype=np.int16)
+	raw_nums = np.frombuffer(raw_data, dtype=np.int16)
 
 	f = open("raw.dat","w")
 	for i in raw_nums:
