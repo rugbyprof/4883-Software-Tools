@@ -15,6 +15,7 @@ import sys
 import os
 from time import sleep
 import numpy as np
+import matplotlib.pyplot as plt
 
 os.chdir("/Users/griffin/Code/Courses/1-Current_Courses/4883-Software-Tools/Resources/morse_code")
 
@@ -38,7 +39,7 @@ MORSE_CODE_DICT = { 'A':'.-', 'B':'-...',
 
 # Function to encrypt the string 
 # according to the morse code chart 
-def encrypt(message): 
+def to_morse(message): 
 	cipher = []
 	for letter in message: 
 		if letter != ' ': 
@@ -57,7 +58,7 @@ def encrypt(message):
 
 # Function to decrypt the string 
 # from morse to english 
-def decrypt(message): 
+def from_morse(message): 
 
 	# extra space added at the end to access the 
 	# last morse code 
@@ -95,6 +96,133 @@ def decrypt(message):
 
 	return decipher
 
+
+def sound_to_morse(sound_file):
+
+	song_data = sound_file_info(sound_file)
+
+	zero = 0
+	not_zero = 0
+
+	ditdot = []
+
+	for i in range(0,len(song_data['raw_data']),100):
+		# if i == 0:
+		# 	zero += 1
+		# else:
+		#     not_zero += 1
+		s = sum(song_data['raw_data'][i:i+100])
+		ditdot.append(s)
+	
+
+	blanks = 0
+	for d in ditdot:
+		if d == 0:
+			blanks += 1
+		else:
+			break
+	
+	ditdot = ditdot[blanks:]
+	letters = []
+
+	i = -1
+	p = None
+	for d in ditdot:
+		if (d > 0) != p:
+			letters.append(0)
+			i += 1
+			if d > 0:
+				p = True
+			else:
+				p = False
+		letters[i] += 1
+
+	print(letters)
+		
+		
+
+
+def sound_file_info(sound_file):
+	print(os.path.basename(sound_file))
+	name,ext = os.path.basename(sound_file).split('.')
+
+	file_data = AudioSegment.from_file(sound_file, ext)
+
+	data = {}
+	# get raw audio data as a bytestring
+	data['raw_data'] = file_data.raw_data
+	# get the frame rate
+	data['sample_rate'] = file_data.frame_rate
+	# get amount of bytes contained in one sample
+	data['sample_size'] = file_data.sample_width
+	# get channels
+	data['channels'] = file_data.channels
+
+	return data
+
+def moving_average(x, w):
+    return np.convolve(x, np.ones(w), 'valid') / w
+
+def show_sound_data(raw_data):
+
+	raw_nums = np.frombuffer(raw_data, dtype=np.int16)
+	time = [x for x in range(len(raw_nums))]
+
+	plt.plot(time, raw_nums, color='orange')
+	plt.xlabel('Time')
+	plt.ylabel('Sound')
+	plt.title('Morse Sound File')
+	plt.show()
+
+	#############################################
+
+	raw_nums = moving_average(raw_nums,103)
+
+	digital_signal = []
+
+	for d in raw_nums:
+		if d == 0.0:
+			digital_signal.append(0)
+		else:
+			digital_signal.append(1)
+
+	time = [x for x in range(len(raw_nums))]
+
+	plt.plot(time, digital_signal, color='red')
+	plt.xlabel('Time')
+	plt.ylabel('Sound')
+	plt.title('Morse Sound File')
+	#plt.show()
+
+	#############################################
+
+	raw_nums = moving_average(digital_signal,5)
+
+	digital_signal = []
+
+	for d in raw_nums:
+		if d == 0.0:
+			digital_signal.append(0)
+		else:
+			digital_signal.append(1)
+
+	time = [x for x in range(len(digital_signal))]
+
+	plt.plot(time, digital_signal, color='blue', alpha=0.5)
+	plt.xlabel('Time')
+	plt.ylabel('Sound')
+	plt.title('Morse Sound File')
+	plt.show()
+
+	f = open("raw.dat","w")
+	for d in digital_signal:
+		if d == 0.0:
+			f.write("0")
+		else:
+			f.write("1")
+	f.close()
+
+
 def msound(beep,milli_length=500):
 	millis = len(beep)
 	start = 0
@@ -103,82 +231,36 @@ def msound(beep,milli_length=500):
 
 # Hard-coded driver function to run the program 
 def main(): 
-	message = "This is a morse code message."
-	code = encrypt(message.upper()) 
+	message = "coded message."
+	code = to_morse(message.upper()) 
 	print (code) 
 
-	beep = AudioSegment.from_mp3("./sound_files/beep-09.mp3")
 
 	dot = AudioSegment.from_ogg("./sound_files/dot.ogg")
 	dash = AudioSegment.from_ogg("./sound_files/dash.ogg")
+	blank = AudioSegment.from_ogg("./sound_files/blank.ogg")
 
-	raw_dot = dot.raw_data
-	raw_dash = dash.raw_data
-
-	print(len(dot))
-	print(len(dash))
-
-	sys.exit()
-
-
-	# dot = msound(beep,150)
-	# dash = msound(beep,500)
-
-	result = beep[:10]
+	result = blank
 
 	for letter in code:
+		result += blank[:300]
 		for c in letter:
 			if '-' in c:
 				result += dash
+				result += blank[:100]
 			elif '.' in c:
 				result += dot
+				result += blank[:100]
 			else:
-				#sleep(.3)
-				pass
+				result += blank
 
 	#play(result)
+	result.export("./sound_files/result.mp3", format="ogg")
 
-	# get raw audio data as a bytestring
-	raw_data = result.raw_data
-	# get the frame rate
-	sample_rate = result.frame_rate
-	# get amount of bytes contained in one sample
-	sample_size = result.sample_width
-	# get channels
-	channels = result.channels
-
-	raw_nums = np.frombuffer(raw_data, dtype=np.int16)
-
-	f = open("raw.dat","w")
-	for i in raw_nums:
-		f.write(str(int(i)))
-		f.write("\n")
-	f.close()
-		
-
-	print("")
-	print(sample_rate)
-	print(sample_size)
-	print(channels)
-	print(len(raw_data))
-
-
-
-
-    # word = word_list[0][chunk:]
-    # sentence = word[:len(word)-chunk]
-    # for word in word_list[1:]:
-    #     temp = word[chunk:]
-    #     sentence += temp[:len(temp)-chunk]
-
-	# morse_sound.export("morse_code.mp3", format="mp3")
-
-	# vlc.play("/Users/griffin/Code/Courses/1-Current_Courses/4883-Software-Tools/Resources/morse_code/sentence.mp3")
-
-	# message = "--. . . -.- ... -....- ..-. --- .-. -....- --. . . -.- ... "
-	# result = decrypt(message) 
-	# print (result) 
 
 # Executes the main function 
 if __name__ == '__main__': 
-	main() 
+	#main() 
+	data = sound_file_info('./sound_files/result.mp3')
+	show_sound_data(data['raw_data'])
+	#sound_to_morse('./sound_files/result.mp3')
