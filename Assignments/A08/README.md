@@ -1,4 +1,5 @@
-# Photographic mosaic
+## Photographic mosaic - Image Processing
+#### Due: Monday, April 1<sup>st</sup> by Classtime
 
 What is an photgraphic mosaic? 
 
