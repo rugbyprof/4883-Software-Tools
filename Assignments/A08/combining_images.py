@@ -41,14 +41,21 @@ def pasteRandomLocations():
     im.show()
 
 def pasteInOrder():
+    # opens a directory and gets a list of files based on a wildcard
     files = glob.glob('./Resources/emojis_64x64/**/*.png', recursive=True)
 
     print(len(files))
     
+    sorted(files)
+    
+    # create new 1924x1924 image with white background
     im = Image.new("RGBA", (1924, 1924), "white")
 
+    # starting x and y
     x = 0
     y = 0
+    
+    # loops through the files
     for f in files:
         tmp = Image.open(f).convert("RGBA")
         im.paste(tmp, (x,y),tmp)
