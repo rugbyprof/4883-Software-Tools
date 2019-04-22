@@ -3,23 +3,7 @@ import wx
 import os
 from random import randint
 
-class node():
-    def __init__(self):
-        self.value = None
-        self.color = None
-        self.coord = (0,0)
-        self.edges = []
 
-    def set_coords(c):
-        try:
-            x,y = c
-        except TypeError:
-            print("Not a tuple...")
-        self.coord = c
-
-
-
-class graph():
 
 
 class sqauresBoard():

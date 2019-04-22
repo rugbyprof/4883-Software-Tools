@@ -25,7 +25,6 @@ class Example(wx.Frame):
     def InitUI(self):
 
         self.Bind(wx.EVT_PAINT, self.OnPaint)
-
         self.SetTitle("Points")
         self.Centre()
 
