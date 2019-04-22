@@ -11,8 +11,12 @@ def get_word(word,code):
     # create urls for british and us sound files
     url_filename = "{}--_{}_1.mp3".format(word,code)
 
+    d = word[0].upper()
+    if not os.path.isdir('./words_{}/{}'.format(code,d)):
+        os.mkdir( './words_{}/{}'.format(code,d))
+
     # create save location with name
-    sav_filename = os.path.join("words_{}","{}_{}.mp3".format(code,word,code))
+    sav_filename = os.path.join("words_{}/{}","{}_{}.mp3".format(code,d,word,code))
 
     url = "https://ssl.gstatic.com/dictionary/static/sounds/oxford/{}".format(url_filename) 
 
@@ -35,7 +39,8 @@ def get_word(word,code):
     return os.path.isfile(sav_filename)
 
 # vscode sets cwd as "folder opened by editor" so I'm changing it for local running
-os.chdir('/Users/griffin/Code/Courses/1-Current_Courses/4883-Software-Tools/Resources/creepy')
+#os.chdir('/Users/griffin/Code/Courses/1-Current_Courses/4883-Software-Tools/Resources/creepy')
+os.chdir('/Users/griffin/1-Courses/4883-Software-Tools/Resources/creepy')
 
 # empty url lists
 with open('word_gb_urls.txt', 'w') as f:

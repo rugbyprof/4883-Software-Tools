@@ -9,14 +9,15 @@ import glob
 import random
 
 
-"""
 
-"""
-def paste2images():
-    im = Image.new("RGB", (1024, 1024), "white")
+def paste_2_images():
+    """
 
-    im1 = Image.open('./Resources/emojis_64x64/-1.png')
-    im2 = Image.open('./Resources/emojis_64x64/+.png')
+    """
+    im = Image.new("RGBA", (1024, 1024), "white")
+
+    im1 = Image.open('./Resources/emojis_64x64/-1.png').convert("RGBA")
+    im2 = Image.open('./Resources/emojis_64x64/+.png').convert("RGBA")
 
     bbx1 = im1.getbbox()
     bbx2 = im2.getbbox()
@@ -24,8 +25,8 @@ def paste2images():
     print(bbx1)
     print(bbx2)
 
-    im.paste(im1, (10,10))
-    im.paste(im2, (225,0))
+    im.paste(im1, (10,10),im1)
+    im.paste(im2, (225,0),im2)
 
     im.show()
 
@@ -39,6 +40,8 @@ def pasteRandomLocations():
         im.paste(tmp, (random.randint(0,1024-64),random.randint(0,1024-64)),tmp)
         tmp.close()
     im.show()
+
+
 
 def pasteInOrder():
     # opens a directory and gets a list of files based on a wildcard
@@ -66,6 +69,6 @@ def pasteInOrder():
             y += 64
     im.show()
 
-paste2images()
+paste_2_images()
 pasteRandomLocations()
 pasteInOrder()

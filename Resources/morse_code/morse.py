@@ -17,7 +17,8 @@ from time import sleep
 import numpy as np
 import matplotlib.pyplot as plt
 
-os.chdir("/Users/griffin/Code/Courses/1-Current_Courses/4883-Software-Tools/Resources/morse_code")
+#os.chdir("/Users/griffin/Code/Courses/1-Current_Courses/4883-Software-Tools/Resources/morse_code")
+os.chdir("/Users/griffin/1-Courses/4883-Software-Tools/Resources/morse_code")
 
 # Dictionary representing the morse code chart 
 MORSE_CODE_DICT = { 'A':'.-', 'B':'-...', 
@@ -166,6 +167,14 @@ def moving_average(x, w):
 def show_sound_data(raw_data):
 
 	raw_nums = np.frombuffer(raw_data, dtype=np.int16)
+
+	f = open("temp.dat","w")
+	for num in raw_nums:
+		f.write(str(num))
+		f.write(" ")
+	f.close()
+
+
 	time = [x for x in range(len(raw_nums))]
 
 	plt.plot(time, raw_nums, color='orange')
@@ -255,12 +264,14 @@ def main():
 				result += blank
 
 	#play(result)
-	result.export("./sound_files/result.mp3", format="ogg")
+	result.export("./sound_files/result.ogg", format="ogg")
+
+	print(result.raw_data)
 
 
 # Executes the main function 
 if __name__ == '__main__': 
 	#main() 
-	data = sound_file_info('./sound_files/result.mp3')
+	data = sound_file_info('./sound_files/result.ogg')
 	show_sound_data(data['raw_data'])
 	#sound_to_morse('./sound_files/result.mp3')

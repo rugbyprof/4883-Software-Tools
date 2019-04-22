@@ -11,8 +11,8 @@ PyAudio = pyaudio.PyAudio     #initialize pyaudio
 #See https://en.wikipedia.org/wiki/Bit_rate#Audio
 FRAME_RATE = 16000     #number of frames per second/frameset.      
 
-FREQUENCY = 500     #Hz, waves per second, 261.63=C4-note.
-LENGTH = .2     #seconds to play sound
+FREQUENCY = 1000     #Hz, waves per second, 261.63=C4-note.
+LENGTH = 1     #seconds to play sound
 
 CHANNELS = 1 # I guess this is for mono sounds
 
