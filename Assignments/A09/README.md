@@ -15,4 +15,6 @@
 
 - Testing
 
-### 
+### Deliverables
+
+- Put all code and files on github
