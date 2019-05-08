@@ -27,9 +27,10 @@
 ## Grading:    
 | Categories                |     | Grade |          |
 |:--------------------------|:---:|:-----:|:--------:|
-| Projects <sup>**1**</sup> | 50% |   A   |  89-100  |
-| Homework<sup>**2**</sup>  | 30% |   B   |  79-88   |
-| Final<sup>**3**</sup>     | 20% |   C   |  69-78   |
+| Projects <sup>**1**</sup> | 60% |   A   |  89-100  |
+| Homework<sup>**2**</sup>  | 10% |   B   |  79-88   |
+| Final Project<sup>**3**</sup>| 15% |   C   |  69-78   |
+| Github Repo     | 15% |   C   |  69-78   |
 |                           |     |   D   |  59-68   |
 |                           |     |   F   | below 59 |
 
