@@ -1,38 +1,44 @@
 4883 - Software Tools
 =====================
 
-- Days: MW 100pm - 220pm 
+- Days: Monday thru Thursday @ 1010-1210
 - Location: BO 320
-- [Final Exam](https://msutexas.edu/registrar/_assets/files/pdfs/spring19finals.pdf): Mon May 6<sup>th</sup>, 3:30-5:30 p.m. `(Final is Mandatory no leaving before finals week.)`
-- Dates: January 14 - May 3
-- Holidays: 
-    - Martin Luther King: January 21 
-    - Spring Break: March 18-22
-    - Easter Break April 17-19
-- Last Day for “W”: March 25
+- Course Dates: June 5<sup>th</sup> - July 7<sup>th</sup>
+- Holidays:
+    - JuneTeenth: June 19<sup>th</sup>
+    - Independance Day: July 4<sup>th</sup>
+- Last Day for “W”: June 23 <sup>rd</sup>
+- Final Exam: July 7<sup>th</sup>, 10:10-12:10 p.m.
 
 ## Topics
 
+>`(Topics are subject to change based on student input)`
+
+
 - Git / GitHub
+- Graphviz
 - LaTex
-- Graphing Software (GraphViz)
-- Visualization (MatPlotLib possibly)
+- PanDoc
+- Python Visualization (matplotlib, etc.)
 - Image Manipulation Software (ImageMagick)
 - Scripting (Bash / Python)
-- Slack
-- Possibly:
-    - Browser Extensions
-    - Slack Plugins
+- Browser Extensions
+- Slack extensions
+- Vim - Emacs
+- Rich
+- Pillow
+- Google Docs
+- ...
 
 ## Grading:    
-| Categories                |     | Grade |          |
-|:--------------------------|:---:|:-----:|:--------:|
-| Projects <sup>**1**</sup> | 60% |   A   |  89-100  |
-| Homework<sup>**2**</sup>  | 10% |   B   |  79-88   |
-| Final Project<sup>**3**</sup>| 15% |   C   |  69-78   |
-| Github Repo     | 15% |   C   |  69-78   |
-|                           |     |   D   |  59-68   |
-|                           |     |   F   | below 59 |
+| Categories                    |       | Grade |          |
+| :---------------------------- | :---: | :---: | :------: |
+| Projects <sup>**1**</sup>     |  60%  |   A   |  89-100  |
+| Homework<sup>**2**</sup>      |  10%  |   B   |  79-88   |
+| Final Project<sup>**3**</sup> |  15%  |   C   |  69-78   |
+| Github Repo                   |  15%  |   C   |  69-78   |
+|                               |       |   D   |  59-68   |
+|                               |       |   F   | below 59 |
 
 
 >**1**. Any projects that include programs as well as programs themselves must run without error. If they do not run, they will not be graded. Correctness is a different matter. However, the program must be close to the solution required and cannot be an over simplified version simply for the purpose of making it run. 
@@ -41,14 +47,32 @@
 >
 >**3**. Plane ticket prices, events like weddings, or trips out of the country are not valid excuses for missing the final exam at its scheduled time. I will not make accommodations for anything other than an issue vetted by the dean of students. 
 
-**Attendance:** Attending class is one of the primary keys to doing well in this class. Students with excessive absences may be reported to the dean of students and may receive a grade of F in the class. There is no distinction made between excused and unexcused. Make-up exams will be given only if the student has a reasonable excuse and if the instructor is contacted within 24 hours of the exam and arrangements are made for the make-up prior to the next class meeting. NO make-ups will be given for missed quizzes. Students are expected to be in the classroom when class begins and stay the entire period.
+### Attendance: 
 
-**Academic Policies:** Students should refer to the current MSU Student Handbook and Activities Calendar and the MSU Graduate Bulletin for university policies on academic dishonesty, class attendance, student rights and activities.
-Disability Policy: In accordance with the law, MSU provides academic accommodations to students with documented disabilities. Students with disabilities must be registered with Disability Support Services before classroom accommodations can be provided. The DSS office is located in Clark Student Center, Room 168, phone 397-4140.
+Attending class is one of the primary keys to doing well in this class. Students with excessive absences may be reported to the dean of students and may receive a grade of F in the class. There is no distinction made between excused and unexcused. Make-up exams will be given only if the student has a reasonable excuse and if the instructor is contacted within 24 hours of the exam and arrangements are made for the make-up prior to the next class meeting. NO make-ups will be given for missed quizzes. Students are expected to be in the classroom when class begins and stay the entire period.
 
-**Counseling Center:** MSU offers personal, group, career, and academic counseling. Students are encouraged to take advantage of these free services by contacting the Counseling Center: Room 108 Clark Student Center, 397-4618, counseling@mwsu.edu.
 
-**Late Policy:** Assignments and programs will be accepted late up to two weeks after the due date with a penalty of 5 points per day. Late work will not be accepted for credit after two days from the due date.
+### Academic Misconduct Policy & Procedures
+
+Cheating, collusion, and plagiarism (the act of using source material of other persons, either published or unpublished, without following the accepted techniques of crediting, or the submission for credit of work not the individual’s to whom credit is given . The Department of Computer Science has adopted the following policy related to cheating (academic misconduct). The policy will be applied to all instances of cheating on assignments and exams as determined by the instructor of the course. (See below for link to MSU definitions.)
+
+- 1st instance of cheating in a course: The student will be assigned a non-replaceable grade of zero for the assignment, project or exam. If the resulting grade does not result in a letter grade reduction, the student will receive a one letter grade reduction in course.
+- 2nd instance of cheating in a course: The student will receive a grade of F in course & immediately be removed from course.
+- All instances of cheating will be reported to the Department Chair and, in the case of graduate students, to the Department Graduate Coordinator.
+
+Note: Letting a student look at your work is collusion and is academic misconduct!
+
+See Also: MSU Student Handbook: Appendix E: Academic Misconduct Policy & Procedures
+https://msutexas.edu/student-life/_assets/files/handbook.pdf.
+
+
+### Counseling Center:
+
+MSU offers personal, group, career, and academic counseling. Students are encouraged to take advantage of these free services by contacting the Counseling Center: Room 108 Clark Student Center, 397-4618, counseling@mwsu.edu.
+
+### Late Policy:
+
+No late work will be accepted. No acceptions. 
 
 
 

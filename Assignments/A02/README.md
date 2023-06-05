@@ -1,5 +1,5 @@
 ## Assignment 2 - Software Tool
-### Due: Wednesday, January 16<sup>th</sup> by classtime.
+### Due: Thursday, June 8<sup>th</sup> by classtime.
 
 ### Cool Software
 
@@ -18,11 +18,13 @@
     1. Snippet management (gis.github)
     1. Turning a scripted / interpreted file into an executable. 
     1. Virtual Machines (Docker)
+    2. Machine Learning
+    3. ChatGPT like software
     
 - Deliverables
   - Create a folder called `Assignments`.
   - In `Assignments` create a folder called `A02`
   - Create a `README.md` in `A02`
   - In your readme provide a link and description of your tool and why you picked it.
-  - Update the google doc [HERE](https://docs.google.com/spreadsheets/d/1eOoajgL9zivinx8ckG92ngQVtKgkcDjdbiUbfTezDKc/edit?usp=sharing) as well.
+
   
