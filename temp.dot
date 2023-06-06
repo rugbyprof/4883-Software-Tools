@@ -1,0 +1,17 @@
+digraph linkedlist {
+    rankdir = LR;
+    node [shape = record;];
+    
+    // Define the nodes
+    A [label = "{<data> 1|<next>}";];
+    B [label = "<data> 2|<next>";];
+    C [label = "<data> 3|<next>";];
+    D [label = "<data> 4|<next>";];
+    E [label = "<data> 5|<next>";];
+    
+    // Define the edges
+    A:next -> B:data;
+    B:next -> C:data;
+    C:next -> D:data;
+    D:next -> E:data;
+}

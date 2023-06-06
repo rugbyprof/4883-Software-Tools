@@ -1,4 +1,4 @@
-## Assignment 2 - Software Tool
+## Assignment 3 - Software Tool
 #### Due: 06-8-2023 (Thursday @ 10:10 a.m.)
 
 ### Cool Software
