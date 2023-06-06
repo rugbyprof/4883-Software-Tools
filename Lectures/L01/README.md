@@ -114,3 +114,20 @@ digraph linkedlist {
     D:next -> E:data;
 }
 ```
+
+```java
+digraph linkedlist {
+        rankdir=LR;
+        node [shape=record,color=purple];
+        A [label="{ <data> 1 | <next>  }"]
+        B [label="{ <data> 2 | <next>  }"];
+        C [label="{ <data> 3 | <next>  }"];
+        D [label="<data> 4|<next>"];
+        E [label="<data> 5|<next>"];
+        null [shape=circle,color=white];
+
+        A:next:c -> B:data [arrowhead=vee, arrowtail=dot, color=orange, dir=both, tailclip=false];
+        B:next -> C:data [arrowhead=vee, arrowtail=dot, color=orange, dir=both, tailclip=false];
+        C:next -> null  [arrowhead=vee, arrowtail=dot, color=orange, dir=both, tailclip=false];
+}
+```
