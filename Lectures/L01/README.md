@@ -15,6 +15,16 @@
 
 https://github.com/xflr6/graphviz
 
+### Attributes
+
+[Color names](https://graphviz.org/doc/info/colors.html)
+
+[Node Shapes](https://graphviz.org/doc/info/shapes.html)
+
+[Edge Attributes](https://graphviz.org/docs/edges/)
+
+[Arrow Shapes](https://graphviz.org/doc/info/arrows.html)
+
 ### Overview
 
 Graphviz is an open-source software tool that is widely used for visualizing and analyzing graphs and networks. It provides a set of tools and libraries for creating and rendering graph representations in various formats.
@@ -30,7 +40,6 @@ Besides its visual capabilities, `Graphviz` also provides a set of command-line 
 Overall, `Graphviz` is a powerful and versatile tool for creating, analyzing, and visualizing graphs, making it widely used in fields such as data analysis, network analysis, software engineering, and information visualization.
 
 
-[Color names](https://graphviz.org/doc/info/colors.html)
 
 #### Basic
 ```java
