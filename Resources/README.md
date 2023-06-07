@@ -1,9 +1,9 @@
 ## Resources
 
-| Folder | Title | Description | Due | Filename |
-|-----|-----|-----|-----|-----|
-| None | None | None | None | None |
+| Folder | Title | Description | Due | dueDate |  |
+|:------|:------|:------|:------|:-----:|-----|
+| ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/01-Readmees">01-Readmees</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/01-Readmees"> README </a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/01-Readmees"> How You Should Format Them</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/01-Readmees"> NA</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Resources/01-Readmees">None</a>*** |  |
 
-<sup>Last Updated: 2023-06-06 (Tue @ 09:13)</sup> 
+<sup>Last Updated: 2023-06-06 (Tue @ 20:30)</sup> 
 
 <sup>***Days Left is only accurate if the `Last Updated` date is the same as todays date. Otherwise, use the due date!***</sup> 
