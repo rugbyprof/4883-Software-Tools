@@ -41,7 +41,7 @@ In addition there are two files provided that have family tree data. The `dwarf_
 I imagine that most of you will use something generated from the [site](http://mcdemarco.net/tools/family-tree-generator/lineage.html) we discussed in class. This may be necessary as I want your family tree to include "clans" as part of each family. Each clan should get a unique color at the least. What I would like to see, is a sub-graph with the oldest patriarch and matriarch of each clan as the root of that respective sub-graph, and anyone else in that clan, would be branched down from those individuals. See abstract view below:
 
 
-<img src="./images/clans_diagram2.png" width="600">
+<img src="./images/clans_diagram3.png" width="600">
 
 
 Here is a stack overflow article that might be some help with generating the dot code: https://stackoverflow.com/questions/2271704/family-tree-layout-with-dot-graphviz
