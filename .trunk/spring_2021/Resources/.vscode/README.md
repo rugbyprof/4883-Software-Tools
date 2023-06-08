@@ -1,1 +1,0 @@
-## Resources .vscode - No Description

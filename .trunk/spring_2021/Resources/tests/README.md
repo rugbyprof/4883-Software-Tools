@@ -1,3 +1,0 @@
-- https://realpython.com/python-exceptions/
-- https://realpython.com/python-refactoring/
-- https://realpython.com/python-testing/
