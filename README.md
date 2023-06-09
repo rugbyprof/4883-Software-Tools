@@ -31,21 +31,17 @@
 - ...
 
 ## Grading:    
-| Categories                    |       | Grade |          |
-| :---------------------------- | :---: | :---: | :------: |
-| Projects <sup>**1**</sup>     |  60%  |   A   |  89-100  |
-| Homework<sup>**2**</sup>      |  10%  |   B   |  79-88   |
-| Final Project<sup>**3**</sup> |  15%  |   C   |  69-78   |
-| Github Repo                   |  15%  |   C   |  69-78   |
-|                               |       |   D   |  59-68   |
-|                               |       |   F   | below 59 |
+| Categories                |       | Grade |          |
+| :------------------------ | :---: | :---: | :------: |
+| Projects <sup>**1**</sup> |  70%  |   A   |  89-100  |
+| Presention                |  20%  |   B   |  79-88   |
+| Github Repo               |  10%  |   C   |  69-78   |
+|                           |       |   C   |  69-78   |
+|                           |       |   D   |  59-68   |
+|                           |       |   F   | below 59 |
 
 
 >**1**. Any projects that include programs as well as programs themselves must run without error. If they do not run, they will not be graded. Correctness is a different matter. However, the program must be close to the solution required and cannot be an over simplified version simply for the purpose of making it run. 
->
->**2**. The worth of the "homework/quizzes" section of the course will be calculated by a function based on the number of assignments and quizzes. If zero homeworks / quizzes are assigned then they will be assigned a 0% portion. If at least 10 are assigned then the full 25% will be assigned as its weight. If the full weight is not used the class will decide how the remaining percentage points will be assigned. 
->
->**3**. Plane ticket prices, events like weddings, or trips out of the country are not valid excuses for missing the final exam at its scheduled time. I will not make accommodations for anything other than an issue vetted by the dean of students. 
 
 ### Attendance: 
 
