@@ -151,6 +151,16 @@ def fix_data():
             print(newRow)
             newData.append(newRow)
     return newData
+
+def writeJson(data):
+    with open('dwarf_family_tree.json', 'w') as f:
+        json.dump(data, f, indent=4)
+        
+def writeCsv(data):
+    with open('dwarf_family_tree2.csv', 'w') as f:
+        writer = csv.DictWriter(f, fieldnames=data[0].keys())
+        writer.writeheader()
+        writer.writerows(data)
             
 if __name__ == "__main__":
     n = Names()
@@ -163,5 +173,5 @@ if __name__ == "__main__":
     print(getBirthDeath(1701))
     newData = fix_data()
     print(newData)
-    with open('dwarf_family_tree.json', 'w') as f:
-        json.dump(newData, f, indent=4)
+    writeJson(newData)
+    writeCsv(newData)
