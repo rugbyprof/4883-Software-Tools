@@ -23,8 +23,9 @@
     
 - Deliverables
   - Create a folder called `Assignments`.
-  - In `Assignments` create a folder called `A02`
-  - Create a `README.md` in `A02`
+  - In `Assignments` create a folder called `A03`
+  - Create a `README.md` in `A03`
   - In your readme provide a link and description of your tool and why you picked it.
+  - Update this [SHEET](https://docs.google.com/spreadsheets/d/1dQU3eX9xsjlFsrmEZPO9W13fvsBNPVxXuleTPP-Be1Y/edit?usp=sharing) with your tool idea.
 
   

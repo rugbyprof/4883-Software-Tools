@@ -6,6 +6,10 @@ import datetime
 def genAgeChoices(oldOnly=False):
   """Creates a list of age choices based on a weighted averages. Meaning more 
      70+ and 80+ ages will be returned than 
+  Params:
+    oldOnly: if True, then only old ages will be returned
+  Returns:
+    ages: list of ages to choose from
   """
   ages = []
   # Define the age ranges and their corresponding weights
@@ -26,11 +30,17 @@ def genAgeChoices(oldOnly=False):
 
 def genNumChildChoices():
   """
-  Families with one child: Approximately 20-25%.
-  Families with two children: Approximately 35-40%.
-  Families with three children: Approximately 20-25%.
-  Families with four children: Approximately 10-15%.
-  Families with five children: Approximately 5-10%.
+  Below is a list of the number of children per family. The list is weighted based on 
+  actual data from the US Census Bureau. The data is from 2016.
+    - one child: Approximately 20-25%.
+    - two children: Approximately 35-40%.
+    - three children: Approximately 20-25%.
+    - four children: Approximately 10-15%.
+    - five children: Approximately 5-10%.
+  Params:
+    None
+  Returns:
+    numkids: list of number of kids to choose from
   """
   numkids = []
   numkids += [1 for x in range(22)]
@@ -104,23 +114,31 @@ def toTimeStamp(s):
 def secondsToYears(d):
   """Takes an integer of seconds and converts it to years
 
-  Args:
+  Params:
       d (int): seconds
 
   Returns:
-      _type_: _description_
+      int: years  
   """
   years = d / 3600 / 24 / 365
   return int(years)
 
 def generatePerson(startYear):
   """Create a persons bday and death day given a start year
+  Parmas:
+    startYear: year to start from
+  Returns:
+    bday: birthday
   """
   pass
 
 
 def howManyKids(kids):
   """ How many kids should a married couple have.
+  Params:
+    kids: list of kids to choose from
+  Returns:
+    numKids: number of kids based on a weighted average 
   """
   random.shuffle(kids)
   return kids[0]
