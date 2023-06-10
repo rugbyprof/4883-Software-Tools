@@ -1,4 +1,4 @@
-## Lecture 3 - Cleaning Data
+## Lecture 3 - Reading Data Files
 
 #### Due: NA
 
