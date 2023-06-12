@@ -133,6 +133,8 @@ def fix_data():
             birthDate,deathDate,age = getBirthDeath(row['byear'])
             fname,gender,lname,clan = firstGenderLastClan(int(row['clan']))
             newRow = {
+                "id": row['pid'],
+                "generation": row['generation'],
                 "fname": fname,
                 "lname": lname,
                 "gender": gender,
