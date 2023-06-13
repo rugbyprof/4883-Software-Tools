@@ -1,7 +1,7 @@
 ## Assignments
 
 | Folder | Title | Description | Due | dueDate | Days Left<sup>*</sup> |
-|:------|:------|:------|:------|:-----:|-----|
+|:------|:------|:------|:-----:|:-----:|-----|
 | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A05">A05</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A05"> Assignment 5 </a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A05"> FamilyTree via Graphviz</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A05"> 06-14-2023 (Wednesday @ 10:10 a.m.)</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A05">2023-06-14 00:00:00</a>*** | 2 |
 | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A06">A06</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A06"> Assignment 6 </a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A06"> Software Tool Presentation</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A06"> Multiple Dates</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A06">None</a>*** |  |
 | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A01">A01</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A01"> Assignment 1 </a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A01"> Establishing Comms</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A01"> 06-06-2023 (Tuesday @ 10:10 a.m.)</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A01">2023-06-06 00:00:00</a>~ | ---- |
@@ -9,6 +9,6 @@
 | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A03">A03</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A03"> Assignment 3 </a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A03"> Software Tool</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A03"> 06-8-2023 (Thursday @ 10:10 a.m.)</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A03">2023-06-08 00:00:00</a>~ | ---- |
 | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A04">A04</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A04"> Assignment 4 </a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A04"> Graphviz BST</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A04"> 06-7-2023 (Wednesday @ 10:10 a.m.)</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A04">2023-06-07 00:00:00</a>~ | ---- |
 
-<sup>Last Updated: 2023-06-12 (Mon @ 23:31)</sup> 
+<sup>Last Updated: 2023-06-12 (Mon @ 23:40)</sup> 
 
 <sup>***Days Left is only accurate if the `Last Updated` date is the same as todays date. Otherwise, use the due date!***</sup> 
