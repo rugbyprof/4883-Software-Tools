@@ -1,1 +1,2 @@
-## Placeholder Readme - No Description
+## Python DS: Lists, Tuples, & Dicts
+#### Due: Never
