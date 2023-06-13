@@ -1,4 +1,4 @@
-## Lecture 2 - Cleaning Data
+## Cleaning Data - Griffins data cleansing code
 
 #### Due: NA
 

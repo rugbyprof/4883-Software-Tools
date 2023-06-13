@@ -1,4 +1,4 @@
-## Lecture 3 - Reading Data Files
+## Reading Files - Python reading Csv and Json
 
 #### Due: NA
 

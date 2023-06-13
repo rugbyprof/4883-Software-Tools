@@ -1,4 +1,4 @@
-## Lecture 1 - Graphviz
+## Graphviz - Simple Intro
 #### Due: NA
 
 
