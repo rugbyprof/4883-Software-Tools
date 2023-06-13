@@ -1,5 +1,5 @@
 ## Graphviz - Simple Intro
-#### Due: NA
+#### Due: ∞
 
 
 ### Docs
