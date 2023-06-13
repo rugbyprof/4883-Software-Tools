@@ -1,6 +1,5 @@
 ## Getting Data - Resources
-
-### Due: None
+#### Due: ∞
 
 ### Baseball Repo
 
