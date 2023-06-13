@@ -9,6 +9,6 @@
 | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L05">L05</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L05">None</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L05">None</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L05"> Never</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L05">None</a>*** |  |
 | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L06">L06</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L06"> Getting Data </a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L06"> Resources</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L06"> None</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L06">None</a>*** |  |
 
-<sup>Last Updated: 2023-06-12 (Mon @ 22:19)</sup> 
+<sup>Last Updated: 2023-06-12 (Mon @ 22:20)</sup> 
 
 <sup>***Days Left is only accurate if the `Last Updated` date is the same as todays date. Otherwise, use the due date!***</sup> 
