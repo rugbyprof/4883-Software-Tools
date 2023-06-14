@@ -1,0 +1,6 @@
+rich
+selenium-wire
+webdriver_manager
+requests
+requests_html
+
