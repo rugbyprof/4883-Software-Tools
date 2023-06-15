@@ -96,5 +96,5 @@ with open('airport-codes.csv', newline='') as csvfile:
 - Create a folder called `A07` to place your assignment files in.
 - Update the given python code to work for your own solution, but include all python code that you write in this folder.
 - Include in your `README` at least three example queries.
-- The example queries should include a screen shots of the initial form GUI (where you enter date, etc.) and a screenshot of the resulting GUI that displays the tabular data resulting from your query.
+- The example queries should include a screen shots of the initial form GUI (where you enter date, etc.) and a screenshot of the resulting GUI that displays the tabular data resulting from your query ([table example](https://pysimplegui.trinket.io/demo-programs#/tables/the-table-element))
 - Look [HERE](../../Resources/01-Readmees/README.md) for information on creating good README's for your projects.
