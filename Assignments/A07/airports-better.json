@@ -1,0 +1,5339 @@
+[
+    {
+        "city": "Port Moresby",
+        "country": "Papua New Guinea",
+        "icao": "AYPY",
+        "latitude": "-9.443380355834961",
+        "longitude": "147.22000122070312",
+        "name": "Port Moresby Jacksons International Airport",
+        "tz": "Pacific/Port_Moresby"
+    },
+    {
+        "city": "Keflavik",
+        "country": "Iceland",
+        "icao": "BIKF",
+        "latitude": "63.985000610352",
+        "longitude": "-22.605600357056",
+        "name": "Keflavik International Airport",
+        "tz": "Atlantic/Reykjavik"
+    },
+    {
+        "city": "Edmonton",
+        "country": "Canada",
+        "icao": "CYEG",
+        "latitude": "53.309700012200004",
+        "longitude": "-113.580001831",
+        "name": "Edmonton International Airport",
+        "tz": "America/Edmonton"
+    },
+    {
+        "city": "Halifax",
+        "country": "Canada",
+        "icao": "CYHZ",
+        "latitude": "44.8807983398",
+        "longitude": "-63.5085983276",
+        "name": "Halifax / Stanfield International Airport",
+        "tz": "America/Halifax"
+    },
+    {
+        "city": "Ottawa",
+        "country": "Canada",
+        "icao": "CYOW",
+        "latitude": "45.3224983215332",
+        "longitude": "-75.66919708251953",
+        "name": "Ottawa Macdonald-Cartier International Airport",
+        "tz": "America/Toronto"
+    },
+    {
+        "city": "Montreal",
+        "country": "Canada",
+        "icao": "CYUL",
+        "latitude": "45.4706001282",
+        "longitude": "-73.7407989502",
+        "name": "Montreal / Pierre Elliott Trudeau International Airport",
+        "tz": "America/Toronto"
+    },
+    {
+        "city": "Vancouver",
+        "country": "Canada",
+        "icao": "CYVR",
+        "latitude": "49.193901062",
+        "longitude": "-123.183998108",
+        "name": "Vancouver International Airport",
+        "tz": "America/Vancouver"
+    },
+    {
+        "city": "Winnipeg",
+        "country": "Canada",
+        "icao": "CYWG",
+        "latitude": "49.909999847399995",
+        "longitude": "-97.2398986816",
+        "name": "Winnipeg / James Armstrong Richardson International Airport",
+        "tz": "America/Winnipeg"
+    },
+    {
+        "city": "Calgary",
+        "country": "Canada",
+        "icao": "CYYC",
+        "latitude": "51.113899231",
+        "longitude": "-114.019996643",
+        "name": "Calgary International Airport",
+        "tz": "America/Edmonton"
+    },
+    {
+        "city": "Victoria",
+        "country": "Canada",
+        "icao": "CYYJ",
+        "latitude": "48.646900177",
+        "longitude": "-123.426002502",
+        "name": "Victoria International Airport",
+        "tz": "America/Vancouver"
+    },
+    {
+        "city": "St. John\\'s",
+        "country": "Canada",
+        "icao": "CYYT",
+        "latitude": "47.618598938",
+        "longitude": "-52.7518997192",
+        "name": "St. John\\'s International Airport",
+        "tz": "America/St_Johns"
+    },
+    {
+        "city": "Toronto",
+        "country": "Canada",
+        "icao": "CYYZ",
+        "latitude": "43.6772003174",
+        "longitude": "-79.63059997559999",
+        "name": "Lester B. Pearson International Airport",
+        "tz": "America/Toronto"
+    },
+    {
+        "city": "Algier",
+        "country": "Algeria",
+        "icao": "DAAG",
+        "latitude": "36.691001892089844",
+        "longitude": "3.215409994125366",
+        "name": "Houari Boumediene Airport",
+        "tz": "Africa/Algiers"
+    },
+    {
+        "city": "Ouagadougou",
+        "country": "Burkina Faso",
+        "icao": "DFFD",
+        "latitude": "12.3532",
+        "longitude": "-1.51242",
+        "name": "Ouagadougou Airport",
+        "tz": "Africa/Ouagadougou"
+    },
+    {
+        "city": "Accra",
+        "country": "Ghana",
+        "icao": "DGAA",
+        "latitude": "5.605189800262451",
+        "longitude": "-0.16678600013256073",
+        "name": "Kotoka International Airport",
+        "tz": "Africa/Accra"
+    },
+    {
+        "city": "Abuja",
+        "country": "Nigeria",
+        "icao": "DNAA",
+        "latitude": "9.006790161132812",
+        "longitude": "7.263169765472412",
+        "name": "Nnamdi Azikiwe International Airport",
+        "tz": "Africa/Lagos"
+    },
+    {
+        "city": "Kano",
+        "country": "Nigeria",
+        "icao": "DNKN",
+        "latitude": "12.0476",
+        "longitude": "8.52462",
+        "name": "Mallam Aminu International Airport",
+        "tz": "Africa/Lagos"
+    },
+    {
+        "city": "Lagos",
+        "country": "Nigeria",
+        "icao": "DNMM",
+        "latitude": "6.5773701667785645",
+        "longitude": "3.321160078048706",
+        "name": "Murtala Muhammed International Airport",
+        "tz": "Africa/Lagos"
+    },
+    {
+        "city": "Niamey",
+        "country": "Niger",
+        "icao": "DRRN",
+        "latitude": "13.4815",
+        "longitude": "2.18361",
+        "name": "Diori Hamani International Airport",
+        "tz": "Africa/Niamey"
+    },
+    {
+        "city": "Tunis",
+        "country": "Tunisia",
+        "icao": "DTTA",
+        "latitude": "36.85100173950195",
+        "longitude": "10.22719955444336",
+        "name": "Tunis Carthage International Airport",
+        "tz": "Africa/Tunis"
+    },
+    {
+        "city": "Brussels",
+        "country": "Belgium",
+        "icao": "EBBR",
+        "latitude": "50.901401519800004",
+        "longitude": "4.48443984985",
+        "name": "Brussels Airport",
+        "tz": "Europe/Brussels"
+    },
+    {
+        "city": "Charleroi",
+        "country": "Belgium",
+        "icao": "EBCI",
+        "latitude": "50.459202",
+        "longitude": "4.45382",
+        "name": "Brussels South Charleroi Airport",
+        "tz": "Europe/Brussels"
+    },
+    {
+        "city": "Liege",
+        "country": "Belgium",
+        "icao": "EBLG",
+        "latitude": "50.63740158081055",
+        "longitude": "5.443220138549805",
+        "name": "Li\u00c3\u00a8ge Airport",
+        "tz": "Europe/Brussels"
+    },
+    {
+        "city": "Berlin",
+        "country": "Germany",
+        "icao": "EDDB",
+        "latitude": "52.380001",
+        "longitude": "13.5225",
+        "name": "Berlin-Sch\u00c3\u00b6nefeld Airport",
+        "tz": "Europe/Berlin"
+    },
+    {
+        "city": "Dresden",
+        "country": "Germany",
+        "icao": "EDDC",
+        "latitude": "51.1328010559082",
+        "longitude": "13.767200469970703",
+        "name": "Dresden Airport",
+        "tz": "Europe/Berlin"
+    },
+    {
+        "city": "Frankfurt",
+        "country": "Germany",
+        "icao": "EDDF",
+        "latitude": "50.033333",
+        "longitude": "8.570556",
+        "name": "Frankfurt am Main Airport",
+        "tz": "Europe/Berlin"
+    },
+    {
+        "city": "Munster",
+        "country": "Germany",
+        "icao": "EDDG",
+        "latitude": "52.134601593",
+        "longitude": "7.68483018875",
+        "name": "M\u00c3\u00bcnster Osnabr\u00c3\u00bcck Airport",
+        "tz": "Europe/Berlin"
+    },
+    {
+        "city": "Hamburg",
+        "country": "Germany",
+        "icao": "EDDH",
+        "latitude": "53.630401611328",
+        "longitude": "9.9882297515869",
+        "name": "Hamburg Airport",
+        "tz": "Europe/Berlin"
+    },
+    {
+        "city": "Cologne",
+        "country": "Germany",
+        "icao": "EDDK",
+        "latitude": "50.8658981323",
+        "longitude": "7.1427397728",
+        "name": "Cologne Bonn Airport",
+        "tz": "Europe/Berlin"
+    },
+    {
+        "city": "Duesseldorf",
+        "country": "Germany",
+        "icao": "EDDL",
+        "latitude": "51.289501",
+        "longitude": "6.76678",
+        "name": "D\u00c3\u00bcsseldorf Airport",
+        "tz": "Europe/Berlin"
+    },
+    {
+        "city": "Munich",
+        "country": "Germany",
+        "icao": "EDDM",
+        "latitude": "48.353802",
+        "longitude": "11.7861",
+        "name": "Munich Airport",
+        "tz": "Europe/Berlin"
+    },
+    {
+        "city": "Nuernberg",
+        "country": "Germany",
+        "icao": "EDDN",
+        "latitude": "49.498699",
+        "longitude": "11.078056",
+        "name": "Nuremberg Airport",
+        "tz": "Europe/Berlin"
+    },
+    {
+        "city": "Leipzig",
+        "country": "Germany",
+        "icao": "EDDP",
+        "latitude": "51.423889",
+        "longitude": "12.236389",
+        "name": "Leipzig/Halle Airport",
+        "tz": "Europe/Berlin"
+    },
+    {
+        "city": "Stuttgart",
+        "country": "Germany",
+        "icao": "EDDS",
+        "latitude": "48.689899444599995",
+        "longitude": "9.22196006775",
+        "name": "Stuttgart Airport",
+        "tz": "Europe/Berlin"
+    },
+    {
+        "city": "Berlin",
+        "country": "Germany",
+        "icao": "EDDT",
+        "latitude": "52.5597",
+        "longitude": "13.2877",
+        "name": "Berlin-Tegel Airport",
+        "tz": "Europe/Berlin"
+    },
+    {
+        "city": "Hannover",
+        "country": "Germany",
+        "icao": "EDDV",
+        "latitude": "52.461101532",
+        "longitude": "9.685079574580001",
+        "name": "Hannover Airport",
+        "tz": "Europe/Berlin"
+    },
+    {
+        "city": "Bremen",
+        "country": "Germany",
+        "icao": "EDDW",
+        "latitude": "53.0475006104",
+        "longitude": "8.78666973114",
+        "name": "Bremen Airport",
+        "tz": "Europe/Berlin"
+    },
+    {
+        "city": "Dortmund",
+        "country": "Germany",
+        "icao": "EDLW",
+        "latitude": "51.51829910279999",
+        "longitude": "7.61223983765",
+        "name": "Dortmund Airport",
+        "tz": "Europe/Berlin"
+    },
+    {
+        "city": "Tallinn-ulemiste International",
+        "country": "Estonia",
+        "icao": "EETN",
+        "latitude": "59.41329956049999",
+        "longitude": "24.832799911499997",
+        "name": "Lennart Meri Tallinn Airport",
+        "tz": "Europe/Tallinn"
+    },
+    {
+        "city": "Helsinki",
+        "country": "Finland",
+        "icao": "EFHK",
+        "latitude": "60.317199707031",
+        "longitude": "24.963300704956",
+        "name": "Helsinki Vantaa Airport",
+        "tz": "Europe/Helsinki"
+    },
+    {
+        "city": "Belfast",
+        "country": "United Kingdom",
+        "icao": "EGAA",
+        "latitude": "54.6575012207",
+        "longitude": "-6.2158298492399995",
+        "name": "Belfast International Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Belfast",
+        "country": "United Kingdom",
+        "icao": "EGAC",
+        "latitude": "54.618099212646484",
+        "longitude": "-5.872499942779541",
+        "name": "George Best Belfast City Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Birmingham",
+        "country": "United Kingdom",
+        "icao": "EGBB",
+        "latitude": "52.453899383499994",
+        "longitude": "-1.74802994728",
+        "name": "Birmingham International Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Manchester",
+        "country": "United Kingdom",
+        "icao": "EGCC",
+        "latitude": "53.35369873046875",
+        "longitude": "-2.2749500274658203",
+        "name": "Manchester Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Cardiff",
+        "country": "United Kingdom",
+        "icao": "EGFF",
+        "latitude": "51.39670181274414",
+        "longitude": "-3.343329906463623",
+        "name": "Cardiff International Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Bristol",
+        "country": "United Kingdom",
+        "icao": "EGGD",
+        "latitude": "51.382702",
+        "longitude": "-2.71909",
+        "name": "Bristol Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Liverpool",
+        "country": "United Kingdom",
+        "icao": "EGGP",
+        "latitude": "53.33359909057617",
+        "longitude": "-2.849720001220703",
+        "name": "Liverpool John Lennon Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "London",
+        "country": "United Kingdom",
+        "icao": "EGGW",
+        "latitude": "51.874698638916016",
+        "longitude": "-0.36833301186561584",
+        "name": "London Luton Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Bournemouth",
+        "country": "United Kingdom",
+        "icao": "EGHH",
+        "latitude": "50.779998779296875",
+        "longitude": "-1.8424999713897705",
+        "name": "Bournemouth Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Southampton",
+        "country": "United Kingdom",
+        "icao": "EGHI",
+        "latitude": "50.95029830932617",
+        "longitude": "-1.3567999601364136",
+        "name": "Southampton Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "London",
+        "country": "United Kingdom",
+        "icao": "EGKK",
+        "latitude": "51.148102",
+        "longitude": "-0.190278",
+        "name": "London Gatwick Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "London",
+        "country": "United Kingdom",
+        "icao": "EGLL",
+        "latitude": "51.4706",
+        "longitude": "-0.461941",
+        "name": "London Heathrow Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Leeds",
+        "country": "United Kingdom",
+        "icao": "EGNM",
+        "latitude": "53.86589813232422",
+        "longitude": "-1.6605700254440308",
+        "name": "Leeds Bradford Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Newcastle",
+        "country": "United Kingdom",
+        "icao": "EGNT",
+        "latitude": "55.037498474121094",
+        "longitude": "-1.6916699409484863",
+        "name": "Newcastle Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "East Midlands",
+        "country": "United Kingdom",
+        "icao": "EGNX",
+        "latitude": "52.8311004639",
+        "longitude": "-1.32806003094",
+        "name": "East Midlands Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Aberdeen",
+        "country": "United Kingdom",
+        "icao": "EGPD",
+        "latitude": "57.201900482177734",
+        "longitude": "-2.197779893875122",
+        "name": "Aberdeen Dyce Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Glasgow",
+        "country": "United Kingdom",
+        "icao": "EGPF",
+        "latitude": "55.8718986511",
+        "longitude": "-4.43306016922",
+        "name": "Glasgow International Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "icao": "EGPH",
+        "latitude": "55.95000076293945",
+        "longitude": "-3.372499942779541",
+        "name": "Edinburgh Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Norwich",
+        "country": "United Kingdom",
+        "icao": "EGSH",
+        "latitude": "52.6758003235",
+        "longitude": "1.28278005123",
+        "name": "Norwich International Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "London",
+        "country": "United Kingdom",
+        "icao": "EGSS",
+        "latitude": "51.8849983215",
+        "longitude": "0.234999999404",
+        "name": "London Stansted Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Exeter",
+        "country": "United Kingdom",
+        "icao": "EGTE",
+        "latitude": "50.73440170288086",
+        "longitude": "-3.4138898849487305",
+        "name": "Exeter International Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Lakenheath",
+        "country": "United Kingdom",
+        "icao": "EGUL",
+        "latitude": "52.409301757799994",
+        "longitude": "0.56099998951",
+        "name": "RAF Lakenheath",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Mildenhall",
+        "country": "United Kingdom",
+        "icao": "EGUN",
+        "latitude": "52.361900329589844",
+        "longitude": "0.48640599846839905",
+        "name": "RAF Mildenhall",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Fairford",
+        "country": "United Kingdom",
+        "icao": "EGVA",
+        "latitude": "51.6822013855",
+        "longitude": "-1.7900300025900002",
+        "name": "RAF Fairford",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Brize Norton",
+        "country": "United Kingdom",
+        "icao": "EGVN",
+        "latitude": "51.75",
+        "longitude": "-1.58362",
+        "name": "RAF Brize Norton",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "icao": "EHAM",
+        "latitude": "52.308601",
+        "longitude": "4.76389",
+        "name": "Amsterdam Airport Schiphol",
+        "tz": "Europe/Amsterdam"
+    },
+    {
+        "city": "Eindhoven",
+        "country": "Netherlands",
+        "icao": "EHEH",
+        "latitude": "51.4500999451",
+        "longitude": "5.37452983856",
+        "name": "Eindhoven Airport",
+        "tz": "Europe/Amsterdam"
+    },
+    {
+        "city": "Cork",
+        "country": "Ireland",
+        "icao": "EICK",
+        "latitude": "51.84130096435547",
+        "longitude": "-8.491109848022461",
+        "name": "Cork Airport",
+        "tz": "Europe/Dublin"
+    },
+    {
+        "city": "Dublin",
+        "country": "Ireland",
+        "icao": "EIDW",
+        "latitude": "53.421299",
+        "longitude": "-6.27007",
+        "name": "Dublin Airport",
+        "tz": "Europe/Dublin"
+    },
+    {
+        "city": "Shannon",
+        "country": "Ireland",
+        "icao": "EINN",
+        "latitude": "52.702",
+        "longitude": "-8.92482",
+        "name": "Shannon Airport",
+        "tz": "Europe/Dublin"
+    },
+    {
+        "city": "Billund",
+        "country": "Denmark",
+        "icao": "EKBI",
+        "latitude": "55.7402992249",
+        "longitude": "9.15178012848",
+        "name": "Billund Airport",
+        "tz": "Europe/Copenhagen"
+    },
+    {
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "icao": "EKCH",
+        "latitude": "55.617900848389",
+        "longitude": "12.656000137329",
+        "name": "Copenhagen Kastrup Airport",
+        "tz": "Europe/Copenhagen"
+    },
+    {
+        "city": "Aalborg",
+        "country": "Denmark",
+        "icao": "EKYT",
+        "latitude": "57.0927589138",
+        "longitude": "9.84924316406",
+        "name": "Aalborg Airport",
+        "tz": "Europe/Copenhagen"
+    },
+    {
+        "city": "Luxemburg",
+        "country": "Luxembourg",
+        "icao": "ELLX",
+        "latitude": "49.6233333",
+        "longitude": "6.2044444",
+        "name": "Luxembourg-Findel International Airport",
+        "tz": "Europe/Luxembourg"
+    },
+    {
+        "city": "Bodo",
+        "country": "Norway",
+        "icao": "ENBO",
+        "latitude": "67.26920318603516",
+        "longitude": "14.365300178527832",
+        "name": "Bod\u00c3\u00b8 Airport",
+        "tz": "Europe/Oslo"
+    },
+    {
+        "city": "Bergen",
+        "country": "Norway",
+        "icao": "ENBR",
+        "latitude": "60.29339981",
+        "longitude": "5.218140125",
+        "name": "Bergen Airport Flesland",
+        "tz": "Europe/Oslo"
+    },
+    {
+        "city": "Oslo",
+        "country": "Norway",
+        "icao": "ENGM",
+        "latitude": "60.121",
+        "longitude": "11.0502",
+        "name": "Oslo Lufthavn",
+        "tz": "Europe/Oslo"
+    },
+    {
+        "city": "Tromso",
+        "country": "Norway",
+        "icao": "ENTC",
+        "latitude": "69.68329620361328",
+        "longitude": "18.918899536132812",
+        "name": "Troms\u00c3\u00b8 Airport",
+        "tz": "Europe/Oslo"
+    },
+    {
+        "city": "Trondheim",
+        "country": "Norway",
+        "icao": "ENVA",
+        "latitude": "63.4578018",
+        "longitude": "10.9239998",
+        "name": "Trondheim Airport V\u00c3\u00a6rnes",
+        "tz": "Europe/Oslo"
+    },
+    {
+        "city": "Stavanger",
+        "country": "Norway",
+        "icao": "ENZV",
+        "latitude": "58.876701354",
+        "longitude": "5.6377801895",
+        "name": "Stavanger Airport Sola",
+        "tz": "Europe/Oslo"
+    },
+    {
+        "city": "Gdansk",
+        "country": "Poland",
+        "icao": "EPGD",
+        "latitude": "54.377601623535156",
+        "longitude": "18.46619987487793",
+        "name": "Gda\u00c5\u0084sk Lech Wa\u00c5\u0082\u00c4\u0099sa Airport",
+        "tz": "Europe/Warsaw"
+    },
+    {
+        "city": "Krakow",
+        "country": "Poland",
+        "icao": "EPKK",
+        "latitude": "50.077702",
+        "longitude": "19.7848",
+        "name": "Krak\u00c3\u00b3w John Paul II International Airport",
+        "tz": "Europe/Warsaw"
+    },
+    {
+        "city": "Katowice",
+        "country": "Poland",
+        "icao": "EPKT",
+        "latitude": "50.4743",
+        "longitude": "19.08",
+        "name": "Katowice International Airport",
+        "tz": "Europe/Warsaw"
+    },
+    {
+        "city": "Poznan",
+        "country": "Poland",
+        "icao": "EPPO",
+        "latitude": "52.421001434299995",
+        "longitude": "16.8262996674",
+        "name": "Pozna\u00c5\u0084-\u00c5\u0081awica Airport",
+        "tz": "Europe/Warsaw"
+    },
+    {
+        "city": "Warsaw",
+        "country": "Poland",
+        "icao": "EPWA",
+        "latitude": "52.1656990051",
+        "longitude": "20.967100143399996",
+        "name": "Warsaw Chopin Airport",
+        "tz": "Europe/Warsaw"
+    },
+    {
+        "city": "Wroclaw",
+        "country": "Poland",
+        "icao": "EPWR",
+        "latitude": "51.1026992798",
+        "longitude": "16.885799408",
+        "name": "Copernicus Wroc\u00c5\u0082aw Airport",
+        "tz": "Europe/Warsaw"
+    },
+    {
+        "city": "Gothenborg",
+        "country": "Sweden",
+        "icao": "ESGG",
+        "latitude": "57.662799835205",
+        "longitude": "12.279800415039",
+        "name": "Gothenburg-Landvetter Airport",
+        "tz": "Europe/Stockholm"
+    },
+    {
+        "city": "Malmoe",
+        "country": "Sweden",
+        "icao": "ESMS",
+        "latitude": "55.536305364",
+        "longitude": "13.376197814900001",
+        "name": "Malm\u00c3\u00b6 Sturup Airport",
+        "tz": "Europe/Stockholm"
+    },
+    {
+        "city": "Lulea",
+        "country": "Sweden",
+        "icao": "ESPA",
+        "latitude": "65.543800354004",
+        "longitude": "22.121999740601",
+        "name": "Lule\u00c3\u00a5 Airport",
+        "tz": "Europe/Stockholm"
+    },
+    {
+        "city": "Stockholm",
+        "country": "Sweden",
+        "icao": "ESSA",
+        "latitude": "59.651901245117",
+        "longitude": "17.918600082397",
+        "name": "Stockholm-Arlanda Airport",
+        "tz": "Europe/Stockholm"
+    },
+    {
+        "city": "Ramstein",
+        "country": "Germany",
+        "icao": "ETAR",
+        "latitude": "49.4369010925293",
+        "longitude": "7.600279808044434",
+        "name": "Ramstein Air Base",
+        "tz": "Europe/Berlin"
+    },
+    {
+        "city": "Cape Town",
+        "country": "South Africa",
+        "icao": "FACT",
+        "latitude": "-33.9648017883",
+        "longitude": "18.6016998291",
+        "name": "Cape Town International Airport",
+        "tz": "Africa/Johannesburg"
+    },
+    {
+        "city": "Durban",
+        "country": "South Africa",
+        "icao": "FALE",
+        "latitude": "-29.6144444444",
+        "longitude": "31.1197222222",
+        "name": "King Shaka International Airport",
+        "tz": "Africa/Johannesburg"
+    },
+    {
+        "city": "George",
+        "country": "South Africa",
+        "icao": "FAGG",
+        "latitude": "-34.0056",
+        "longitude": "22.378902",
+        "name": "George Airport",
+        "tz": "Africa/Johannesburg"
+    },
+    {
+        "city": "Johannesburg",
+        "country": "South Africa",
+        "icao": "FAOR",
+        "latitude": "-26.1392",
+        "longitude": "28.246",
+        "name": "OR Tambo International Airport",
+        "tz": "Africa/Johannesburg"
+    },
+    {
+        "city": "Gaberone",
+        "country": "Botswana",
+        "icao": "FBSK",
+        "latitude": "-24.555201",
+        "longitude": "25.9182",
+        "name": "Sir Seretse Khama International Airport",
+        "tz": "Africa/Gaborone"
+    },
+    {
+        "city": "Plaisance",
+        "country": "Mauritius",
+        "icao": "FIMP",
+        "latitude": "-20.430201",
+        "longitude": "57.683601",
+        "name": "Sir Seewoosagur Ramgoolam International Airport",
+        "tz": "Indian/Mauritius"
+    },
+    {
+        "city": "Lusaka",
+        "country": "Zambia",
+        "icao": "FLLS",
+        "latitude": "-15.3308000565",
+        "longitude": "28.4526004791",
+        "name": "Kenneth Kaunda International Airport Lusaka",
+        "tz": "Africa/Lusaka"
+    },
+    {
+        "city": "Antananarivo",
+        "country": "Madagascar",
+        "icao": "FMMI",
+        "latitude": "-18.7969",
+        "longitude": "47.478802",
+        "name": "Ivato Airport",
+        "tz": "Indian/Antananarivo"
+    },
+    {
+        "city": "Luanda",
+        "country": "Angola",
+        "icao": "FNLU",
+        "latitude": "-8.85837",
+        "longitude": "13.2312",
+        "name": "Quatro de Fevereiro Airport",
+        "tz": "Africa/Luanda"
+    },
+    {
+        "city": "Maputo",
+        "country": "Mozambique",
+        "icao": "FQMA",
+        "latitude": "-25.920799",
+        "longitude": "32.572601",
+        "name": "Maputo Airport",
+        "tz": "Africa/Maputo"
+    },
+    {
+        "city": "Mahe",
+        "country": "Seychelles",
+        "icao": "FSIA",
+        "latitude": "-4.67434",
+        "longitude": "55.521801",
+        "name": "Seychelles International Airport",
+        "tz": "Indian/Mahe"
+    },
+    {
+        "city": "N\\'djamena",
+        "country": "Chad",
+        "icao": "FTTJ",
+        "latitude": "12.1337",
+        "longitude": "15.034",
+        "name": "N\\'Djamena International Airport",
+        "tz": "Africa/Ndjamena"
+    },
+    {
+        "city": "Harare",
+        "country": "Zimbabwe",
+        "icao": "FVHA",
+        "latitude": "-17.931801",
+        "longitude": "31.0928",
+        "name": "Robert Gabriel Mugabe International Airport",
+        "tz": "Africa/Harare"
+    },
+    {
+        "city": "Kinshasa",
+        "country": "Congo (Kinshasa)",
+        "icao": "FZAA",
+        "latitude": "-4.38575",
+        "longitude": "15.4446",
+        "name": "Ndjili International Airport",
+        "tz": "Africa/Kinshasa"
+    },
+    {
+        "city": "Bamako",
+        "country": "Mali",
+        "icao": "GABS",
+        "latitude": "12.5335",
+        "longitude": "-7.94994",
+        "name": "Modibo Keita International Airport",
+        "tz": "Africa/Bamako"
+    },
+    {
+        "city": "Santa Cruz De La Palma",
+        "country": "Spain",
+        "icao": "GCLA",
+        "latitude": "28.626499",
+        "longitude": "-17.7556",
+        "name": "La Palma Airport",
+        "tz": "Atlantic/Canary"
+    },
+    {
+        "city": "Gran Canaria",
+        "country": "Spain",
+        "icao": "GCLP",
+        "latitude": "27.931900024414062",
+        "longitude": "-15.38659954071045",
+        "name": "Gran Canaria Airport",
+        "tz": "Atlantic/Canary"
+    },
+    {
+        "city": "Tenerife",
+        "country": "Spain",
+        "icao": "GCTS",
+        "latitude": "28.044500351",
+        "longitude": "-16.5725002289",
+        "name": "Tenerife South Airport",
+        "tz": "Atlantic/Canary"
+    },
+    {
+        "city": "Tenerife",
+        "country": "Spain",
+        "icao": "GCXO",
+        "latitude": "28.4827003479",
+        "longitude": "-16.3414993286",
+        "name": "Tenerife Norte Airport",
+        "tz": "Atlantic/Canary"
+    },
+    {
+        "city": "Freetown",
+        "country": "Sierra Leone",
+        "icao": "GFLL",
+        "latitude": "8.61644",
+        "longitude": "-13.1955",
+        "name": "Lungi International Airport",
+        "tz": "Africa/Freetown"
+    },
+    {
+        "city": "Monrovia",
+        "country": "Liberia",
+        "icao": "GLRB",
+        "latitude": "6.23379",
+        "longitude": "-10.3623",
+        "name": "Roberts International Airport",
+        "tz": "Africa/Monrovia"
+    },
+    {
+        "city": "Casablanca",
+        "country": "Morocco",
+        "icao": "GMMN",
+        "latitude": "33.36750030517578",
+        "longitude": "-7.589970111846924",
+        "name": "Mohammed V International Airport",
+        "tz": "Africa/Casablanca"
+    },
+    {
+        "city": "Dakar",
+        "country": "Senegal",
+        "icao": "GOOY",
+        "latitude": "14.739700317382812",
+        "longitude": "-17.49020004272461",
+        "name": "L\u00c3\u00a9opold S\u00c3\u00a9dar Senghor International Airport",
+        "tz": "Africa/Dakar"
+    },
+    {
+        "city": "Nouakschott",
+        "country": "Mauritania",
+        "icao": "GQNO",
+        "latitude": "18.31",
+        "longitude": "-15.9697222",
+        "name": "Nouakchott\u00e2\u0080\u0093Oumtounsy International Airport",
+        "tz": "Africa/Nouakchott"
+    },
+    {
+        "city": "Amilcar Cabral",
+        "country": "Cape Verde",
+        "icao": "GVAC",
+        "latitude": "16.7414",
+        "longitude": "-22.9494",
+        "name": "Am\u00c3\u00adlcar Cabral International Airport",
+        "tz": "Atlantic/Cape_Verde"
+    },
+    {
+        "city": "Addis Ababa",
+        "country": "Ethiopia",
+        "icao": "HAAB",
+        "latitude": "8.97789001465",
+        "longitude": "38.799301147499996",
+        "name": "Addis Ababa Bole International Airport",
+        "tz": "Africa/Addis_Ababa"
+    },
+    {
+        "city": "Cairo",
+        "country": "Egypt",
+        "icao": "HECA",
+        "latitude": "30.12190055847168",
+        "longitude": "31.40559959411621",
+        "name": "Cairo International Airport",
+        "tz": "Africa/Cairo"
+    },
+    {
+        "city": "Hurghada",
+        "country": "Egypt",
+        "icao": "HEGN",
+        "latitude": "27.178300857543945",
+        "longitude": "33.799400329589844",
+        "name": "Hurghada International Airport",
+        "tz": "Africa/Cairo"
+    },
+    {
+        "city": "Luxor",
+        "country": "Egypt",
+        "icao": "HELX",
+        "latitude": "25.671",
+        "longitude": "32.7066",
+        "name": "Luxor International Airport",
+        "tz": "Africa/Cairo"
+    },
+    {
+        "city": "Mombasa",
+        "country": "Kenya",
+        "icao": "HKMO",
+        "latitude": "-4.034830093383789",
+        "longitude": "39.594200134277344",
+        "name": "Mombasa Moi International Airport",
+        "tz": "Africa/Nairobi"
+    },
+    {
+        "city": "Tripoli",
+        "country": "Libya",
+        "icao": "HLLT",
+        "latitude": "32.6635017395",
+        "longitude": "13.1590003967",
+        "name": "Tripoli International Airport",
+        "tz": "Africa/Tripoli"
+    },
+    {
+        "city": "Kigali",
+        "country": "Rwanda",
+        "icao": "HRYR",
+        "latitude": "-1.96863",
+        "longitude": "30.1395",
+        "name": "Kigali International Airport",
+        "tz": "Africa/Kigali"
+    },
+    {
+        "city": "Juba",
+        "country": "South Sudan",
+        "icao": "HSSJ",
+        "latitude": "4.87201023102",
+        "longitude": "31.6011009216",
+        "name": "Juba International Airport",
+        "tz": "Africa/Juba"
+    },
+    {
+        "city": "Khartoum",
+        "country": "Sudan",
+        "icao": "HSSS",
+        "latitude": "15.589500427246094",
+        "longitude": "32.553199768066406",
+        "name": "Khartoum International Airport",
+        "tz": "Africa/Khartoum"
+    },
+    {
+        "city": "Dar Es Salaam",
+        "country": "Tanzania",
+        "icao": "HTDA",
+        "latitude": "-6.87811",
+        "longitude": "39.202599",
+        "name": "Julius Nyerere International Airport",
+        "tz": "Africa/Dar_es_Salaam"
+    },
+    {
+        "city": "Zanzibar",
+        "country": "Tanzania",
+        "icao": "HTZA",
+        "latitude": "-6.22202",
+        "longitude": "39.224899",
+        "name": "Abeid Amani Karume International Airport",
+        "tz": "Africa/Dar_es_Salaam"
+    },
+    {
+        "city": "Entebbe",
+        "country": "Uganda",
+        "icao": "HUEN",
+        "latitude": "0.042386",
+        "longitude": "32.443501",
+        "name": "Entebbe International Airport",
+        "tz": "Africa/Kampala"
+    },
+    {
+        "city": "Tirana",
+        "country": "Albania",
+        "icao": "LATI",
+        "latitude": "41.4146995544",
+        "longitude": "19.7206001282",
+        "name": "Tirana International Airport Mother Teresa",
+        "tz": "Europe/Tirane"
+    },
+    {
+        "city": "Bourgas",
+        "country": "Bulgaria",
+        "icao": "LBBG",
+        "latitude": "42.56959915161133",
+        "longitude": "27.515199661254883",
+        "name": "Burgas Airport",
+        "tz": "Europe/Sofia"
+    },
+    {
+        "city": "Sofia",
+        "country": "Bulgaria",
+        "icao": "LBSF",
+        "latitude": "42.696693420410156",
+        "longitude": "23.411436080932617",
+        "name": "Sofia Airport",
+        "tz": "Europe/Sofia"
+    },
+    {
+        "city": "Varna",
+        "country": "Bulgaria",
+        "icao": "LBWN",
+        "latitude": "43.232101",
+        "longitude": "27.8251",
+        "name": "Varna Airport",
+        "tz": "Europe/Sofia"
+    },
+    {
+        "city": "Larnaca",
+        "country": "Cyprus",
+        "icao": "LCLK",
+        "latitude": "34.875099182128906",
+        "longitude": "33.624900817871094",
+        "name": "Larnaca International Airport",
+        "tz": "Asia/Nicosia"
+    },
+    {
+        "city": "Paphos",
+        "country": "Cyprus",
+        "icao": "LCPH",
+        "latitude": "34.71799850463867",
+        "longitude": "32.48569869995117",
+        "name": "Paphos International Airport",
+        "tz": "Asia/Nicosia"
+    },
+    {
+        "city": "Akrotiri",
+        "country": "Cyprus",
+        "icao": "LCRA",
+        "latitude": "34.590401",
+        "longitude": "32.9879",
+        "name": "RAF Akrotiri",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Zagreb",
+        "country": "Croatia",
+        "icao": "LDZA",
+        "latitude": "45.7429008484",
+        "longitude": "16.0687999725",
+        "name": "Zagreb Airport",
+        "tz": "Europe/Zagreb"
+    },
+    {
+        "city": "Alicante",
+        "country": "Spain",
+        "icao": "LEAL",
+        "latitude": "38.28219985961914",
+        "longitude": "-0.5581560134887695",
+        "name": "Alicante International Airport",
+        "tz": "Europe/Madrid"
+    },
+    {
+        "city": "Barcelona",
+        "country": "Spain",
+        "icao": "LEBL",
+        "latitude": "41.2971",
+        "longitude": "2.07846",
+        "name": "Barcelona International Airport",
+        "tz": "Europe/Madrid"
+    },
+    {
+        "city": "Madrid",
+        "country": "Spain",
+        "icao": "LEMD",
+        "latitude": "40.471926",
+        "longitude": "-3.56264",
+        "name": "Adolfo Su\u00c3\u00a1rez Madrid\u00e2\u0080\u0093Barajas Airport",
+        "tz": "Europe/Madrid"
+    },
+    {
+        "city": "Malaga",
+        "country": "Spain",
+        "icao": "LEMG",
+        "latitude": "36.67490005493164",
+        "longitude": "-4.499110221862793",
+        "name": "M\u00c3\u00a1laga Airport",
+        "tz": "Europe/Madrid"
+    },
+    {
+        "city": "Santiago",
+        "country": "Spain",
+        "icao": "LEST",
+        "latitude": "42.89630126953125",
+        "longitude": "-8.415140151977539",
+        "name": "Santiago de Compostela Airport",
+        "tz": "Europe/Madrid"
+    },
+    {
+        "city": "Bordeaux",
+        "country": "France",
+        "icao": "LFBD",
+        "latitude": "44.828300476100004",
+        "longitude": "-0.715556025505",
+        "name": "Bordeaux-M\u00c3\u00a9rignac Airport",
+        "tz": "Europe/Paris"
+    },
+    {
+        "city": "Toulouse",
+        "country": "France",
+        "icao": "LFBO",
+        "latitude": "43.629101",
+        "longitude": "1.36382",
+        "name": "Toulouse-Blagnac Airport",
+        "tz": "Europe/Paris"
+    },
+    {
+        "city": "Lyon",
+        "country": "France",
+        "icao": "LFLL",
+        "latitude": "45.725556",
+        "longitude": "5.081111",
+        "name": "Lyon Saint-Exup\u00c3\u00a9ry Airport",
+        "tz": "Europe/Paris"
+    },
+    {
+        "city": "Marseille",
+        "country": "France",
+        "icao": "LFML",
+        "latitude": "43.439271922",
+        "longitude": "5.22142410278",
+        "name": "Marseille Provence Airport",
+        "tz": "Europe/Paris"
+    },
+    {
+        "city": "Nice",
+        "country": "France",
+        "icao": "LFMN",
+        "latitude": "43.6584014893",
+        "longitude": "7.215869903560001",
+        "name": "Nice-C\u00c3\u00b4te d\\'Azur Airport",
+        "tz": "Europe/Paris"
+    },
+    {
+        "city": "Avord",
+        "country": "France",
+        "icao": "LFOA",
+        "latitude": "47.053299",
+        "longitude": "2.6325",
+        "name": "Avord (BA 702) Air Base",
+        "tz": "Europe/Paris"
+    },
+    {
+        "city": "Paris",
+        "country": "France",
+        "icao": "LFPG",
+        "latitude": "49.012798",
+        "longitude": "2.55",
+        "name": "Charles de Gaulle International Airport",
+        "tz": "Europe/Paris"
+    },
+    {
+        "city": "Paris",
+        "country": "France",
+        "icao": "LFPO",
+        "latitude": "48.7233333",
+        "longitude": "2.3794444",
+        "name": "Paris-Orly Airport",
+        "tz": "Europe/Paris"
+    },
+    {
+        "city": "Mulhouse",
+        "country": "France",
+        "icao": "LFSB",
+        "latitude": "47.59",
+        "longitude": "7.5291667",
+        "name": "EuroAirport Basel-Mulhouse-Freiburg Airport",
+        "tz": "Europe/Paris"
+    },
+    {
+        "city": "Heraklion",
+        "country": "Greece",
+        "icao": "LGIR",
+        "latitude": "35.3396987915",
+        "longitude": "25.180299758900002",
+        "name": "Heraklion International Nikos Kazantzakis Airport",
+        "tz": "Europe/Athens"
+    },
+    {
+        "city": "Thessaloniki",
+        "country": "Greece",
+        "icao": "LGTS",
+        "latitude": "40.51969909667969",
+        "longitude": "22.97089958190918",
+        "name": "Thessaloniki Macedonia International Airport",
+        "tz": "Europe/Athens"
+    },
+    {
+        "city": "Budapest",
+        "country": "Hungary",
+        "icao": "LHBP",
+        "latitude": "47.42976",
+        "longitude": "19.261093",
+        "name": "Budapest Liszt Ferenc International Airport",
+        "tz": "Europe/Budapest"
+    },
+    {
+        "city": "Bari",
+        "country": "Italy",
+        "icao": "LIBD",
+        "latitude": "41.138901",
+        "longitude": "16.760599",
+        "name": "Bari Karol Wojty\u00c5\u0082a Airport",
+        "tz": "Europe/Rome"
+    },
+    {
+        "city": "Catania",
+        "country": "Italy",
+        "icao": "LICC",
+        "latitude": "37.466801",
+        "longitude": "15.0664",
+        "name": "Catania-Fontanarossa Airport",
+        "tz": "Europe/Rome"
+    },
+    {
+        "city": "Palermo",
+        "country": "Italy",
+        "icao": "LICJ",
+        "latitude": "38.175999",
+        "longitude": "13.091",
+        "name": "Falcone\u00e2\u0080\u0093Borsellino Airport",
+        "tz": "Europe/Rome"
+    },
+    {
+        "city": "Cagliari",
+        "country": "Italy",
+        "icao": "LIEE",
+        "latitude": "39.251499",
+        "longitude": "9.05428",
+        "name": "Cagliari Elmas Airport",
+        "tz": "Europe/Rome"
+    },
+    {
+        "city": "Milano",
+        "country": "Italy",
+        "icao": "LIMC",
+        "latitude": "45.6306",
+        "longitude": "8.72811",
+        "name": "Malpensa International Airport",
+        "tz": "Europe/Rome"
+    },
+    {
+        "city": "Bergamo",
+        "country": "Italy",
+        "icao": "LIME",
+        "latitude": "45.673901",
+        "longitude": "9.70417",
+        "name": "Il Caravaggio International Airport",
+        "tz": "Europe/Rome"
+    },
+    {
+        "city": "Torino",
+        "country": "Italy",
+        "icao": "LIMF",
+        "latitude": "45.200802",
+        "longitude": "7.64963",
+        "name": "Turin Airport",
+        "tz": "Europe/Rome"
+    },
+    {
+        "city": "Genoa",
+        "country": "Italy",
+        "icao": "LIMJ",
+        "latitude": "44.4133",
+        "longitude": "8.8375",
+        "name": "Genoa Cristoforo Colombo Airport",
+        "tz": "Europe/Rome"
+    },
+    {
+        "city": "Milan",
+        "country": "Italy",
+        "icao": "LIML",
+        "latitude": "45.445099",
+        "longitude": "9.27674",
+        "name": "Milano Linate Airport",
+        "tz": "Europe/Rome"
+    },
+    {
+        "city": "Bologna",
+        "country": "Italy",
+        "icao": "LIPE",
+        "latitude": "44.5354",
+        "longitude": "11.2887",
+        "name": "Bologna Guglielmo Marconi Airport",
+        "tz": "Europe/Rome"
+    },
+    {
+        "city": "Treviso",
+        "country": "Italy",
+        "icao": "LIPH",
+        "latitude": "45.648399",
+        "longitude": "12.1944",
+        "name": "Treviso-Sant\\'Angelo Airport",
+        "tz": "Europe/Rome"
+    },
+    {
+        "city": "Villafranca",
+        "country": "Italy",
+        "icao": "LIPX",
+        "latitude": "45.395699",
+        "longitude": "10.8885",
+        "name": "Verona Villafranca Airport",
+        "tz": "Europe/Rome"
+    },
+    {
+        "city": "Venice",
+        "country": "Italy",
+        "icao": "LIPZ",
+        "latitude": "45.505299",
+        "longitude": "12.3519",
+        "name": "Venice Marco Polo Airport",
+        "tz": "Europe/Rome"
+    },
+    {
+        "city": "Rome",
+        "country": "Italy",
+        "icao": "LIRA",
+        "latitude": "41.7994",
+        "longitude": "12.5949",
+        "name": "Ciampino\u00e2\u0080\u0093G. B. Pastine International Airport",
+        "tz": "Europe/Rome"
+    },
+    {
+        "city": "Rome",
+        "country": "Italy",
+        "icao": "LIRF",
+        "latitude": "41.8002778",
+        "longitude": "12.2388889",
+        "name": "Leonardo da Vinci\u00e2\u0080\u0093Fiumicino Airport",
+        "tz": "Europe/Rome"
+    },
+    {
+        "city": "Naples",
+        "country": "Italy",
+        "icao": "LIRN",
+        "latitude": "40.886002",
+        "longitude": "14.2908",
+        "name": "Naples International Airport",
+        "tz": "Europe/Rome"
+    },
+    {
+        "city": "Pisa",
+        "country": "Italy",
+        "icao": "LIRP",
+        "latitude": "43.683899",
+        "longitude": "10.3927",
+        "name": "Pisa International Airport",
+        "tz": "Europe/Rome"
+    },
+    {
+        "city": "Ljubljana",
+        "country": "Slovenia",
+        "icao": "LJLJ",
+        "latitude": "46.223701",
+        "longitude": "14.4576",
+        "name": "Ljubljana Jo\u00c5\u00bee Pu\u00c4\u008dnik Airport",
+        "tz": "Europe/Ljubljana"
+    },
+    {
+        "city": "Prague",
+        "country": "Czech Republic",
+        "icao": "LKPR",
+        "latitude": "50.1008",
+        "longitude": "14.26",
+        "name": "V\u00c3\u00a1clav Havel Airport Prague",
+        "tz": "Europe/Prague"
+    },
+    {
+        "city": "Tel-aviv",
+        "country": "Israel",
+        "icao": "LLBG",
+        "latitude": "32.01139831542969",
+        "longitude": "34.88669967651367",
+        "name": "Ben Gurion International Airport",
+        "tz": "Asia/Jerusalem"
+    },
+    {
+        "city": "Ovda",
+        "country": "Israel",
+        "icao": "LLOV",
+        "latitude": "29.94029998779297",
+        "longitude": "34.93579864501953",
+        "name": "Ovda International Airport",
+        "tz": "Asia/Jerusalem"
+    },
+    {
+        "city": "Malta",
+        "country": "Malta",
+        "icao": "LMML",
+        "latitude": "35.857498",
+        "longitude": "14.4775",
+        "name": "Malta International Airport",
+        "tz": "Europe/Malta"
+    },
+    {
+        "city": "Vienna",
+        "country": "Austria",
+        "icao": "LOWW",
+        "latitude": "48.110298156738",
+        "longitude": "16.569700241089",
+        "name": "Vienna International Airport",
+        "tz": "Europe/Vienna"
+    },
+    {
+        "city": "Faro",
+        "country": "Portugal",
+        "icao": "LPFR",
+        "latitude": "37.0144004822",
+        "longitude": "-7.96590995789",
+        "name": "Faro Airport",
+        "tz": "Europe/Lisbon"
+    },
+    {
+        "city": "Lajes (terceira Island)",
+        "country": "Portugal",
+        "icao": "LPLA",
+        "latitude": "38.761799",
+        "longitude": "-27.090799",
+        "name": "Lajes Airport",
+        "tz": "Atlantic/Azores"
+    },
+    {
+        "city": "Ponta Delgada",
+        "country": "Portugal",
+        "icao": "LPPD",
+        "latitude": "37.7411994934",
+        "longitude": "-25.6979007721",
+        "name": "Jo\u00c3\u00a3o Paulo II Airport",
+        "tz": "Atlantic/Azores"
+    },
+    {
+        "city": "Porto",
+        "country": "Portugal",
+        "icao": "LPPR",
+        "latitude": "41.2481002808",
+        "longitude": "-8.68138980865",
+        "name": "Francisco de S\u00c3\u00a1 Carneiro Airport",
+        "tz": "Europe/Lisbon"
+    },
+    {
+        "city": "Lisbon",
+        "country": "Portugal",
+        "icao": "LPPT",
+        "latitude": "38.7813",
+        "longitude": "-9.13592",
+        "name": "Humberto Delgado Airport (Lisbon Portela Airport)",
+        "tz": "Europe/Lisbon"
+    },
+    {
+        "city": "Sarajevo",
+        "country": "Bosnia and Herzegovina",
+        "icao": "LQSA",
+        "latitude": "43.82460021972656",
+        "longitude": "18.331499099731445",
+        "name": "Sarajevo International Airport",
+        "tz": "Europe/Sarajevo"
+    },
+    {
+        "city": "Bucharest",
+        "country": "Romania",
+        "icao": "LROP",
+        "latitude": "44.5711111",
+        "longitude": "26.085",
+        "name": "Henri Coand\u00c4\u0083 International Airport",
+        "tz": "Europe/Bucharest"
+    },
+    {
+        "city": "Geneva",
+        "country": "Switzerland",
+        "icao": "LSGG",
+        "latitude": "46.23809814453125",
+        "longitude": "6.108950138092041",
+        "name": "Geneva Cointrin International Airport",
+        "tz": "Europe/Paris"
+    },
+    {
+        "city": "Zurich",
+        "country": "Switzerland",
+        "icao": "LSZH",
+        "latitude": "47.464699",
+        "longitude": "8.54917",
+        "name": "Z\u00c3\u00bcrich Airport",
+        "tz": "Europe/Zurich"
+    },
+    {
+        "city": "Ankara",
+        "country": "Turkey",
+        "icao": "LTAC",
+        "latitude": "40.128101348899996",
+        "longitude": "32.995098114",
+        "name": "Esenbo\u00c4\u009fa International Airport",
+        "tz": "Europe/Istanbul"
+    },
+    {
+        "city": "Adana",
+        "country": "Turkey",
+        "icao": "LTAF",
+        "latitude": "36.9822006226",
+        "longitude": "35.280399322499996",
+        "name": "Adana Airport",
+        "tz": "Europe/Istanbul"
+    },
+    {
+        "city": "Antalya",
+        "country": "Turkey",
+        "icao": "LTAI",
+        "latitude": "36.898701",
+        "longitude": "30.800501",
+        "name": "Antalya International Airport",
+        "tz": "Europe/Istanbul"
+    },
+    {
+        "city": "Gaziantep",
+        "country": "Turkey",
+        "icao": "LTAJ",
+        "latitude": "36.9472007751",
+        "longitude": "37.4786987305",
+        "name": "Gaziantep International Airport",
+        "tz": "Europe/Istanbul"
+    },
+    {
+        "city": "Istanbul",
+        "country": "Turkey",
+        "icao": "LTBA",
+        "latitude": "40.976898",
+        "longitude": "28.8146",
+        "name": "Atat\u00c3\u00bcrk International Airport",
+        "tz": "Europe/Istanbul"
+    },
+    {
+        "city": "Izmir",
+        "country": "Turkey",
+        "icao": "LTBJ",
+        "latitude": "38.2924003601",
+        "longitude": "27.156999588",
+        "name": "Adnan Menderes International Airport",
+        "tz": "Europe/Istanbul"
+    },
+    {
+        "city": "Dalaman",
+        "country": "Turkey",
+        "icao": "LTBS",
+        "latitude": "36.7131004333",
+        "longitude": "28.7924995422",
+        "name": "Dalaman International Airport",
+        "tz": "Europe/Istanbul"
+    },
+    {
+        "city": "Erzurum",
+        "country": "Turkey",
+        "icao": "LTCE",
+        "latitude": "39.9565010071",
+        "longitude": "41.17020034789999",
+        "name": "Erzurum International Airport",
+        "tz": "Europe/Istanbul"
+    },
+    {
+        "city": "Trabzon",
+        "country": "Turkey",
+        "icao": "LTCG",
+        "latitude": "40.99509811401367",
+        "longitude": "39.78969955444336",
+        "name": "Trabzon International Airport",
+        "tz": "Europe/Istanbul"
+    },
+    {
+        "city": "Skopje",
+        "country": "Macedonia",
+        "icao": "LWSK",
+        "latitude": "41.961601",
+        "longitude": "21.621401",
+        "name": "Skopje Alexander the Great Airport",
+        "tz": "Europe/Skopje"
+    },
+    {
+        "city": "Belgrade",
+        "country": "Serbia",
+        "icao": "LYBE",
+        "latitude": "44.8184013367",
+        "longitude": "20.3090991974",
+        "name": "Belgrade Nikola Tesla Airport",
+        "tz": "Europe/Belgrade"
+    },
+    {
+        "city": "Podgorica",
+        "country": "Montenegro",
+        "icao": "LYPG",
+        "latitude": "42.359402",
+        "longitude": "19.2519",
+        "name": "Podgorica Airport",
+        "tz": "Europe/Podgorica"
+    },
+    {
+        "city": "Pristina",
+        "country": "Serbia",
+        "icao": "BKPR",
+        "latitude": "42.5728",
+        "longitude": "21.035801",
+        "name": "Pri\u00c5\u00a1tina International Airport",
+        "tz": "Europe/Belgrade"
+    },
+    {
+        "city": "Bratislava",
+        "country": "Slovakia",
+        "icao": "LZIB",
+        "latitude": "48.17020034790039",
+        "longitude": "17.21269989013672",
+        "name": "M. R. \u00c5\u00a0tef\u00c3\u00a1nik Airport",
+        "tz": "Europe/Bratislava"
+    },
+    {
+        "city": "Punta Cana",
+        "country": "Dominican Republic",
+        "icao": "MDPC",
+        "latitude": "18.567399978599997",
+        "longitude": "-68.36340332030001",
+        "name": "Punta Cana International Airport",
+        "tz": "America/Santo_Domingo"
+    },
+    {
+        "city": "Santo Domingo",
+        "country": "Dominican Republic",
+        "icao": "MDSD",
+        "latitude": "18.42970085144",
+        "longitude": "-69.668899536133",
+        "name": "Las Am\u00c3\u00a9ricas International Airport",
+        "tz": "America/Santo_Domingo"
+    },
+    {
+        "city": "Guatemala City",
+        "country": "Guatemala",
+        "icao": "MGGT",
+        "latitude": "14.5833",
+        "longitude": "-90.527496",
+        "name": "La Aurora Airport",
+        "tz": "America/Guatemala"
+    },
+    {
+        "city": "Kingston",
+        "country": "Jamaica",
+        "icao": "MKJP",
+        "latitude": "17.935699462890625",
+        "longitude": "-76.7874984741211",
+        "name": "Norman Manley International Airport",
+        "tz": "America/Jamaica"
+    },
+    {
+        "city": "Acapulco",
+        "country": "Mexico",
+        "icao": "MMAA",
+        "latitude": "16.757099151611328",
+        "longitude": "-99.75399780273438",
+        "name": "General Juan N Alvarez International Airport",
+        "tz": "America/Mexico_City"
+    },
+    {
+        "city": "Guadalajara",
+        "country": "Mexico",
+        "icao": "MMGL",
+        "latitude": "20.521799087524414",
+        "longitude": "-103.31099700927734",
+        "name": "Don Miguel Hidalgo Y Costilla International Airport",
+        "tz": "America/Mexico_City"
+    },
+    {
+        "city": "Hermosillo",
+        "country": "Mexico",
+        "icao": "MMHO",
+        "latitude": "29.095899581900003",
+        "longitude": "-111.047996521",
+        "name": "General Ignacio P. Garcia International Airport",
+        "tz": "America/Hermosillo"
+    },
+    {
+        "city": "Mexico City",
+        "country": "Mexico",
+        "icao": "MMMX",
+        "latitude": "19.4363",
+        "longitude": "-99.072098",
+        "name": "Licenciado Benito Juarez International Airport",
+        "tz": "America/Mexico_City"
+    },
+    {
+        "city": "Monterrey",
+        "country": "Mexico",
+        "icao": "MMMY",
+        "latitude": "25.7784996033",
+        "longitude": "-100.107002258",
+        "name": "General Mariano Escobedo International Airport",
+        "tz": "America/Mexico_City"
+    },
+    {
+        "city": "Puerto Vallarta",
+        "country": "Mexico",
+        "icao": "MMPR",
+        "latitude": "20.680099487304688",
+        "longitude": "-105.25399780273438",
+        "name": "Licenciado Gustavo D\u00c3\u00adaz Ordaz International Airport",
+        "tz": "America/Mexico_City"
+    },
+    {
+        "city": "San Jose Del Cabo",
+        "country": "Mexico",
+        "icao": "MMSD",
+        "latitude": "23.15180015563965",
+        "longitude": "-109.72100067138672",
+        "name": "Los Cabos International Airport",
+        "tz": "America/Mazatlan"
+    },
+    {
+        "city": "Tijuana",
+        "country": "Mexico",
+        "icao": "MMTJ",
+        "latitude": "32.541099548339844",
+        "longitude": "-116.97000122070312",
+        "name": "General Abelardo L. Rodr\u00c3\u00adguez International Airport",
+        "tz": "America/Tijuana"
+    },
+    {
+        "city": "Cancun",
+        "country": "Mexico",
+        "icao": "MMUN",
+        "latitude": "21.036500930800003",
+        "longitude": "-86.8770980835",
+        "name": "Canc\u00c3\u00ban International Airport",
+        "tz": "America/Cancun"
+    },
+    {
+        "city": "Panama City",
+        "country": "Panama",
+        "icao": "MPTO",
+        "latitude": "9.0713596344",
+        "longitude": "-79.3834991455",
+        "name": "Tocumen International Airport",
+        "tz": "America/Panama"
+    },
+    {
+        "city": "Liberia",
+        "country": "Costa Rica",
+        "icao": "MRLB",
+        "latitude": "10.5933",
+        "longitude": "-85.544403",
+        "name": "Daniel Oduber Quiros International Airport",
+        "tz": "America/Costa_Rica"
+    },
+    {
+        "city": "San Salvador",
+        "country": "El Salvador",
+        "icao": "MSLP",
+        "latitude": "13.4409",
+        "longitude": "-89.055702",
+        "name": "Monse\u00c3\u00b1or \u00c3\u0093scar Arnulfo Romero International Airport",
+        "tz": "America/El_Salvador"
+    },
+    {
+        "city": "Havana",
+        "country": "Cuba",
+        "icao": "MUHA",
+        "latitude": "22.989200592041016",
+        "longitude": "-82.40910339355469",
+        "name": "Jos\u00c3\u00a9 Mart\u00c3\u00ad International Airport",
+        "tz": "America/Havana"
+    },
+    {
+        "city": "Varadero",
+        "country": "Cuba",
+        "icao": "MUVR",
+        "latitude": "23.034400939941406",
+        "longitude": "-81.435302734375",
+        "name": "Juan Gualberto Gomez International Airport",
+        "tz": "America/Havana"
+    },
+    {
+        "city": "Georgetown",
+        "country": "Cayman Islands",
+        "icao": "MWCR",
+        "latitude": "19.292800903299998",
+        "longitude": "-81.3576965332",
+        "name": "Owen Roberts International Airport",
+        "tz": "America/Cayman"
+    },
+    {
+        "city": "Nassau",
+        "country": "Bahamas",
+        "icao": "MYNN",
+        "latitude": "25.0389995575",
+        "longitude": "-77.46620178219999",
+        "name": "Lynden Pindling International Airport",
+        "tz": "America/Nassau"
+    },
+    {
+        "city": "Belize City",
+        "country": "Belize",
+        "icao": "MZBZ",
+        "latitude": "17.539100646972656",
+        "longitude": "-88.30819702148438",
+        "name": "Philip S. W. Goldson International Airport",
+        "tz": "America/Belize"
+    },
+    {
+        "city": "Avarua",
+        "country": "Cook Islands",
+        "icao": "NCRG",
+        "latitude": "-21.2026996613",
+        "longitude": "-159.805999756",
+        "name": "Rarotonga International Airport",
+        "tz": "Pacific/Rarotonga"
+    },
+    {
+        "city": "Auckland",
+        "country": "New Zealand",
+        "icao": "NZAA",
+        "latitude": "-37.008098602299995",
+        "longitude": "174.792007446",
+        "name": "Auckland International Airport",
+        "tz": "Pacific/Auckland"
+    },
+    {
+        "city": "Christchurch",
+        "country": "New Zealand",
+        "icao": "NZCH",
+        "latitude": "-43.48939895629883",
+        "longitude": "172.53199768066406",
+        "name": "Christchurch International Airport",
+        "tz": "Pacific/Auckland"
+    },
+    {
+        "city": "Wellington",
+        "country": "New Zealand",
+        "icao": "NZWN",
+        "latitude": "-41.3272018433",
+        "longitude": "174.804992676",
+        "name": "Wellington International Airport",
+        "tz": "Pacific/Auckland"
+    },
+    {
+        "city": "Bahrain",
+        "country": "Bahrain",
+        "icao": "OBBI",
+        "latitude": "26.27079963684082",
+        "longitude": "50.63359832763672",
+        "name": "Bahrain International Airport",
+        "tz": "Asia/Bahrain"
+    },
+    {
+        "city": "Dammam",
+        "country": "Saudi Arabia",
+        "icao": "OEDF",
+        "latitude": "26.471200942993164",
+        "longitude": "49.79790115356445",
+        "name": "King Fahd International Airport",
+        "tz": "Asia/Riyadh"
+    },
+    {
+        "city": "Dhahran",
+        "country": "Saudi Arabia",
+        "icao": "OEDR",
+        "latitude": "26.265399932900003",
+        "longitude": "50.152000427199994",
+        "name": "King Abdulaziz Air Base",
+        "tz": "Asia/Riyadh"
+    },
+    {
+        "city": "Jeddah",
+        "country": "Saudi Arabia",
+        "icao": "OEJN",
+        "latitude": "21.6796",
+        "longitude": "39.156502",
+        "name": "King Abdulaziz International Airport",
+        "tz": "Asia/Riyadh"
+    },
+    {
+        "city": "Madinah",
+        "country": "Saudi Arabia",
+        "icao": "OEMA",
+        "latitude": "24.5534",
+        "longitude": "39.705101",
+        "name": "Prince Mohammad Bin Abdulaziz Airport",
+        "tz": "Asia/Riyadh"
+    },
+    {
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "icao": "OERK",
+        "latitude": "24.957599639892578",
+        "longitude": "46.69879913330078",
+        "name": "King Khaled International Airport",
+        "tz": "Asia/Riyadh"
+    },
+    {
+        "city": "Teheran",
+        "country": "Iran",
+        "icao": "OIII",
+        "latitude": "35.68920135498047",
+        "longitude": "51.31340026855469",
+        "name": "Mehrabad International Airport",
+        "tz": "Asia/Tehran"
+    },
+    {
+        "city": "Shiraz",
+        "country": "Iran",
+        "icao": "OISS",
+        "latitude": "29.539199829101562",
+        "longitude": "52.58980178833008",
+        "name": "Shiraz Shahid Dastghaib International Airport",
+        "tz": "Asia/Tehran"
+    },
+    {
+        "city": "Tabriz",
+        "country": "Iran",
+        "icao": "OITT",
+        "latitude": "38.1338996887207",
+        "longitude": "46.23500061035156",
+        "name": "Tabriz International Airport",
+        "tz": "Asia/Tehran"
+    },
+    {
+        "city": "Amman",
+        "country": "Jordan",
+        "icao": "OJAI",
+        "latitude": "31.7226009369",
+        "longitude": "35.9931983948",
+        "name": "Queen Alia International Airport",
+        "tz": "Asia/Amman"
+    },
+    {
+        "city": "Kuwait",
+        "country": "Kuwait",
+        "icao": "OKBK",
+        "latitude": "29.226600646972656",
+        "longitude": "47.96889877319336",
+        "name": "Kuwait International Airport",
+        "tz": "Asia/Kuwait"
+    },
+    {
+        "city": "Beirut",
+        "country": "Lebanon",
+        "icao": "OLBA",
+        "latitude": "33.820899963378906",
+        "longitude": "35.488399505615234",
+        "name": "Beirut Rafic Hariri International Airport",
+        "tz": "Asia/Beirut"
+    },
+    {
+        "city": "Abu Dhabi",
+        "country": "United Arab Emirates",
+        "icao": "OMAA",
+        "latitude": "24.433000564575195",
+        "longitude": "54.651100158691406",
+        "name": "Abu Dhabi International Airport",
+        "tz": "Asia/Dubai"
+    },
+    {
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "icao": "OMDB",
+        "latitude": "25.2527999878",
+        "longitude": "55.3643989563",
+        "name": "Dubai International Airport",
+        "tz": "Asia/Dubai"
+    },
+    {
+        "city": "Sharjah",
+        "country": "United Arab Emirates",
+        "icao": "OMSJ",
+        "latitude": "25.32859992980957",
+        "longitude": "55.5172004699707",
+        "name": "Sharjah International Airport",
+        "tz": "Asia/Dubai"
+    },
+    {
+        "city": "Muscat",
+        "country": "Oman",
+        "icao": "OOMS",
+        "latitude": "23.593299865722656",
+        "longitude": "58.284400939941406",
+        "name": "Muscat International Airport",
+        "tz": "Asia/Muscat"
+    },
+    {
+        "city": "Basrah",
+        "country": "Iraq",
+        "icao": "ORMM",
+        "latitude": "30.549100875854492",
+        "longitude": "47.66210174560547",
+        "name": "Basrah International Airport",
+        "tz": "Asia/Baghdad"
+    },
+    {
+        "city": "Aleppo",
+        "country": "Syria",
+        "icao": "OSAP",
+        "latitude": "36.18069839477539",
+        "longitude": "37.22439956665039",
+        "name": "Aleppo International Airport",
+        "tz": "Asia/Damascus"
+    },
+    {
+        "city": "Damascus",
+        "country": "Syria",
+        "icao": "OSDI",
+        "latitude": "33.4114990234375",
+        "longitude": "36.51559829711914",
+        "name": "Damascus International Airport",
+        "tz": "Asia/Damascus"
+    },
+    {
+        "city": "Latakia",
+        "country": "Syria",
+        "icao": "OSLK",
+        "latitude": "35.401100158691406",
+        "longitude": "35.948699951171875",
+        "name": "Bassel Al-Assad International Airport",
+        "tz": "Asia/Damascus"
+    },
+    {
+        "city": "Agana",
+        "country": "Guam",
+        "icao": "PGUM",
+        "latitude": "13.4834003448",
+        "longitude": "144.796005249",
+        "name": "Antonio B. Won Pat International Airport",
+        "tz": "Pacific/Guam"
+    },
+    {
+        "city": "Kinmen",
+        "country": "Taiwan",
+        "icao": "RCBS",
+        "latitude": "24.4279",
+        "longitude": "118.359001",
+        "name": "Kinmen Airport",
+        "tz": "Asia/Taipei"
+    },
+    {
+        "city": "Kaohsiung",
+        "country": "Taiwan",
+        "icao": "RCKH",
+        "latitude": "22.57710075378418",
+        "longitude": "120.3499984741211",
+        "name": "Kaohsiung International Airport",
+        "tz": "Asia/Taipei"
+    },
+    {
+        "city": "Taipei",
+        "country": "Taiwan",
+        "icao": "RCTP",
+        "latitude": "25.0777",
+        "longitude": "121.233002",
+        "name": "Taiwan Taoyuan International Airport",
+        "tz": "Asia/Taipei"
+    },
+    {
+        "city": "Tokyo",
+        "country": "Japan",
+        "icao": "RJAA",
+        "latitude": "35.7647018433",
+        "longitude": "140.386001587",
+        "name": "Narita International Airport",
+        "tz": "Asia/Tokyo"
+    },
+    {
+        "city": "Sapporo",
+        "country": "Japan",
+        "icao": "RJCC",
+        "latitude": "42.77519989013672",
+        "longitude": "141.69200134277344",
+        "name": "New Chitose Airport",
+        "tz": "Asia/Tokyo"
+    },
+    {
+        "city": "Fukuoka",
+        "country": "Japan",
+        "icao": "RJFF",
+        "latitude": "33.585899353027344",
+        "longitude": "130.4510040283203",
+        "name": "Fukuoka Airport",
+        "tz": "Asia/Tokyo"
+    },
+    {
+        "city": "Kagoshima",
+        "country": "Japan",
+        "icao": "RJFK",
+        "latitude": "31.80340003967285",
+        "longitude": "130.718994140625",
+        "name": "Kagoshima Airport",
+        "tz": "Asia/Tokyo"
+    },
+    {
+        "city": "Osaka",
+        "country": "Japan",
+        "icao": "RJOO",
+        "latitude": "34.785499572753906",
+        "longitude": "135.43800354003906",
+        "name": "Osaka International Airport",
+        "tz": "Asia/Tokyo"
+    },
+    {
+        "city": "Tokyo",
+        "country": "Japan",
+        "icao": "RJTT",
+        "latitude": "35.552299",
+        "longitude": "139.779999",
+        "name": "Tokyo Haneda International Airport",
+        "tz": "Asia/Tokyo"
+    },
+    {
+        "city": "Yokota",
+        "country": "Japan",
+        "icao": "RJTY",
+        "latitude": "35.74850082397461",
+        "longitude": "139.34800720214844",
+        "name": "Yokota Air Base",
+        "tz": "Asia/Tokyo"
+    },
+    {
+        "city": "Cheju",
+        "country": "South Korea",
+        "icao": "RKPC",
+        "latitude": "33.51129913330078",
+        "longitude": "126.49299621582031",
+        "name": "Jeju International Airport",
+        "tz": "Asia/Seoul"
+    },
+    {
+        "city": "Busan",
+        "country": "South Korea",
+        "icao": "RKPK",
+        "latitude": "35.1795005798",
+        "longitude": "128.93800354",
+        "name": "Gimhae International Airport",
+        "tz": "Asia/Seoul"
+    },
+    {
+        "city": "Osan",
+        "country": "South Korea",
+        "icao": "RKSO",
+        "latitude": "37.090599",
+        "longitude": "127.029999",
+        "name": "Osan Air Base",
+        "tz": "Asia/Seoul"
+    },
+    {
+        "city": "Seoul",
+        "country": "South Korea",
+        "icao": "RKSS",
+        "latitude": "37.5583",
+        "longitude": "126.791",
+        "name": "Gimpo International Airport",
+        "tz": "Asia/Seoul"
+    },
+    {
+        "city": "Okinawa",
+        "country": "Japan",
+        "icao": "ROAH",
+        "latitude": "26.1958007812",
+        "longitude": "127.646003723",
+        "name": "Naha Airport",
+        "tz": "Asia/Tokyo"
+    },
+    {
+        "city": "Kadena",
+        "country": "Japan",
+        "icao": "RODN",
+        "latitude": "26.3556",
+        "longitude": "127.767998",
+        "name": "Kadena Air Base",
+        "tz": "Asia/Tokyo"
+    },
+    {
+        "city": "Manila",
+        "country": "Philippines",
+        "icao": "RPLL",
+        "latitude": "14.5086",
+        "longitude": "121.019997",
+        "name": "Ninoy Aquino International Airport",
+        "tz": "Asia/Manila"
+    },
+    {
+        "city": "Belem",
+        "country": "Brazil",
+        "icao": "SBBE",
+        "latitude": "-1.3792500495900002",
+        "longitude": "-48.4762992859",
+        "name": "Val de Cans/J\u00c3\u00balio Cezar Ribeiro International Airport",
+        "tz": "America/Belem"
+    },
+    {
+        "city": "Brasilia",
+        "country": "Brazil",
+        "icao": "SBBR",
+        "latitude": "-15.86916732788086",
+        "longitude": "-47.920833587646484",
+        "name": "Presidente Juscelino Kubistschek International Airport",
+        "tz": "America/Sao_Paulo"
+    },
+    {
+        "city": "Belo Horizonte",
+        "country": "Brazil",
+        "icao": "SBCF",
+        "latitude": "-19.62444305419922",
+        "longitude": "-43.97194290161133",
+        "name": "Tancredo Neves International Airport",
+        "tz": "America/Sao_Paulo"
+    },
+    {
+        "city": "Curitiba",
+        "country": "Brazil",
+        "icao": "SBCT",
+        "latitude": "-25.5284996033",
+        "longitude": "-49.1758003235",
+        "name": "Afonso Pena Airport",
+        "tz": "America/Sao_Paulo"
+    },
+    {
+        "city": "Florianopolis",
+        "country": "Brazil",
+        "icao": "SBFL",
+        "latitude": "-27.670278549194336",
+        "longitude": "-48.5525016784668",
+        "name": "Herc\u00c3\u00adlio Luz International Airport",
+        "tz": "America/Sao_Paulo"
+    },
+    {
+        "city": "Rio De Janeiro",
+        "country": "Brazil",
+        "icao": "SBGL",
+        "latitude": "-22.8099994659",
+        "longitude": "-43.2505569458",
+        "name": "Rio Gale\u00c3\u00a3o \u00e2\u0080\u0093 Tom Jobim International Airport",
+        "tz": "America/Sao_Paulo"
+    },
+    {
+        "city": "Sao Paulo",
+        "country": "Brazil",
+        "icao": "SBGR",
+        "latitude": "-23.435556411743164",
+        "longitude": "-46.47305679321289",
+        "name": "Guarulhos - Governador Andr\u00c3\u00a9 Franco Montoro International Airport",
+        "tz": "America/Sao_Paulo"
+    },
+    {
+        "city": "Natal",
+        "country": "Brazil",
+        "icao": "SBSG",
+        "latitude": "-5.768056",
+        "longitude": "-35.376111",
+        "name": "Governador Alu\u00c3\u00adzio Alves International Airport",
+        "tz": "America/Fortaleza"
+    },
+    {
+        "city": "Sao Paulo",
+        "country": "Brazil",
+        "icao": "SBSP",
+        "latitude": "-23.626110076904297",
+        "longitude": "-46.65638732910156",
+        "name": "Congonhas Airport",
+        "tz": "America/Sao_Paulo"
+    },
+    {
+        "city": "Salvador",
+        "country": "Brazil",
+        "icao": "SBSV",
+        "latitude": "-12.9086112976",
+        "longitude": "-38.3224983215",
+        "name": "Deputado Luiz Eduardo Magalh\u00c3\u00a3es International Airport",
+        "tz": "America/Fortaleza"
+    },
+    {
+        "city": "Santiago",
+        "country": "Chile",
+        "icao": "SCEL",
+        "latitude": "-33.393001556396484",
+        "longitude": "-70.78579711914062",
+        "name": "Comodoro Arturo Merino Ben\u00c3\u00adtez International Airport",
+        "tz": "America/Santiago"
+    },
+    {
+        "city": "Latacunga",
+        "country": "Ecuador",
+        "icao": "SELT",
+        "latitude": "-0.906833",
+        "longitude": "-78.615799",
+        "name": "Cotopaxi International Airport",
+        "tz": "America/Guayaquil"
+    },
+    {
+        "city": "Quito",
+        "country": "Ecuador",
+        "icao": "SEQM",
+        "latitude": "-0.129166666667",
+        "longitude": "-78.3575",
+        "name": "Mariscal Sucre International Airport",
+        "tz": "America/Guayaquil"
+    },
+    {
+        "city": "Bogota",
+        "country": "Colombia",
+        "icao": "SKBO",
+        "latitude": "4.70159",
+        "longitude": "-74.1469",
+        "name": "El Dorado International Airport",
+        "tz": "America/Bogota"
+    },
+    {
+        "city": "Santa Cruz",
+        "country": "Bolivia",
+        "icao": "SLVR",
+        "latitude": "-17.6448",
+        "longitude": "-63.135399",
+        "name": "Viru Viru International Airport",
+        "tz": "America/La_Paz"
+    },
+    {
+        "city": "Lima",
+        "country": "Peru",
+        "icao": "SPIM",
+        "latitude": "-12.0219",
+        "longitude": "-77.114305",
+        "name": "Jorge Ch\u00c3\u00a1vez International Airport",
+        "tz": "America/Lima"
+    },
+    {
+        "city": "Cuzco",
+        "country": "Peru",
+        "icao": "SPZO",
+        "latitude": "-13.535699844400002",
+        "longitude": "-71.9387969971",
+        "name": "Alejandro Velasco Astete International Airport",
+        "tz": "America/Lima"
+    },
+    {
+        "city": "Montevideo",
+        "country": "Uruguay",
+        "icao": "SUMU",
+        "latitude": "-34.838402",
+        "longitude": "-56.0308",
+        "name": "Carrasco International /General C L Berisso Airport",
+        "tz": "America/Montevideo"
+    },
+    {
+        "city": "Barcelona",
+        "country": "Venezuela",
+        "icao": "SVBC",
+        "latitude": "10.111111",
+        "longitude": "-64.692222",
+        "name": "General Jos\u00c3\u00a9 Antonio Anzoategui International Airport",
+        "tz": "America/Caracas"
+    },
+    {
+        "city": "Caracas",
+        "country": "Venezuela",
+        "icao": "SVMI",
+        "latitude": "10.601194",
+        "longitude": "-66.991222",
+        "name": "Sim\u00c3\u00b3n Bol\u00c3\u00advar International Airport",
+        "tz": "America/Caracas"
+    },
+    {
+        "city": "Pointe-a-pitre",
+        "country": "Guadeloupe",
+        "icao": "TFFR",
+        "latitude": "16.265301",
+        "longitude": "-61.531799",
+        "name": "Pointe-\u00c3\u00a0-Pitre Le Raizet",
+        "tz": "America/Guadeloupe"
+    },
+    {
+        "city": "San Juan",
+        "country": "Puerto Rico",
+        "icao": "TJSJ",
+        "latitude": "18.4393997192",
+        "longitude": "-66.0018005371",
+        "name": "Luis Munoz Marin International Airport",
+        "tz": "America/Puerto_Rico"
+    },
+    {
+        "city": "Philipsburg",
+        "country": "Netherlands Antilles",
+        "icao": "TNCM",
+        "latitude": "18.041000366200002",
+        "longitude": "-63.1088981628",
+        "name": "Princess Juliana International Airport",
+        "tz": "America/Curacao"
+    },
+    {
+        "city": "Alma-ata",
+        "country": "Kazakhstan",
+        "icao": "UAAA",
+        "latitude": "43.35210037231445",
+        "longitude": "77.04049682617188",
+        "name": "Almaty Airport",
+        "tz": "Asia/Qyzylorda"
+    },
+    {
+        "city": "Tselinograd",
+        "country": "Kazakhstan",
+        "icao": "UACC",
+        "latitude": "51.02220153808594",
+        "longitude": "71.46690368652344",
+        "name": "Astana International Airport",
+        "tz": "Asia/Qyzylorda"
+    },
+    {
+        "city": "Bishkek",
+        "country": "Kyrgyzstan",
+        "icao": "UAFM",
+        "latitude": "43.0612983704",
+        "longitude": "74.4776000977",
+        "name": "Manas International Airport",
+        "tz": "Asia/Bishkek"
+    },
+    {
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "icao": "UBBB",
+        "latitude": "40.467498779296875",
+        "longitude": "50.04669952392578",
+        "name": "Heydar Aliyev International Airport",
+        "tz": "Asia/Baku"
+    },
+    {
+        "city": "Khabarovsk",
+        "country": "Russia",
+        "icao": "UHHH",
+        "latitude": "48.52799987793",
+        "longitude": "135.18800354004",
+        "name": "Khabarovsk-Novy Airport",
+        "tz": "Asia/Vladivostok"
+    },
+    {
+        "city": "Kiev",
+        "country": "Ukraine",
+        "icao": "UKBB",
+        "latitude": "50.345001220703125",
+        "longitude": "30.894699096679688",
+        "name": "Boryspil International Airport",
+        "tz": "Europe/Kiev"
+    },
+    {
+        "city": "Simferopol",
+        "country": "Ukraine",
+        "icao": "UKFF",
+        "latitude": "45.05220031738281",
+        "longitude": "33.975101470947266",
+        "name": "Simferopol International Airport",
+        "tz": "Europe/Simferopol"
+    },
+    {
+        "city": "Odessa",
+        "country": "Ukraine",
+        "icao": "UKOO",
+        "latitude": "46.42679977416992",
+        "longitude": "30.67650032043457",
+        "name": "Odessa International Airport",
+        "tz": "Europe/Kiev"
+    },
+    {
+        "city": "St. Petersburg",
+        "country": "Russia",
+        "icao": "ULLI",
+        "latitude": "59.80030059814453",
+        "longitude": "30.262500762939453",
+        "name": "Pulkovo Airport",
+        "tz": "Europe/Moscow"
+    },
+    {
+        "city": "Minsk 2",
+        "country": "Belarus",
+        "icao": "UMMS",
+        "latitude": "53.882499694824",
+        "longitude": "28.030700683594",
+        "name": "Minsk National Airport",
+        "tz": "Europe/Minsk"
+    },
+    {
+        "city": "Rostov",
+        "country": "Russia",
+        "icao": "URRP",
+        "latitude": "47.493888",
+        "longitude": "39.924722",
+        "name": "Platov International Airport",
+        "tz": "Europe/Moscow"
+    },
+    {
+        "city": "Sochi",
+        "country": "Russia",
+        "icao": "URSS",
+        "latitude": "43.449902",
+        "longitude": "39.9566",
+        "name": "Sochi International Airport",
+        "tz": "Europe/Moscow"
+    },
+    {
+        "city": "Yekaterinburg",
+        "country": "Russia",
+        "icao": "USSS",
+        "latitude": "56.743099212646",
+        "longitude": "60.802700042725",
+        "name": "Koltsovo Airport",
+        "tz": "Asia/Yekaterinburg"
+    },
+    {
+        "city": "Ashkhabad",
+        "country": "Turkmenistan",
+        "icao": "UTAA",
+        "latitude": "37.986801",
+        "longitude": "58.361",
+        "name": "Ashgabat International Airport",
+        "tz": "Asia/Ashgabat"
+    },
+    {
+        "city": "Tashkent",
+        "country": "Uzbekistan",
+        "icao": "UTTT",
+        "latitude": "41.257900238",
+        "longitude": "69.2811965942",
+        "name": "Tashkent International Airport",
+        "tz": "Asia/Samarkand"
+    },
+    {
+        "city": "Moscow",
+        "country": "Russia",
+        "icao": "UUEE",
+        "latitude": "55.972599",
+        "longitude": "37.4146",
+        "name": "Sheremetyevo International Airport",
+        "tz": "Europe/Moscow"
+    },
+    {
+        "city": "Moscow",
+        "country": "Russia",
+        "icao": "UUWW",
+        "latitude": "55.5914993286",
+        "longitude": "37.2615013123",
+        "name": "Vnukovo International Airport",
+        "tz": "Europe/Moscow"
+    },
+    {
+        "city": "Kazan",
+        "country": "Russia",
+        "icao": "UWKD",
+        "latitude": "55.606201171875",
+        "longitude": "49.278701782227",
+        "name": "Kazan International Airport",
+        "tz": "Europe/Moscow"
+    },
+    {
+        "city": "Ufa",
+        "country": "Russia",
+        "icao": "UWUU",
+        "latitude": "54.557498931885",
+        "longitude": "55.874401092529",
+        "name": "Ufa International Airport",
+        "tz": "Asia/Yekaterinburg"
+    },
+    {
+        "city": "Samara",
+        "country": "Russia",
+        "icao": "UWWW",
+        "latitude": "53.504901885986",
+        "longitude": "50.16429901123",
+        "name": "Kurumoch International Airport",
+        "tz": "Europe/Samara"
+    },
+    {
+        "city": "Mumbai",
+        "country": "India",
+        "icao": "VABB",
+        "latitude": "19.0886993408",
+        "longitude": "72.8678970337",
+        "name": "Chhatrapati Shivaji International Airport",
+        "tz": "Asia/Calcutta"
+    },
+    {
+        "city": "Goa",
+        "country": "India",
+        "icao": "VAGO",
+        "latitude": "15.3808002472",
+        "longitude": "73.8313980103",
+        "name": "Dabolim Airport",
+        "tz": "Asia/Calcutta"
+    },
+    {
+        "city": "Colombo",
+        "country": "Sri Lanka",
+        "icao": "VCBI",
+        "latitude": "7.180759906768799",
+        "longitude": "79.88410186767578",
+        "name": "Bandaranaike International Colombo Airport",
+        "tz": "Asia/Colombo"
+    },
+    {
+        "city": "Phnom-penh",
+        "country": "Cambodia",
+        "icao": "VDPP",
+        "latitude": "11.546600341796875",
+        "longitude": "104.84400177001953",
+        "name": "Phnom Penh International Airport",
+        "tz": "Asia/Phnom_Penh"
+    },
+    {
+        "city": "Siem-reap",
+        "country": "Cambodia",
+        "icao": "VDSR",
+        "latitude": "13.410699844400002",
+        "longitude": "103.81300354",
+        "name": "Siem Reap International Airport",
+        "tz": "Asia/Phnom_Penh"
+    },
+    {
+        "city": "Kolkata",
+        "country": "India",
+        "icao": "VECC",
+        "latitude": "22.654699325561523",
+        "longitude": "88.44670104980469",
+        "name": "Netaji Subhash Chandra Bose International Airport",
+        "tz": "Asia/Calcutta"
+    },
+    {
+        "city": "Dhaka",
+        "country": "Bangladesh",
+        "icao": "VGZR",
+        "latitude": "23.843347",
+        "longitude": "90.397783",
+        "name": "Hazrat Shahjalal International Airport",
+        "tz": "Asia/Dhaka"
+    },
+    {
+        "city": "Hong Kong",
+        "country": "Hong Kong",
+        "icao": "VHHH",
+        "latitude": "22.308901",
+        "longitude": "113.915001",
+        "name": "Hong Kong International Airport",
+        "tz": "Asia/Hong_Kong"
+    },
+    {
+        "city": "Amritsar",
+        "country": "India",
+        "icao": "VIAR",
+        "latitude": "31.7096004486",
+        "longitude": "74.7973022461",
+        "name": "Sri Guru Ram Dass Jee International Airport",
+        "tz": "Asia/Calcutta"
+    },
+    {
+        "city": "Delhi",
+        "country": "India",
+        "icao": "VIDP",
+        "latitude": "28.5665",
+        "longitude": "77.103104",
+        "name": "Indira Gandhi International Airport",
+        "tz": "Asia/Calcutta"
+    },
+    {
+        "city": "Macau",
+        "country": "Macau",
+        "icao": "VMMC",
+        "latitude": "22.149599",
+        "longitude": "113.592003",
+        "name": "Macau International Airport",
+        "tz": "Asia/Macau"
+    },
+    {
+        "city": "Kathmandu",
+        "country": "Nepal",
+        "icao": "VNKT",
+        "latitude": "27.6966",
+        "longitude": "85.3591",
+        "name": "Tribhuvan International Airport",
+        "tz": "Asia/Katmandu"
+    },
+    {
+        "city": "Bangalore",
+        "country": "India",
+        "icao": "VOBL",
+        "latitude": "13.1979",
+        "longitude": "77.706299",
+        "name": "Kempegowda International Airport",
+        "tz": "Asia/Calcutta"
+    },
+    {
+        "city": "Kochi",
+        "country": "India",
+        "icao": "VOCI",
+        "latitude": "10.152",
+        "longitude": "76.401901",
+        "name": "Cochin International Airport",
+        "tz": "Asia/Calcutta"
+    },
+    {
+        "city": "Calicut",
+        "country": "India",
+        "icao": "VOCL",
+        "latitude": "11.1367998123",
+        "longitude": "75.95529937740001",
+        "name": "Calicut International Airport",
+        "tz": "Asia/Calcutta"
+    },
+    {
+        "city": "Madras",
+        "country": "India",
+        "icao": "VOMM",
+        "latitude": "12.990005493164062",
+        "longitude": "80.16929626464844",
+        "name": "Chennai International Airport",
+        "tz": "Asia/Calcutta"
+    },
+    {
+        "city": "Trivandrum",
+        "country": "India",
+        "icao": "VOTV",
+        "latitude": "8.48211956024",
+        "longitude": "76.9200973511",
+        "name": "Trivandrum International Airport",
+        "tz": "Asia/Calcutta"
+    },
+    {
+        "city": "Male",
+        "country": "Maldives",
+        "icao": "VRMM",
+        "latitude": "4.191830158233643",
+        "longitude": "73.52909851074219",
+        "name": "Mal\u00c3\u00a9 International Airport",
+        "tz": "Indian/Maldives"
+    },
+    {
+        "city": "Bangkok",
+        "country": "Thailand",
+        "icao": "VTBD",
+        "latitude": "13.9125995636",
+        "longitude": "100.607002258",
+        "name": "Don Mueang International Airport",
+        "tz": "Asia/Bangkok"
+    },
+    {
+        "city": "Phuket",
+        "country": "Thailand",
+        "icao": "VTSP",
+        "latitude": "8.1132",
+        "longitude": "98.316902",
+        "name": "Phuket International Airport",
+        "tz": "Asia/Bangkok"
+    },
+    {
+        "city": "Danang",
+        "country": "Vietnam",
+        "icao": "VVDN",
+        "latitude": "16.043899536132812",
+        "longitude": "108.1989974975586",
+        "name": "Da Nang International Airport",
+        "tz": "Asia/Saigon"
+    },
+    {
+        "city": "Hanoi",
+        "country": "Vietnam",
+        "icao": "VVNB",
+        "latitude": "21.221200942993164",
+        "longitude": "105.80699920654297",
+        "name": "Noi Bai International Airport",
+        "tz": "Asia/Saigon"
+    },
+    {
+        "city": "Ho Chi Minh City",
+        "country": "Vietnam",
+        "icao": "VVTS",
+        "latitude": "10.8187999725",
+        "longitude": "106.652000427",
+        "name": "Tan Son Nhat International Airport",
+        "tz": "Asia/Saigon"
+    },
+    {
+        "city": "Mandalay",
+        "country": "Burma",
+        "icao": "VYMD",
+        "latitude": "21.702199935913086",
+        "longitude": "95.97789764404297",
+        "name": "Mandalay International Airport",
+        "tz": "Asia/Rangoon"
+    },
+    {
+        "city": "Yangon",
+        "country": "Burma",
+        "icao": "VYYY",
+        "latitude": "16.907300949099998",
+        "longitude": "96.1332015991",
+        "name": "Yangon International Airport",
+        "tz": "Asia/Rangoon"
+    },
+    {
+        "city": "Ujung Pandang",
+        "country": "Indonesia",
+        "icao": "WAAA",
+        "latitude": "-5.061629772186279",
+        "longitude": "119.55400085449219",
+        "name": "Hasanuddin International Airport",
+        "tz": "Asia/Makassar"
+    },
+    {
+        "city": "Jayapura",
+        "country": "Indonesia",
+        "icao": "WAJJ",
+        "latitude": "-2.5769500733",
+        "longitude": "140.5160064698",
+        "name": "Sentani International Airport",
+        "tz": "Asia/Jayapura"
+    },
+    {
+        "city": "Sorong",
+        "country": "Indonesia",
+        "icao": "WAXX",
+        "latitude": "-0.894",
+        "longitude": "131.287",
+        "name": "Dominique Edward Osok Airport",
+        "tz": "Asia/Jayapura"
+    },
+    {
+        "city": "Bandar Seri Begawan",
+        "country": "Brunei",
+        "icao": "WBSB",
+        "latitude": "4.944200038909912",
+        "longitude": "114.9280014038086",
+        "name": "Brunei International Airport",
+        "tz": "Asia/Brunei"
+    },
+    {
+        "city": "Jakarta",
+        "country": "Indonesia",
+        "icao": "WIII",
+        "latitude": "-6.1255698204",
+        "longitude": "106.65599823",
+        "name": "Soekarno-Hatta International Airport",
+        "tz": "Asia/Jakarta"
+    },
+    {
+        "city": "Kuala Lumpur",
+        "country": "Malaysia",
+        "icao": "WMKK",
+        "latitude": "2.745579957962",
+        "longitude": "101.70999908447",
+        "name": "Kuala Lumpur International Airport",
+        "tz": "Asia/Kuala_Lumpur"
+    },
+    {
+        "city": "Singapore",
+        "country": "Singapore",
+        "icao": "WSSS",
+        "latitude": "1.35019",
+        "longitude": "103.994003",
+        "name": "Singapore Changi Airport",
+        "tz": "Asia/Singapore"
+    },
+    {
+        "city": "Brisbane",
+        "country": "Australia",
+        "icao": "YBBN",
+        "latitude": "-27.384199142456055",
+        "longitude": "153.11700439453125",
+        "name": "Brisbane International Airport",
+        "tz": "Australia/Brisbane"
+    },
+    {
+        "city": "Melbourne",
+        "country": "Australia",
+        "icao": "YMML",
+        "latitude": "-37.673302",
+        "longitude": "144.843002",
+        "name": "Melbourne International Airport",
+        "tz": "Australia/Hobart"
+    },
+    {
+        "city": "Adelaide",
+        "country": "Australia",
+        "icao": "YPAD",
+        "latitude": "-34.945",
+        "longitude": "138.531006",
+        "name": "Adelaide International Airport",
+        "tz": "Australia/Adelaide"
+    },
+    {
+        "city": "Perth",
+        "country": "Australia",
+        "icao": "YPPH",
+        "latitude": "-31.94029998779297",
+        "longitude": "115.96700286865234",
+        "name": "Perth International Airport",
+        "tz": "Australia/Perth"
+    },
+    {
+        "city": "Canberra",
+        "country": "Australia",
+        "icao": "YSCB",
+        "latitude": "-35.30690002441406",
+        "longitude": "149.19500732421875",
+        "name": "Canberra International Airport",
+        "tz": "Australia/Sydney"
+    },
+    {
+        "city": "Sydney",
+        "country": "Australia",
+        "icao": "YSSY",
+        "latitude": "-33.94609832763672",
+        "longitude": "151.177001953125",
+        "name": "Sydney Kingsford Smith International Airport",
+        "tz": "Australia/Sydney"
+    },
+    {
+        "city": "Beijing",
+        "country": "China",
+        "icao": "ZBAA",
+        "latitude": "40.080101013183594",
+        "longitude": "116.58499908447266",
+        "name": "Beijing Capital International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Tianjin",
+        "country": "China",
+        "icao": "ZBTJ",
+        "latitude": "39.124401092499994",
+        "longitude": "117.346000671",
+        "name": "Tianjin Binhai International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Taiyuan",
+        "country": "China",
+        "icao": "ZBYN",
+        "latitude": "37.74689865112305",
+        "longitude": "112.62799835205078",
+        "name": "Taiyuan Wusu Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Guangzhou",
+        "country": "China",
+        "icao": "ZGGG",
+        "latitude": "23.39240074157715",
+        "longitude": "113.29900360107422",
+        "name": "Guangzhou Baiyun International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Changcha",
+        "country": "China",
+        "icao": "ZGHA",
+        "latitude": "28.189199447599997",
+        "longitude": "113.220001221",
+        "name": "Changsha Huanghua International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Guilin",
+        "country": "China",
+        "icao": "ZGKL",
+        "latitude": "25.21809959411621",
+        "longitude": "110.03900146484375",
+        "name": "Guilin Liangjiang International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Nanning",
+        "country": "China",
+        "icao": "ZGNN",
+        "latitude": "22.608299255371094",
+        "longitude": "108.1719970703125",
+        "name": "Nanning Wuxu Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Shenzhen",
+        "country": "China",
+        "icao": "ZGSZ",
+        "latitude": "22.639299392700195",
+        "longitude": "113.81099700927734",
+        "name": "Shenzhen Bao\\'an International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Zhengzhou",
+        "country": "China",
+        "icao": "ZHCC",
+        "latitude": "34.519699096699995",
+        "longitude": "113.841003418",
+        "name": "Zhengzhou Xinzheng International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Wuhan",
+        "country": "China",
+        "icao": "ZHHH",
+        "latitude": "30.7838",
+        "longitude": "114.208",
+        "name": "Wuhan Tianhe International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Xi\\'an",
+        "country": "China",
+        "icao": "ZLXY",
+        "latitude": "34.447102",
+        "longitude": "108.751999",
+        "name": "Xi\\'an Xianyang International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Ulan Bator",
+        "country": "Mongolia",
+        "icao": "ZMUB",
+        "latitude": "47.843102",
+        "longitude": "106.766998",
+        "name": "Chinggis Khaan International Airport",
+        "tz": "Asia/Ulaanbaatar"
+    },
+    {
+        "city": "Kunming",
+        "country": "China",
+        "icao": "ZPPP",
+        "latitude": "25.1019444",
+        "longitude": "102.9291667",
+        "name": "Kunming Changshui International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Xiamen",
+        "country": "China",
+        "icao": "ZSAM",
+        "latitude": "24.54400062561035",
+        "longitude": "118.12799835205078",
+        "name": "Xiamen Gaoqi International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Fuzhou",
+        "country": "China",
+        "icao": "ZSFZ",
+        "latitude": "25.935100555419922",
+        "longitude": "119.66300201416016",
+        "name": "Fuzhou Changle International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Hangzhou",
+        "country": "China",
+        "icao": "ZSHC",
+        "latitude": "30.22949981689453",
+        "longitude": "120.43399810791016",
+        "name": "Hangzhou Xiaoshan International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Ninbo",
+        "country": "China",
+        "icao": "ZSNB",
+        "latitude": "29.82670021057129",
+        "longitude": "121.46199798583984",
+        "name": "Ningbo Lishe International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Nanjing",
+        "country": "China",
+        "icao": "ZSNJ",
+        "latitude": "31.742000579833984",
+        "longitude": "118.86199951171875",
+        "name": "Nanjing Lukou Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Shanghai",
+        "country": "China",
+        "icao": "ZSSS",
+        "latitude": "31.197900772094727",
+        "longitude": "121.33599853515625",
+        "name": "Shanghai Hongqiao International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Chongqing",
+        "country": "China",
+        "icao": "ZUCK",
+        "latitude": "29.719200134277344",
+        "longitude": "106.64199829101562",
+        "name": "Chongqing Jiangbei International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Guiyang",
+        "country": "China",
+        "icao": "ZUGY",
+        "latitude": "26.53849983215332",
+        "longitude": "106.8010025024414",
+        "name": "Longdongbao Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Chengdu",
+        "country": "China",
+        "icao": "ZUUU",
+        "latitude": "30.578500747680664",
+        "longitude": "103.9469985961914",
+        "name": "Chengdu Shuangliu International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Urumqi",
+        "country": "China",
+        "icao": "ZWWW",
+        "latitude": "43.907100677490234",
+        "longitude": "87.47419738769531",
+        "name": "\u00c3\u009cr\u00c3\u00bcmqi Diwopu International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Harbin",
+        "country": "China",
+        "icao": "ZYHB",
+        "latitude": "45.6234016418457",
+        "longitude": "126.25",
+        "name": "Taiping Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Dalian",
+        "country": "China",
+        "icao": "ZYTL",
+        "latitude": "38.9656982421875",
+        "longitude": "121.53900146484375",
+        "name": "Zhoushuizi Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Shanghai",
+        "country": "China",
+        "icao": "ZSPD",
+        "latitude": "31.143400192260742",
+        "longitude": "121.80500030517578",
+        "name": "Shanghai Pudong International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Fort Smith",
+        "country": "United States",
+        "icao": "KFSM",
+        "latitude": "35.33660125732422",
+        "longitude": "-94.36740112304688",
+        "name": "Fort Smith Regional Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Boston",
+        "country": "United States",
+        "icao": "KBOS",
+        "latitude": "42.36429977",
+        "longitude": "-71.00520325",
+        "name": "General Edward Lawrence Logan International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Fairfield",
+        "country": "United States",
+        "icao": "KSUU",
+        "latitude": "38.262699127197",
+        "longitude": "-121.92700195312",
+        "name": "Travis Air Force Base",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "Oakland",
+        "country": "United States",
+        "icao": "KOAK",
+        "latitude": "37.721298",
+        "longitude": "-122.221001",
+        "name": "Metropolitan Oakland International Airport",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "Omaha",
+        "country": "United States",
+        "icao": "KOMA",
+        "latitude": "41.3032",
+        "longitude": "-95.894096",
+        "name": "Eppley Airfield",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Wichita",
+        "country": "United States",
+        "icao": "KICT",
+        "latitude": "37.649899",
+        "longitude": "-97.433098",
+        "name": "Wichita Eisenhower National Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Kansas City",
+        "country": "United States",
+        "icao": "KMCI",
+        "latitude": "39.2976",
+        "longitude": "-94.713898",
+        "name": "Kansas City International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Madison",
+        "country": "United States",
+        "icao": "KMSN",
+        "latitude": "43.13990020751953",
+        "longitude": "-89.3375015258789",
+        "name": "Dane County Regional Truax Field",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Phoenix",
+        "country": "United States",
+        "icao": "KPHX",
+        "latitude": "33.43429946899414",
+        "longitude": "-112.01200103759766",
+        "name": "Phoenix Sky Harbor International Airport",
+        "tz": "America/Phoenix"
+    },
+    {
+        "city": "Bangor",
+        "country": "United States",
+        "icao": "KBGR",
+        "latitude": "44.80739974975586",
+        "longitude": "-68.8281021118164",
+        "name": "Bangor International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Spokane",
+        "country": "United States",
+        "icao": "KGEG",
+        "latitude": "47.61989974975586",
+        "longitude": "-117.53399658203125",
+        "name": "Spokane International Airport",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "San Francisco",
+        "country": "United States",
+        "icao": "KSFO",
+        "latitude": "37.61899948120117",
+        "longitude": "-122.375",
+        "name": "San Francisco International Airport",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "Memphis",
+        "country": "United States",
+        "icao": "KMEM",
+        "latitude": "35.04240036010742",
+        "longitude": "-89.97669982910156",
+        "name": "Memphis International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Del Rio",
+        "country": "United States",
+        "icao": "KDLF",
+        "latitude": "29.359501",
+        "longitude": "-100.778002",
+        "name": "DLF Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Los Angeles",
+        "country": "United States",
+        "icao": "KLAX",
+        "latitude": "33.94250107",
+        "longitude": "-118.4079971",
+        "name": "Los Angeles International Airport",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "Cleveland",
+        "country": "United States",
+        "icao": "KCLE",
+        "latitude": "41.4117012024",
+        "longitude": "-81.8498001099",
+        "name": "Cleveland Hopkins International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Dover",
+        "country": "United States",
+        "icao": "KDOV",
+        "latitude": "39.12950134",
+        "longitude": "-75.46600342",
+        "name": "Dover Air Force Base",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Cincinnati",
+        "country": "United States",
+        "icao": "KCVG",
+        "latitude": "39.0488014221",
+        "longitude": "-84.6678009033",
+        "name": "Cincinnati Northern Kentucky International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Lafayette",
+        "country": "United States",
+        "icao": "KLFT",
+        "latitude": "30.20529938",
+        "longitude": "-91.98760223",
+        "name": "Lafayette Regional Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Newark",
+        "country": "United States",
+        "icao": "KEWR",
+        "latitude": "40.692501068115234",
+        "longitude": "-74.168701171875",
+        "name": "Newark Liberty International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Boise",
+        "country": "United States",
+        "icao": "KBOI",
+        "latitude": "43.5644",
+        "longitude": "-116.223",
+        "name": "Boise Air Terminal/Gowen Field",
+        "tz": "America/Denver"
+    },
+    {
+        "city": "Dallas",
+        "country": "United States",
+        "icao": "KDAL",
+        "latitude": "32.847099",
+        "longitude": "-96.851799",
+        "name": "Dallas Love Field",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Phoenix",
+        "country": "United States",
+        "icao": "KLUF",
+        "latitude": "33.534999847399995",
+        "longitude": "-112.383003235",
+        "name": "Luke Air Force Base",
+        "tz": "America/Phoenix"
+    },
+    {
+        "city": "Enid",
+        "country": "United States",
+        "icao": "KEND",
+        "latitude": "36.339199066199996",
+        "longitude": "-97.9164962769",
+        "name": "Vance Air Force Base",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Edwards Afb",
+        "country": "United States",
+        "icao": "KEDW",
+        "latitude": "34.905399",
+        "longitude": "-117.884003",
+        "name": "Edwards Air Force Base",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "Washington",
+        "country": "United States",
+        "icao": "KDCA",
+        "latitude": "38.8521",
+        "longitude": "-77.037697",
+        "name": "Ronald Reagan Washington National Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Oklahoma City",
+        "country": "United States",
+        "icao": "KTIK",
+        "latitude": "35.414699554443",
+        "longitude": "-97.386596679688",
+        "name": "Tinker Air Force Base",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Fort Lauderdale",
+        "country": "United States",
+        "icao": "KFLL",
+        "latitude": "26.072599",
+        "longitude": "-80.152702",
+        "name": "Fort Lauderdale Hollywood International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Salt Lake City",
+        "country": "United States",
+        "icao": "KSLC",
+        "latitude": "40.78839874267578",
+        "longitude": "-111.97799682617188",
+        "name": "Salt Lake City International Airport",
+        "tz": "America/Denver"
+    },
+    {
+        "city": "Houston",
+        "country": "United States",
+        "icao": "KIAH",
+        "latitude": "29.984399795532227",
+        "longitude": "-95.34140014648438",
+        "name": "George Bush Intercontinental Houston Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Camp Springs",
+        "country": "United States",
+        "icao": "KADW",
+        "latitude": "38.810799",
+        "longitude": "-76.866997",
+        "name": "Joint Base Andrews",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Columbia",
+        "country": "United States",
+        "icao": "KCAE",
+        "latitude": "33.93880081176758",
+        "longitude": "-81.11949920654297",
+        "name": "Columbia Metropolitan Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Houston",
+        "country": "United States",
+        "icao": "KHOU",
+        "latitude": "29.64539909",
+        "longitude": "-95.27890015",
+        "name": "William P Hobby Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Pittsburgh",
+        "country": "United States",
+        "icao": "KPIT",
+        "latitude": "40.49150085",
+        "longitude": "-80.23290253",
+        "name": "Pittsburgh International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Miami",
+        "country": "United States",
+        "icao": "KMIA",
+        "latitude": "25.79319953918457",
+        "longitude": "-80.29060363769531",
+        "name": "Miami International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Seattle",
+        "country": "United States",
+        "icao": "KSEA",
+        "latitude": "47.449001",
+        "longitude": "-122.308998",
+        "name": "Seattle Tacoma International Airport",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "Chattanooga",
+        "country": "United States",
+        "icao": "KCHA",
+        "latitude": "35.035301208496094",
+        "longitude": "-85.20379638671875",
+        "name": "Lovell Field",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Jackson",
+        "country": "United States",
+        "icao": "KJAN",
+        "latitude": "32.3111991882",
+        "longitude": "-90.0758972168",
+        "name": "Jackson-Medgar Wiley Evers International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Indianapolis",
+        "country": "United States",
+        "icao": "KIND",
+        "latitude": "39.7173",
+        "longitude": "-86.294403",
+        "name": "Indianapolis International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Knobnoster",
+        "country": "United States",
+        "icao": "KSZL",
+        "latitude": "38.73030090332",
+        "longitude": "-93.547897338867",
+        "name": "Whiteman Air Force Base",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Duluth",
+        "country": "United States",
+        "icao": "KDLH",
+        "latitude": "46.8420982361",
+        "longitude": "-92.19360351559999",
+        "name": "Duluth International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Richmond",
+        "country": "United States",
+        "icao": "KRIC",
+        "latitude": "37.50519943237305",
+        "longitude": "-77.3197021484375",
+        "name": "Richmond International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Norfolk",
+        "country": "United States",
+        "icao": "KORF",
+        "latitude": "36.89459991455078",
+        "longitude": "-76.20120239257812",
+        "name": "Norfolk International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Savannah",
+        "country": "United States",
+        "icao": "KSAV",
+        "latitude": "32.12760162",
+        "longitude": "-81.20210266",
+        "name": "Savannah Hilton Head International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "San Antonio",
+        "country": "United States",
+        "icao": "KSAT",
+        "latitude": "29.533700942993164",
+        "longitude": "-98.46980285644531",
+        "name": "San Antonio International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Rochester",
+        "country": "United States",
+        "icao": "KROC",
+        "latitude": "43.118900299072266",
+        "longitude": "-77.67240142822266",
+        "name": "Greater Rochester International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Raleigh-durham",
+        "country": "United States",
+        "icao": "KRDU",
+        "latitude": "35.877601623535156",
+        "longitude": "-78.7874984741211",
+        "name": "Raleigh Durham International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Dayton",
+        "country": "United States",
+        "icao": "KDAY",
+        "latitude": "39.902400970458984",
+        "longitude": "-84.21939849853516",
+        "name": "James M Cox Dayton International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Newport News",
+        "country": "United States",
+        "icao": "KPHF",
+        "latitude": "37.13190079",
+        "longitude": "-76.49299622",
+        "name": "Newport News Williamsburg International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Altus",
+        "country": "United States",
+        "icao": "KLTS",
+        "latitude": "34.667098999",
+        "longitude": "-99.2667007446",
+        "name": "Altus Air Force Base",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Tucson",
+        "country": "United States",
+        "icao": "KTUS",
+        "latitude": "32.1161003112793",
+        "longitude": "-110.94100189208984",
+        "name": "Tucson International Airport",
+        "tz": "America/Phoenix"
+    },
+    {
+        "city": "Marysville",
+        "country": "United States",
+        "icao": "KBAB",
+        "latitude": "39.136100769",
+        "longitude": "-121.43699646",
+        "name": "Beale Air Force Base",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "Goldsboro",
+        "country": "United States",
+        "icao": "KGSB",
+        "latitude": "35.33940125",
+        "longitude": "-77.96060181",
+        "name": "Seymour Johnson Air Force Base",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Providence",
+        "country": "United States",
+        "icao": "KPVD",
+        "latitude": "41.732601",
+        "longitude": "-71.420403",
+        "name": "Theodore Francis Green State Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Detroit",
+        "country": "United States",
+        "icao": "KDTW",
+        "latitude": "42.212398529052734",
+        "longitude": "-83.35340118408203",
+        "name": "Detroit Metropolitan Wayne County Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Tampa",
+        "country": "United States",
+        "icao": "KTPA",
+        "latitude": "27.975500106811523",
+        "longitude": "-82.533203125",
+        "name": "Tampa International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Hibbing",
+        "country": "United States",
+        "icao": "KHIB",
+        "latitude": "47.38660049",
+        "longitude": "-92.83899689",
+        "name": "Range Regional Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Green Bay",
+        "country": "United States",
+        "icao": "KGRB",
+        "latitude": "44.48509979248047",
+        "longitude": "-88.12960052490234",
+        "name": "Austin Straubel International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Bush Field",
+        "country": "United States",
+        "icao": "KAGS",
+        "latitude": "33.36989974975586",
+        "longitude": "-81.9645004272461",
+        "name": "Augusta Regional At Bush Field",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Little Rock",
+        "country": "United States",
+        "icao": "KLIT",
+        "latitude": "34.729400634799994",
+        "longitude": "-92.2242965698",
+        "name": "Bill & Hillary Clinton National Airport/Adams Field",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Marietta",
+        "country": "United States",
+        "icao": "KMGE",
+        "latitude": "33.91540146",
+        "longitude": "-84.51629639",
+        "name": "Dobbins Air Reserve Base",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Spokane",
+        "country": "United States",
+        "icao": "KSKA",
+        "latitude": "47.6151008606",
+        "longitude": "-117.65599823",
+        "name": "Fairchild Air Force Base",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "Panama City",
+        "country": "United States",
+        "icao": "KPAM",
+        "latitude": "30.0695991516",
+        "longitude": "-85.57540130619999",
+        "name": "Tyndall Air Force Base",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Dallas-Fort Worth",
+        "country": "United States",
+        "icao": "KDFW",
+        "latitude": "32.896801",
+        "longitude": "-97.038002",
+        "name": "Dallas Fort Worth International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Tacoma",
+        "country": "United States",
+        "icao": "KTCM",
+        "latitude": "47.1376991272",
+        "longitude": "-122.475997925",
+        "name": "McChord Air Force Base",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "Austin",
+        "country": "United States",
+        "icao": "KAUS",
+        "latitude": "30.194499969482422",
+        "longitude": "-97.6698989868164",
+        "name": "Austin Bergstrom International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Columbus",
+        "country": "United States",
+        "icao": "KLCK",
+        "latitude": "39.813801",
+        "longitude": "-82.927803",
+        "name": "Rickenbacker International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Knoxville",
+        "country": "United States",
+        "icao": "KTYS",
+        "latitude": "35.81100082",
+        "longitude": "-83.9940033",
+        "name": "McGhee Tyson Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "St. Louis",
+        "country": "United States",
+        "icao": "KSTL",
+        "latitude": "38.748697",
+        "longitude": "-90.370003",
+        "name": "St Louis Lambert International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Wichita Falls",
+        "country": "United States",
+        "icao": "KSPS",
+        "latitude": "33.9888",
+        "longitude": "-98.491898",
+        "name": "Sheppard Air Force Base-Wichita Falls Municipal Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Atlanta",
+        "country": "United States",
+        "icao": "KATL",
+        "latitude": "33.6367",
+        "longitude": "-84.428101",
+        "name": "Hartsfield Jackson Atlanta International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Nashville",
+        "country": "United States",
+        "icao": "KBNA",
+        "latitude": "36.1245002746582",
+        "longitude": "-86.6781997680664",
+        "name": "Nashville International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Abilene",
+        "country": "United States",
+        "icao": "KDYS",
+        "latitude": "32.4207992554",
+        "longitude": "-99.854598999",
+        "name": "Dyess Air Force Base",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "New York",
+        "country": "United States",
+        "icao": "KLGA",
+        "latitude": "40.77719879",
+        "longitude": "-73.87259674",
+        "name": "La Guardia Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Tallahassee",
+        "country": "United States",
+        "icao": "KTLH",
+        "latitude": "30.396499633789062",
+        "longitude": "-84.35030364990234",
+        "name": "Tallahassee Regional Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Jacksonville",
+        "country": "United States",
+        "icao": "KJAX",
+        "latitude": "30.49410057067871",
+        "longitude": "-81.68789672851562",
+        "name": "Jacksonville International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Washington",
+        "country": "United States",
+        "icao": "KIAD",
+        "latitude": "38.94449997",
+        "longitude": "-77.45580292",
+        "name": "Washington Dulles International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Milwaukee",
+        "country": "United States",
+        "icao": "KMKE",
+        "latitude": "42.947200775146484",
+        "longitude": "-87.89659881591797",
+        "name": "General Mitchell International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Portland",
+        "country": "United States",
+        "icao": "KPDX",
+        "latitude": "45.58869934",
+        "longitude": "-122.5979996",
+        "name": "Portland International Airport",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "West Palm Beach",
+        "country": "United States",
+        "icao": "KPBI",
+        "latitude": "26.68320083618164",
+        "longitude": "-80.09559631347656",
+        "name": "Palm Beach International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Fort Worth",
+        "country": "United States",
+        "icao": "KFTW",
+        "latitude": "32.819801",
+        "longitude": "-97.362396",
+        "name": "Fort Worth Meacham International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Seattle",
+        "country": "United States",
+        "icao": "KBFI",
+        "latitude": "47.529998779296875",
+        "longitude": "-122.302001953125",
+        "name": "Boeing Field King County International Airport",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "Honolulu",
+        "country": "United States",
+        "icao": "PHNL",
+        "latitude": "21.32062",
+        "longitude": "-157.924228",
+        "name": "Daniel K Inouye International Airport",
+        "tz": "Pacific/Honolulu"
+    },
+    {
+        "city": "Des Moines",
+        "country": "United States",
+        "icao": "KDSM",
+        "latitude": "41.534000396728516",
+        "longitude": "-93.66310119628906",
+        "name": "Des Moines International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "San Diego",
+        "country": "United States",
+        "icao": "KSAN",
+        "latitude": "32.7336006165",
+        "longitude": "-117.190002441",
+        "name": "San Diego International Airport",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "Monroe",
+        "country": "United States",
+        "icao": "KMLU",
+        "latitude": "32.51089859008789",
+        "longitude": "-92.0376968383789",
+        "name": "Monroe Regional Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Sumter",
+        "country": "United States",
+        "icao": "KSSC",
+        "latitude": "33.97269821",
+        "longitude": "-80.47059631",
+        "name": "Shaw Air Force Base",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Ontario",
+        "country": "United States",
+        "icao": "KONT",
+        "latitude": "34.055999755859375",
+        "longitude": "-117.60099792480469",
+        "name": "Ontario International Airport",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "Corpus Christi",
+        "country": "United States",
+        "icao": "KCRP",
+        "latitude": "27.77039909362793",
+        "longitude": "-97.5011978149414",
+        "name": "Corpus Christi International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Syracuse",
+        "country": "United States",
+        "icao": "KSYR",
+        "latitude": "43.11119842529297",
+        "longitude": "-76.1063003540039",
+        "name": "Syracuse Hancock International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Chicago",
+        "country": "United States",
+        "icao": "KMDW",
+        "latitude": "41.785999",
+        "longitude": "-87.752403",
+        "name": "Chicago Midway International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "San Jose",
+        "country": "United States",
+        "icao": "KSJC",
+        "latitude": "37.362598",
+        "longitude": "-121.929001",
+        "name": "Norman Y. Mineta San Jose International Airport",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "Denver",
+        "country": "United States",
+        "icao": "KDEN",
+        "latitude": "39.861698150635",
+        "longitude": "-104.672996521",
+        "name": "Denver International Airport",
+        "tz": "America/Denver"
+    },
+    {
+        "city": "Philadelphia",
+        "country": "United States",
+        "icao": "KPHL",
+        "latitude": "39.87189865112305",
+        "longitude": "-75.24109649658203",
+        "name": "Philadelphia International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Sioux City",
+        "country": "United States",
+        "icao": "KSUX",
+        "latitude": "42.40259933",
+        "longitude": "-96.38439941",
+        "name": "Sioux Gateway Col. Bud Day Field",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "San Antonio",
+        "country": "United States",
+        "icao": "KRND",
+        "latitude": "29.52969933",
+        "longitude": "-98.27890015",
+        "name": "Randolph Air Force Base",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Columbus",
+        "country": "United States",
+        "icao": "KCMH",
+        "latitude": "39.998001",
+        "longitude": "-82.891899",
+        "name": "John Glenn Columbus International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Dayton",
+        "country": "United States",
+        "icao": "KFFO",
+        "latitude": "39.8260993958",
+        "longitude": "-84.0483016968",
+        "name": "Wright-Patterson Air Force Base",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Anchorage",
+        "country": "United States",
+        "icao": "PANC",
+        "latitude": "61.174400329589844",
+        "longitude": "-149.99600219726562",
+        "name": "Ted Stevens Anchorage International Airport",
+        "tz": "America/Anchorage"
+    },
+    {
+        "city": "Mobile",
+        "country": "United States",
+        "icao": "KMOB",
+        "latitude": "30.691200256348",
+        "longitude": "-88.242797851562",
+        "name": "Mobile Regional Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Tampa",
+        "country": "United States",
+        "icao": "KMCF",
+        "latitude": "27.84930038",
+        "longitude": "-82.52120209",
+        "name": "Mac Dill Air Force Base",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Belleville",
+        "country": "United States",
+        "icao": "KBLV",
+        "latitude": "38.5452",
+        "longitude": "-89.835197",
+        "name": "Scott AFB/Midamerica Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Fort Myers",
+        "country": "United States",
+        "icao": "KRSW",
+        "latitude": "26.53619956970215",
+        "longitude": "-81.75520324707031",
+        "name": "Southwest Florida International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "New York",
+        "country": "United States",
+        "icao": "KJFK",
+        "latitude": "40.63980103",
+        "longitude": "-73.77890015",
+        "name": "John F Kennedy International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Alamogordo",
+        "country": "United States",
+        "icao": "KHMN",
+        "latitude": "32.8525009155",
+        "longitude": "-106.107002258",
+        "name": "Holloman Air Force Base",
+        "tz": "America/Denver"
+    },
+    {
+        "city": "Charleston",
+        "country": "United States",
+        "icao": "KCHS",
+        "latitude": "32.89860153",
+        "longitude": "-80.04049683",
+        "name": "Charleston Air Force Base-International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Reno",
+        "country": "United States",
+        "icao": "KRNO",
+        "latitude": "39.49909973144531",
+        "longitude": "-119.76799774169922",
+        "name": "Reno Tahoe International Airport",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "Lompoc",
+        "country": "United States",
+        "icao": "KVBG",
+        "latitude": "34.7373008728",
+        "longitude": "-120.583999634",
+        "name": "Vandenberg Air Force Base",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "Birmingham",
+        "country": "United States",
+        "icao": "KBHM",
+        "latitude": "33.56290054",
+        "longitude": "-86.75350189",
+        "name": "Birmingham-Shuttlesworth International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Sacramento",
+        "country": "United States",
+        "icao": "KSMF",
+        "latitude": "38.69540023803711",
+        "longitude": "-121.59100341796875",
+        "name": "Sacramento International Airport",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "Colorado Springs",
+        "country": "United States",
+        "icao": "KCOS",
+        "latitude": "38.805801",
+        "longitude": "-104.700996",
+        "name": "City of Colorado Springs Municipal Airport",
+        "tz": "America/Denver"
+    },
+    {
+        "city": "Buffalo",
+        "country": "United States",
+        "icao": "KBUF",
+        "latitude": "42.94049835",
+        "longitude": "-78.73220062",
+        "name": "Buffalo Niagara International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Mountain Home",
+        "country": "United States",
+        "icao": "KMUO",
+        "latitude": "43.043598",
+        "longitude": "-115.872002",
+        "name": "Mountain Home Air Force Base",
+        "tz": "America/Denver"
+    },
+    {
+        "city": "Windsor Locks",
+        "country": "United States",
+        "icao": "KBDL",
+        "latitude": "41.9388999939",
+        "longitude": "-72.68319702149999",
+        "name": "Bradley International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Lubbock",
+        "country": "United States",
+        "icao": "KLBB",
+        "latitude": "33.663601",
+        "longitude": "-101.822998",
+        "name": "Lubbock Preston Smith International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Chicago",
+        "country": "United States",
+        "icao": "KORD",
+        "latitude": "41.9786",
+        "longitude": "-87.9048",
+        "name": "Chicago O\\'Hare International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Fairbanks",
+        "country": "United States",
+        "icao": "PAFA",
+        "latitude": "64.81510162",
+        "longitude": "-147.8560028",
+        "name": "Fairbanks International Airport",
+        "tz": "America/Anchorage"
+    },
+    {
+        "city": "Clovis",
+        "country": "United States",
+        "icao": "KCVS",
+        "latitude": "34.3828010559",
+        "longitude": "-103.321998596",
+        "name": "Cannon Air Force Base",
+        "tz": "America/Denver"
+    },
+    {
+        "city": "Amarillo",
+        "country": "United States",
+        "icao": "KAMA",
+        "latitude": "35.219398",
+        "longitude": "-101.706001",
+        "name": "Rick Husband Amarillo International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Shreveport",
+        "country": "United States",
+        "icao": "KBAD",
+        "latitude": "32.5018005371",
+        "longitude": "-93.6626968384",
+        "name": "Barksdale Air Force Base",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Baltimore",
+        "country": "United States",
+        "icao": "KBWI",
+        "latitude": "39.1754",
+        "longitude": "-76.668297",
+        "name": "Baltimore/Washington International Thurgood Marshall Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Tulsa",
+        "country": "United States",
+        "icao": "KTUL",
+        "latitude": "36.19839859008789",
+        "longitude": "-95.88809967041016",
+        "name": "Tulsa International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Minneapolis",
+        "country": "United States",
+        "icao": "KMSP",
+        "latitude": "44.882",
+        "longitude": "-93.221802",
+        "name": "Minneapolis-St Paul International/Wold-Chamberlain Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "New Orleans",
+        "country": "United States",
+        "icao": "KMSY",
+        "latitude": "29.99340057373047",
+        "longitude": "-90.25800323486328",
+        "name": "Louis Armstrong New Orleans International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Portland",
+        "country": "United States",
+        "icao": "KPWM",
+        "latitude": "43.64619827",
+        "longitude": "-70.30930328",
+        "name": "Portland International Jetport Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Oklahoma City",
+        "country": "United States",
+        "icao": "KOKC",
+        "latitude": "35.39310073852539",
+        "longitude": "-97.60070037841797",
+        "name": "Will Rogers World Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Hampton",
+        "country": "United States",
+        "icao": "KLFI",
+        "latitude": "37.082901001",
+        "longitude": "-76.360496521",
+        "name": "Langley Air Force Base",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Santa Ana",
+        "country": "United States",
+        "icao": "KSNA",
+        "latitude": "33.67570114",
+        "longitude": "-117.8679962",
+        "name": "John Wayne Airport-Orange County Airport",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "Colombus",
+        "country": "United States",
+        "icao": "KCBM",
+        "latitude": "33.6437988281",
+        "longitude": "-88.44380187990001",
+        "name": "Columbus Air Force Base",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Peru",
+        "country": "United States",
+        "icao": "KGUS",
+        "latitude": "40.648101806599996",
+        "longitude": "-86.1520996094",
+        "name": "Grissom Air Reserve Base",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Valparaiso",
+        "country": "United States",
+        "icao": "KVPS",
+        "latitude": "30.4832",
+        "longitude": "-86.525398",
+        "name": "Destin-Ft Walton Beach Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Charlotte",
+        "country": "United States",
+        "icao": "KCLT",
+        "latitude": "35.2140007019043",
+        "longitude": "-80.94309997558594",
+        "name": "Charlotte Douglas International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Las Vegas",
+        "country": "United States",
+        "icao": "KLAS",
+        "latitude": "36.08010101",
+        "longitude": "-115.1520004",
+        "name": "McCarran International Airport",
+        "tz": "America/Los_Angeles"
+    },
+    {
+        "city": "Orlando",
+        "country": "United States",
+        "icao": "KMCO",
+        "latitude": "28.429399490356445",
+        "longitude": "-81.30899810791016",
+        "name": "Orlando International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Macon",
+        "country": "United States",
+        "icao": "KWRB",
+        "latitude": "32.6400985718",
+        "longitude": "-83.5919036865",
+        "name": "Robins Air Force Base",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Bangkok",
+        "country": "Thailand",
+        "icao": "VTBS",
+        "latitude": "13.681099891662598",
+        "longitude": "100.74700164794922",
+        "name": "Suvarnabhumi Airport",
+        "tz": "Asia/Bangkok"
+    },
+    {
+        "city": "Surabaya",
+        "country": "Indonesia",
+        "icao": "WARR",
+        "latitude": "-7.3798298835754395",
+        "longitude": "112.78700256347656",
+        "name": "Juanda International Airport",
+        "tz": "Asia/Jakarta"
+    },
+    {
+        "city": "Seoul",
+        "country": "South Korea",
+        "icao": "RKSI",
+        "latitude": "37.46910095214844",
+        "longitude": "126.45099639892578",
+        "name": "Incheon International Airport",
+        "tz": "Asia/Seoul"
+    },
+    {
+        "city": "Chiang Mai",
+        "country": "Thailand",
+        "icao": "VTCC",
+        "latitude": "18.766799926799997",
+        "longitude": "98.962600708",
+        "name": "Chiang Mai International Airport",
+        "tz": "Asia/Bangkok"
+    },
+    {
+        "city": "Denpasar",
+        "country": "Indonesia",
+        "icao": "WADD",
+        "latitude": "-8.7481698989868",
+        "longitude": "115.16699981689",
+        "name": "Ngurah Rai (Bali) International Airport",
+        "tz": "Asia/Makassar"
+    },
+    {
+        "city": "Athens",
+        "country": "Greece",
+        "icao": "LGAV",
+        "latitude": "37.9364013672",
+        "longitude": "23.9444999695",
+        "name": "Eleftherios Venizelos International Airport",
+        "tz": "Europe/Athens"
+    },
+    {
+        "city": "Nagoya",
+        "country": "Japan",
+        "icao": "RJGG",
+        "latitude": "34.8583984375",
+        "longitude": "136.80499267578125",
+        "name": "Chubu Centrair International Airport",
+        "tz": "Asia/Tokyo"
+    },
+    {
+        "city": "Daytona Beach",
+        "country": "United States",
+        "icao": "KDAB",
+        "latitude": "29.179899",
+        "longitude": "-81.058098",
+        "name": "Daytona Beach International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Riga",
+        "country": "Latvia",
+        "icao": "EVRA",
+        "latitude": "56.92359924316406",
+        "longitude": "23.971099853515625",
+        "name": "Riga International Airport",
+        "tz": "Europe/Riga"
+    },
+    {
+        "city": "Vilnius",
+        "country": "Lithuania",
+        "icao": "EYVI",
+        "latitude": "54.634102",
+        "longitude": "25.285801",
+        "name": "Vilnius International Airport",
+        "tz": "Europe/Vilnius"
+    },
+    {
+        "city": "Yerevan",
+        "country": "Armenia",
+        "icao": "UDYZ",
+        "latitude": "40.1473007202",
+        "longitude": "44.3959007263",
+        "name": "Zvartnots International Airport",
+        "tz": "Asia/Yerevan"
+    },
+    {
+        "city": "Tbilisi",
+        "country": "Georgia",
+        "icao": "UGTB",
+        "latitude": "41.6692008972",
+        "longitude": "44.95470047",
+        "name": "Tbilisi International Airport",
+        "tz": "Asia/Tbilisi"
+    },
+    {
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "icao": "SAEZ",
+        "latitude": "-34.8222",
+        "longitude": "-58.5358",
+        "name": "Ministro Pistarini International Airport",
+        "tz": "America/Buenos_Aires"
+    },
+    {
+        "city": "Osaka",
+        "country": "Japan",
+        "icao": "RJBB",
+        "latitude": "34.42729949951172",
+        "longitude": "135.24400329589844",
+        "name": "Kansai International Airport",
+        "tz": "Asia/Tokyo"
+    },
+    {
+        "city": "Palma de Mallorca",
+        "country": "Spain",
+        "icao": "LEPA",
+        "latitude": "39.551700592",
+        "longitude": "2.73881006241",
+        "name": "Palma De Mallorca Airport",
+        "tz": "Europe/Madrid"
+    },
+    {
+        "city": "Asheville",
+        "country": "United States",
+        "icao": "KAVL",
+        "latitude": "35.43619918823242",
+        "longitude": "-82.54180145263672",
+        "name": "Asheville Regional Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Greensboro",
+        "country": "United States",
+        "icao": "KGSO",
+        "latitude": "36.097801208496094",
+        "longitude": "-79.93730163574219",
+        "name": "Piedmont Triad International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Manchester NH",
+        "country": "United States",
+        "icao": "KMHT",
+        "latitude": "42.932598",
+        "longitude": "-71.435699",
+        "name": "Manchester-Boston Regional Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Louisville",
+        "country": "United States",
+        "icao": "KSDF",
+        "latitude": "38.1744",
+        "longitude": "-85.736",
+        "name": "Louisville International Standiford Field",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Roanoke VA",
+        "country": "United States",
+        "icao": "KROA",
+        "latitude": "37.3255",
+        "longitude": "-79.975403",
+        "name": "Roanoke\u00e2\u0080\u0093Blacksburg Regional Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Lexington KY",
+        "country": "United States",
+        "icao": "KLEX",
+        "latitude": "38.0364990234375",
+        "longitude": "-84.60590362548828",
+        "name": "Blue Grass Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Albuquerque",
+        "country": "United States",
+        "icao": "KABQ",
+        "latitude": "35.040199",
+        "longitude": "-106.609001",
+        "name": "Albuquerque International Sunport",
+        "tz": "America/Denver"
+    },
+    {
+        "city": "Billings",
+        "country": "United States",
+        "icao": "KBIL",
+        "latitude": "45.807701110839844",
+        "longitude": "-108.54299926757812",
+        "name": "Billings Logan International Airport",
+        "tz": "America/Denver"
+    },
+    {
+        "city": "Rockford",
+        "country": "United States",
+        "icao": "KRFD",
+        "latitude": "42.19540023803711",
+        "longitude": "-89.09719848632812",
+        "name": "Chicago Rockford International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Moscow",
+        "country": "Russia",
+        "icao": "UUDD",
+        "latitude": "55.40879821777344",
+        "longitude": "37.90629959106445",
+        "name": "Domodedovo International Airport",
+        "tz": "Europe/Moscow"
+    },
+    {
+        "city": "Sanya",
+        "country": "China",
+        "icao": "ZJSY",
+        "latitude": "18.302900314331055",
+        "longitude": "109.41200256347656",
+        "name": "Sanya Phoenix International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Greenville",
+        "country": "United States",
+        "icao": "KGSP",
+        "latitude": "34.8956985474",
+        "longitude": "-82.2189025879",
+        "name": "Greenville Spartanburg International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Bloomington",
+        "country": "United States",
+        "icao": "KBMI",
+        "latitude": "40.47710037",
+        "longitude": "-88.91590118",
+        "name": "Central Illinois Regional Airport at Bloomington-Normal",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Gulfport",
+        "country": "United States",
+        "icao": "KGPT",
+        "latitude": "30.40730094909668",
+        "longitude": "-89.07009887695312",
+        "name": "Gulfport Biloxi International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Toledo",
+        "country": "United States",
+        "icao": "KTOL",
+        "latitude": "41.58679962",
+        "longitude": "-83.80780029",
+        "name": "Toledo Express Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Fort Wayne",
+        "country": "United States",
+        "icao": "KFWA",
+        "latitude": "40.97850037",
+        "longitude": "-85.19509888",
+        "name": "Fort Wayne International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Cedar Rapids",
+        "country": "United States",
+        "icao": "KCID",
+        "latitude": "41.884700775146484",
+        "longitude": "-91.71080017089844",
+        "name": "The Eastern Iowa Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Peoria",
+        "country": "United States",
+        "icao": "KPIA",
+        "latitude": "40.664199829100006",
+        "longitude": "-89.6932983398",
+        "name": "General Wayne A. Downing Peoria International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Rochester",
+        "country": "United States",
+        "icao": "KRST",
+        "latitude": "43.90829849243164",
+        "longitude": "-92.5",
+        "name": "Rochester International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Nairobi",
+        "country": "Kenya",
+        "icao": "HKJK",
+        "latitude": "-1.31923997402",
+        "longitude": "36.9277992249",
+        "name": "Jomo Kenyatta International Airport",
+        "tz": "Africa/Nairobi"
+    },
+    {
+        "city": "Sarasota",
+        "country": "United States",
+        "icao": "KSRQ",
+        "latitude": "27.39539909362793",
+        "longitude": "-82.55439758300781",
+        "name": "Sarasota Bradenton International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Moline",
+        "country": "United States",
+        "icao": "KMLI",
+        "latitude": "41.44850158691406",
+        "longitude": "-90.50749969482422",
+        "name": "Quad City International Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Papeete",
+        "country": "French Polynesia",
+        "icao": "NTAA",
+        "latitude": "-17.553699",
+        "longitude": "-149.606995",
+        "name": "Faa\\'a International Airport",
+        "tz": "Pacific/Tahiti"
+    },
+    {
+        "city": "Novosibirsk",
+        "country": "Russia",
+        "icao": "UNNT",
+        "latitude": "55.012599945068",
+        "longitude": "82.650703430176",
+        "name": "Tolmachevo Airport",
+        "tz": "Asia/Krasnoyarsk"
+    },
+    {
+        "city": "Davao",
+        "country": "Philippines",
+        "icao": "RPMD",
+        "latitude": "7.1255202293396",
+        "longitude": "125.64600372314453",
+        "name": "Francisco Bangoy International Airport",
+        "tz": "Asia/Manila"
+    },
+    {
+        "city": "Windhoek",
+        "country": "Namibia",
+        "icao": "FYWH",
+        "latitude": "-22.4799",
+        "longitude": "17.4709",
+        "name": "Hosea Kutako International Airport",
+        "tz": "Africa/Windhoek"
+    },
+    {
+        "city": "Jinan",
+        "country": "China",
+        "icao": "ZSJN",
+        "latitude": "36.857200622558594",
+        "longitude": "117.21600341796875",
+        "name": "Yaoqiang Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Huntsville",
+        "country": "United States",
+        "icao": "KHSV",
+        "latitude": "34.637199401855",
+        "longitude": "-86.775100708008",
+        "name": "Huntsville International Carl T Jones Field",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "MONTGOMERY",
+        "country": "United States",
+        "icao": "KMGM",
+        "latitude": "32.30059814",
+        "longitude": "-86.39399719",
+        "name": "Montgomery Regional (Dannelly Field) Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "BRISTOL",
+        "country": "United States",
+        "icao": "KTRI",
+        "latitude": "36.475201",
+        "longitude": "-82.407401",
+        "name": "Tri-Cities Regional TN/VA Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Haikou",
+        "country": "China",
+        "icao": "ZJHK",
+        "latitude": "19.934900283813477",
+        "longitude": "110.45899963378906",
+        "name": "Haikou Meilan International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Saginaw",
+        "country": "United States",
+        "icao": "KMBS",
+        "latitude": "43.532901763916016",
+        "longitude": "-84.07959747314453",
+        "name": "MBS International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Baghdad",
+        "country": "Iraq",
+        "icao": "ORBI",
+        "latitude": "33.262500762900004",
+        "longitude": "44.2346000671",
+        "name": "Baghdad International Airport",
+        "tz": "Asia/Baghdad"
+    },
+    {
+        "city": "Angeles City",
+        "country": "Philippines",
+        "icao": "RPLC",
+        "latitude": "15.186",
+        "longitude": "120.559998",
+        "name": "Diosdado Macapagal International Airport",
+        "tz": "Asia/Manila"
+    },
+    {
+        "city": "Shenyang",
+        "country": "China",
+        "icao": "ZYTX",
+        "latitude": "41.639801025390625",
+        "longitude": "123.48300170898438",
+        "name": "Taoxian Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Karlsruhe/Baden-Baden",
+        "country": "Germany",
+        "icao": "EDSB",
+        "latitude": "48.7793998718",
+        "longitude": "8.08049964905",
+        "name": "Karlsruhe Baden-Baden Airport",
+        "tz": "Europe/Berlin"
+    },
+    {
+        "city": "Sanford",
+        "country": "United States",
+        "icao": "KSFB",
+        "latitude": "28.777599334716797",
+        "longitude": "-81.23750305175781",
+        "name": "Orlando Sanford International Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Muan",
+        "country": "South Korea",
+        "icao": "RKJB",
+        "latitude": "34.991406",
+        "longitude": "126.382814",
+        "name": "Muan International Airport",
+        "tz": "Asia/Seoul"
+    },
+    {
+        "city": "Cebu",
+        "country": "Philippines",
+        "icao": "RPVM",
+        "latitude": "10.307499885559",
+        "longitude": "123.97899627686",
+        "name": "Mactan Cebu International Airport",
+        "tz": "Asia/Manila"
+    },
+    {
+        "city": "Erie",
+        "country": "United States",
+        "icao": "KERI",
+        "latitude": "42.0831270134",
+        "longitude": "-80.1738667488",
+        "name": "Erie International Tom Ridge Field",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Charleston",
+        "country": "United States",
+        "icao": "KCRW",
+        "latitude": "38.37310028076172",
+        "longitude": "-81.59320068359375",
+        "name": "Yeager Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Bodrum",
+        "country": "Turkey",
+        "icao": "LTFE",
+        "latitude": "37.25059890749999",
+        "longitude": "27.6643009186",
+        "name": "Milas Bodrum International Airport",
+        "tz": "Europe/Istanbul"
+    },
+    {
+        "city": "Istanbul",
+        "country": "Turkey",
+        "icao": "LTFJ",
+        "latitude": "40.898601532",
+        "longitude": "29.3092002869",
+        "name": "Sabiha G\u00c3\u00b6k\u00c3\u00a7en International Airport",
+        "tz": "Europe/Istanbul"
+    },
+    {
+        "city": "Tehran",
+        "country": "Iran",
+        "icao": "OIIE",
+        "latitude": "35.416099548339844",
+        "longitude": "51.152198791503906",
+        "name": "Imam Khomeini International Airport",
+        "tz": "Asia/Tehran"
+    },
+    {
+        "city": "Mashhad",
+        "country": "Iran",
+        "icao": "OIMM",
+        "latitude": "36.235198974609375",
+        "longitude": "59.64099884033203",
+        "name": "Mashhad International Airport",
+        "tz": "Asia/Tehran"
+    },
+    {
+        "city": "Springfield",
+        "country": "United States",
+        "icao": "KSPI",
+        "latitude": "39.84410095",
+        "longitude": "-89.67790222",
+        "name": "Abraham Lincoln Capital Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Springfield",
+        "country": "United States",
+        "icao": "KSGF",
+        "latitude": "37.24570084",
+        "longitude": "-93.38860321",
+        "name": "Springfield Branson National Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Joplin",
+        "country": "United States",
+        "icao": "KJLN",
+        "latitude": "37.151798248291016",
+        "longitude": "-94.49829864501953",
+        "name": "Joplin Regional Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "South Bend",
+        "country": "United States",
+        "icao": "KSBN",
+        "latitude": "41.70869827270508",
+        "longitude": "-86.31729888916016",
+        "name": "South Bend Regional Airport",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Krasnoyarsk",
+        "country": "Russia",
+        "icao": "UNKL",
+        "latitude": "56.172901",
+        "longitude": "92.493301",
+        "name": "Yemelyanovo Airport",
+        "tz": "Asia/Krasnoyarsk"
+    },
+    {
+        "city": "Karaganda",
+        "country": "Kazakhstan",
+        "icao": "UAKK",
+        "latitude": "49.670799255371094",
+        "longitude": "73.33439636230469",
+        "name": "Sary-Arka Airport",
+        "tz": "Asia/Qyzylorda"
+    },
+    {
+        "city": "Dubuque IA",
+        "country": "United States",
+        "icao": "KDBQ",
+        "latitude": "42.40200043",
+        "longitude": "-90.70950317",
+        "name": "Dubuque Regional Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Doncaster Sheffield",
+        "country": "United Kingdom",
+        "icao": "EGCN",
+        "latitude": "53.4805378105",
+        "longitude": "-1.01065635681",
+        "name": "Robin Hood Doncaster Sheffield Airport",
+        "tz": "Europe/London"
+    },
+    {
+        "city": "Huntington",
+        "country": "United States",
+        "icao": "KHTS",
+        "latitude": "38.36669922",
+        "longitude": "-82.55799866",
+        "name": "Tri-State/Milton J. Ferguson Field",
+        "tz": "America/New_York"
+    },
+    {
+        "city": "Isparta",
+        "country": "Turkey",
+        "icao": "LTFC",
+        "latitude": "37.8554000854",
+        "longitude": "30.368400573699997",
+        "name": "S\u00c3\u00bcleyman Demirel International Airport",
+        "tz": "Europe/Istanbul"
+    },
+    {
+        "city": "Kunsan",
+        "country": "South Korea",
+        "icao": "RKJK",
+        "latitude": "35.90380096435547",
+        "longitude": "126.61599731445312",
+        "name": "Kunsan Air Base",
+        "tz": "Asia/Seoul"
+    },
+    {
+        "city": "Chongju",
+        "country": "South Korea",
+        "icao": "RKTU",
+        "latitude": "36.717008",
+        "longitude": "127.498741",
+        "name": "Cheongju International Airport/Cheongju Air Base (K-59/G-513)",
+        "tz": "Asia/Seoul"
+    },
+    {
+        "city": "Kharkov",
+        "country": "Ukraine",
+        "icao": "UKHH",
+        "latitude": "49.924800872802734",
+        "longitude": "36.290000915527344",
+        "name": "Kharkiv International Airport",
+        "tz": "Europe/Kiev"
+    },
+    {
+        "city": "Beijing",
+        "country": "China",
+        "icao": "ZBNY",
+        "latitude": "39.782798767089844",
+        "longitude": "116.38800048828125",
+        "name": "Beijing Nanyuan Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Hohhot",
+        "country": "China",
+        "icao": "ZBHH",
+        "latitude": "40.851398",
+        "longitude": "111.823997",
+        "name": "Baita International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Wenzhou",
+        "country": "China",
+        "icao": "ZSWZ",
+        "latitude": "27.912201",
+        "longitude": "120.851997",
+        "name": "Wenzhou Longwan International Airport",
+        "tz": "Asia/Shanghai"
+    },
+    {
+        "city": "Sialkot",
+        "country": "Pakistan",
+        "icao": "OPST",
+        "latitude": "32.5355567932",
+        "longitude": "74.3638916016",
+        "name": "Sialkot Airport",
+        "tz": "Asia/Karachi"
+    },
+    {
+        "city": "Ramenskoe",
+        "country": "Russia",
+        "icao": "UUBW",
+        "latitude": "55.553299",
+        "longitude": "38.150002",
+        "name": "Zhukovsky International Airport",
+        "tz": "Europe/Moscow"
+    },
+    {
+        "city": "Null",
+        "country": "United States",
+        "icao": "KSUS",
+        "latitude": "38.662101745605",
+        "longitude": "-90.652000427246",
+        "name": "Spirit of St Louis Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "icao": "OMDW",
+        "latitude": "24.896356",
+        "longitude": "55.161389",
+        "name": "Al Maktoum International Airport",
+        "tz": "Asia/Dubai"
+    },
+    {
+        "city": "Fort Worth",
+        "country": "United States",
+        "icao": "KAFW",
+        "latitude": "32.9875984192",
+        "longitude": "-97.31880187990001",
+        "name": "Fort Worth Alliance Airport",
+        "tz": "America/Chicago"
+    },
+    {
+        "city": "Warsaw",
+        "country": "Poland",
+        "icao": "EPMO",
+        "latitude": "52.451099",
+        "longitude": "20.6518",
+        "name": "Modlin Airport",
+        "tz": "Europe/Warsaw"
+    },
+    {
+        "city": "Mattala",
+        "country": "Sri Lanka",
+        "icao": "VCRI",
+        "latitude": "6.284467",
+        "longitude": "81.124128",
+        "name": "Mattala Rajapaksa International Airport",
+        "tz": "Asia/Colombo"
+    },
+    {
+        "city": "Uyo",
+        "country": "Nigeria",
+        "icao": "DNAI",
+        "latitude": "4.8725",
+        "longitude": "8.093",
+        "name": "Akwa Ibom International Airport",
+        "tz": "Africa/Lagos"
+    },
+    {
+        "city": "Medan",
+        "country": "Indonesia",
+        "icao": "WIMM",
+        "latitude": "3.642222",
+        "longitude": "98.885278",
+        "name": "Kualanamu International Airport",
+        "tz": "Asia/Jakarta"
+    },
+    {
+        "city": "Beijing",
+        "country": "China",
+        "icao": "ZBAD",
+        "latitude": "39.509945",
+        "longitude": "116.41092",
+        "name": "Beijing Daxing International Airport",
+        "tz": ""
+    },
+    {
+        "city": "Kazan",
+        "country": "Russia",
+        "icao": "UWKG",
+        "latitude": "55.86669921875",
+        "longitude": "49.13330078125",
+        "name": "Borisoglebskoye Airport",
+        "tz": ""
+    },
+    {
+        "city": "Hyderabad",
+        "country": "India",
+        "icao": "VOHS",
+        "latitude": "17.2313175201",
+        "longitude": "78.4298553467",
+        "name": "Rajiv Gandhi International Airport",
+        "tz": ""
+    },
+    {
+        "city": "Diass",
+        "country": "Senegal",
+        "icao": "GOBD",
+        "latitude": "14.67",
+        "longitude": "-17.073333",
+        "name": "Blaise Diagne International Airport",
+        "tz": ""
+    }
+]
