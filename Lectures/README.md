@@ -1,7 +1,7 @@
 ## Lectures
 
 | Folder | Title | Description | Due | dueDate |  |
-|:------|:------|:------|:-----:|:-----:|-----|
+|:------|:------|:------|:------|:-----:|-----|
 | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L01">L01</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L01"> Graphviz </a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L01"> Simple Intro</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L01"> ∞</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L01">None</a>*** |  |
 | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L02">L02</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L02"> Cleaning Data </a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L02"> Griffins data cleansing code</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L02"> ∞</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L02">None</a>*** |  |
 | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L03">L03</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L03"> Reading Files </a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L03"> Python reading Csv and Json</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L03"> ∞</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L03">None</a>*** |  |
@@ -9,6 +9,6 @@
 | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L05">L05</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L05"> Getting Data </a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L05"> Resources</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L05"> ∞</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L05">None</a>*** |  |
 | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L06">L06</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L06"> Getting Data </a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L06"> Resources</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L06"> ∞</a>*** | ***<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Lectures/L06">None</a>*** |  |
 
-<sup>Last Updated: 2023-06-14 (Wed @ 10:09)</sup> 
+<sup>Last Updated: 2023-06-14 (Wed @ 22:57)</sup> 
 
 <sup>***Days Left is only accurate if the `Last Updated` date is the same as todays date. Otherwise, use the due date!***</sup> 

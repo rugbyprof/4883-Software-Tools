@@ -2,10 +2,25 @@
 
 #### Due: 06-19-2023 (Monday @ 10:10 a.m.)
 
+### Background
+
+The initial web scraping example I went over in class was a simple BS4 (beautiful soup) example that scraped tabular data from an NBA page and save it locally in a json formatted file. A link to this code is here: [4883-summer23-scraping](https://replit.com/@rugbyprof/4883-summer23-scraping). I think we all could appreciate the power of scraping a web page to create a local database of collected data. Even though we only saved the information as json, we are not limited to just that format. The NBA page we accessed was statically loaded, meaning that it was created in its entirety on the server, and then sent to our browser. This allowed us to use `python requests` to grab that static page and process it. This is not always the case.
+
+The issue with the site that we want to grab weather data from (`https://www.wunderground.com/history/`) is that the data is loaded **dynamically** / **asynchronously**. This means that the page is not completely created on the server and then sent in its entirety upon the initial request. It means that the initial page load does not include the weather data, and the resulting page that makes it to the requesting browser makes an additional request to load the weather data. As a result, using `python requests` will not get us the data we are looking for, as it only receives the initial response. The additional request is never received by the `requests` library, and thus we are forced to take a different approach.
+
+The approach we will emulate can be read about here: https://data.library.virginia.edu/getting-started-with-web-scraping-in-python/. It describes using selenium to obtain the dynamic data, since selenium allows the programmer to add a delay in waiting for the response. The entire tutorial is really well written, but it fell short due to library updates. Meaning, I could not get it to run since the version of `selenium` and `webdriver` that I installed were new and changed vs the versions used by the author. I managed to fix those issues and have included examples in this assignment folder.
+
 ### Overview
 
-Scraping weather from around the world.
-https://data.library.virginia.edu/getting-started-with-web-scraping-in-python/
+This project will combine a `python GUI` with a `beautiful soup web scraper` to: 1. grab, 2. save and 3. display the data. The initial python gui will be used to enter the appropriate values to allow you to leverage the URL, meaning it will accept values for: month, day, year, airport code, and one of the following: daily, weekly, monthly. The resulting python gui will display the received data in a tabular format. PySimpleGui has methods to help with all of this: [Documentation](https://www.pysimplegui.org/en/latest/), [Examples and Demos](https://www.pysimplegui.org/en/latest/#some-examples).
+
+I have include some starter code that can be viewed in the `get_weather` file and the `gui` file. The `airport-codes` file is to help with populating the gui drop down dealing with choosing a location.
+
+|  #  | name                                     | Description                                                      |
+| :-: | :--------------------------------------- | :--------------------------------------------------------------- |
+|  1  | [airport-codes.csv](./airport-codes.csv) | Necessary data for your gui                                      |
+|  2  | [get_weather.py ](./get_weather.py)      | Example selenium async request to grab weather data              |
+|  3  | [gui.py](./gui.py)                       | Example gui form to get necessary data to query the weather page |
 
 ### Leveraging a URL
 
@@ -40,20 +55,20 @@ These three query params were followed by an `airport code` (in this case `KLAW`
 
 I also noticed that if you left the date format like this: `2023-6-13` (keeping the day) in a monthly query, it still resulted in the correct page and data to be loaded.
 
-#### Python Examples
+#### Url Building
 
-We don't need to build the url based on each individual component since the base portion of the url will not change. So I won't be creating variables for protocol for example. I just need to change the `query_type` and the `date`.
+We don't need to build the url based on each individual component since the base portion of the url will not change. So I won't be creating variables for protocol for example. I just need to change the `filter` and the `date`.
 
 ```python
 base_url = "https://wunderground.com/history"
-query_type = "monthly"
+filter = "monthly"
 airport = "YPJT"
 year = "2021"
 month = "6"
 day = "1"
 
 # build the url to scrape weather from
-url = f"{base_url}/{query_type}/{airport}/{year}-{month}-{day}"
+url = f"{base_url}/{filter}/{airport}/{year}-{month}-{day}"
 # prints: https://www.wunderground.com/history/monthly/YPJT/date/2021-6-1
 # gets weather info for Perth Australia
 ```
@@ -68,3 +83,18 @@ with open('airport-codes.csv', newline='') as csvfile:
         print(row['ident'])
 ```
 
+### Summary
+
+- Use PySimpleGui to create a data entry form that includes day, month, year, airport, and filter (daily,weekly,monthly)
+- Submit your form which will create the appropriate URL to query wunderground for the specified weather data.
+- Use selenium to obtain the async data sent back from wunderground.
+- Use BS4 to parse the data and pull out the requested data.
+- Finally, use PySimpleGui tabular view to display the data received from the initial request.
+
+### Deliverables
+
+- Create a folder called `A07` to place your assignment files in.
+- Update the given python code to work for your own solution, but include all python code that you write in this folder.
+- Include in your `README` at least three example queries.
+- The example queries should include a screen shots of the initial form GUI (where you enter date, etc.) and a screenshot of the resulting GUI that displays the tabular data resulting from your query.
+- Look [HERE](../../Resources/01-Readmees/README.md) for information on creating good README's for your projects.
