@@ -1,5 +1,4 @@
-rich
-selenium-wire
-webdriver_manager
-requests
 pysimplegui
+bs4
+selenium
+selenium-wire
