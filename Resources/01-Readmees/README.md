@@ -1,4 +1,5 @@
 ## README - How You Should Format Them
+
 #### Due: NA
 
 Every single folder on your repo should contain a `README.md`. This is because when I or someone else looks at your repo, and clicks on a folder, they will see not just a directory listing, but an explanation and description of what that folder contains. I'm not making you create README's to be an ass ... I promise. It simply adds credibility to your repo, and makes you look like you know what your doing (and care and visitors to your site). I understand that a lot (if not most) probably don't want anyone looking at your repo, but you should still put your best foot forward. When I browse repos on Github, I not only rely on the README files for information, but find myself judging the software or library based on how organized and descriptive the README's are. And after talking to other developers, I found that I'm not the only one.
@@ -32,7 +33,6 @@ We will use the README's that you will create in every assignment folder to do t
     - Example: You called your data file **"data.txt"** and use: `open("data.txt")` I called my file **"data.dat"** and now your program crashes.
     - Solution: Read in the filename when the user runs your program, so you get the proper local name ( I will discuss in class argv or command line params)
 
-
 ## Example Assignment README
 
 ```
@@ -49,7 +49,7 @@ biltong filet mignon. Shoulder chislic ground round pork burgdoggen hamburger.
 ### Files
 
 |   #   | File            | Description                                        |
-| :---: | --------------- | -------------------------------------------------- |
+| :---: | :--------------- | -------------------------------------------------- |
 |   1   | Main.py         | Main driver of my project that launches game.      |
 |   2   | HelperClass.py  | Helper class that holds movement functions         |
 |   3   | TextureClass.py | Helper class that assists with textures and images |

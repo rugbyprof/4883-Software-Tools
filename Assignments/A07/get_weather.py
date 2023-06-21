@@ -35,7 +35,7 @@ def asyncGetWeather(url):
         flushprint("Getting page...")
         driver.get(url)                                             # load the web page from the URL
         flushprint("waiting 3 seconds for dynamic data to load...")
-        time.sleep(3)                                               # wait for the web page to load
+        time.sleep(5)                                               # wait for the web page to load
         flushprint("Done ... returning page source HTML")
         render = driver.page_source                                 # get the page source HTML
         driver.quit()                                               # quit ChromeDriver
@@ -44,16 +44,37 @@ def asyncGetWeather(url):
 if __name__=='__main__':
 
     # Could be a good idea to use the buildWeatherURL function from gui.py
-    url = 'http://www.wunderground.com/history/daily/KCHO/date/2020-12-31'
+    url = 'http://www.wunderground.com/history/daily/KCHO/date/2023-01-01'
 
     # get the page source HTML from the URL
-    page = asyncGetWeather(url)
+    #page = asyncGetWeather(url)
+    
+    with open('weather.html') as f:
+        page = f.read()
 
     # parse the HTML
     soup = BeautifulSoup(page, 'html.parser')
     
     # find the appropriate tag that contains the weather data
-    history = soup.find('lib-city-history-observation')
+    # history = soup.find('lib-city-history-observation')
+    
+    tables = soup.find_all('table')
+    
+    
+    print(tables[0].text)
+    
+    rows = tables[0].find_all('tr')
+    
+    for row in rows:
+        content = row.find_all('td')
+        for c in content:
+            print(c.text.strip().replace(" ","").replace("\n",""))
+    
 
     # print the parsed HTML
-    print(history.prettify())
+    # print(history.prettify())
+    
+    # with open('weather.html', 'w') as f:
+    #     f.write(history.prettify())
+    
+    # print(len(tables))
