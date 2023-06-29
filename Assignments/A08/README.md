@@ -8,7 +8,7 @@ Create a RESTful API using FastAPI that provides access to COVID-19 data. The AP
 
 ### Addendum
 
-I made a mistake yesterday when I prefer `RPC` (Remote Procedure Calls) type API's because I assumed that `RPC` was less structured than a `REST API`, but really `REST` = `stateless` or "call and forget" where `RPC` = `maintain state` meaning stay connected.
+I made a mistake yesterday when I stated that I prefer `RPC` (Remote Procedure Calls) type API's over RESTful api's. Previous reading had me believe that `RPC` was less structured than a `RESTful API`, but really `REST` = `stateless` or "call and forget" where `RPC` = `maintain state` meaning stay connected.
 
 I would explain more with examples here, but that would take too long.
 

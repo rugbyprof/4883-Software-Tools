@@ -11,6 +11,6 @@
 | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A05">A05</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A05"> Assignment 5 </a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A05"> FamilyTree via Graphviz</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A05"> 06-14-2023 (Wednesday @ 10:10 a.m.)</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A05">2023-06-14 00:00:00</a>~ | ---- |
 | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07">A07</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07"> Assignment 7 </a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07"> Web Scraping</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07"> 06-19-2023 (Monday @ 10:10 a.m.)</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07">2023-06-19 00:00:00</a>~ | ---- |
 
-<sup>Last Updated: 2023-06-28 (Wed @ 23:07)</sup> 
+<sup>Last Updated: 2023-06-28 (Wed @ 23:08)</sup> 
 
 <sup>***Days Left is only accurate if the `Last Updated` date is the same as todays date. Otherwise, use the due date!***</sup> 
