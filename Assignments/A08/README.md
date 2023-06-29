@@ -28,6 +28,8 @@ I'm putting a description of what restful is here not as part of the program req
 
 The data is provided here: [data.csv](data.csv)
 
+Column Descriptions:
+
 |  #  | Column            | Description                       |
 | :-: | :---------------- | :-------------------------------- |
 |  0  | Date_reported     | date in `yyyy-mm-dd` format       |
