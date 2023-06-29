@@ -1,4 +1,4 @@
-## Assignment 8 - "COVID-19 Data Tracker API with FastAPI"
+## Assignment 8 - Fast Api with Covid Data
 
 #### Due: 07-05-2023 (Wednesday @ 10:10 a.m.)
 
