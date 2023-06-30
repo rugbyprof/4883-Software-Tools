@@ -17,7 +17,7 @@ If you are having trouble determining your "grade" for another student, here are
 2. Was the presentation organized?
    - Again, it should be broken into logical components so we all can follow.
 3. Did they appear to have practiced?
-4. Did the communicate their points to the class very well (this is a by product of preparation and practice)
+4. Did they communicate their points to the class very well (this is a by product of preparation and practice)
    - I want to stress to all of you that I understand there is a language issue sometimes, and I very much will take this into consideration when some of you present. I could not imagine having to give a presentation in `Hindi` or `Bengali` so I respect all of you that are using English as a second language. But regardless of language barrier, it will still be obvious if you are prepared or not.
 5. Did you think their tool was cool? or useful?
 6. Is the tool practical?
