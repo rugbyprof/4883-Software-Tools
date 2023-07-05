@@ -22,6 +22,7 @@ app = FastAPI(
 db = []
 
 # Open the CSV file
+# populates the `db` list with all the csv data
 with open('data.csv', 'r') as file:
     # Create a CSV reader object
     reader = csv.reader(file)
@@ -77,21 +78,32 @@ async def whos():
 async def casesByRegion(year:int = None):
     """
     Returns the number of cases by region
-    ## Hello world
-    - 1
-    - 2
-    - 3
+
     """
 
+    # create a dictionary as a container for our results
+    # that will hold unique regions. Why, because there 
+    # cannot be duplicate keys in a dictionary.
     cases = {}
-    
+
+    # return {'success':False,'message':'no database exists'}
+
+    # loop through our db list
     for row in db:
+        
+        # If there is a year passed in and that year is not equal to this row
+        # then skip the rest of code
         if year != None and year != int(row[0][:4]):
             continue
             
+        # this line guarantees that the dictionary has the region as a key
         if not row[3] in cases:
             cases[row[3]] = 0
+        
+        # this line adds the case count to whatever is at that key location
         cases[row[3]] += int(row[4])    
+
+    # return cases
 
     return {"data":cases,"success":True,"message":"Cases by Region","size":len(cases),"year":year}
 
