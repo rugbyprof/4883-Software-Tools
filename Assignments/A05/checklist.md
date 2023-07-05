@@ -31,4 +31,4 @@
 | <li></li> | Files named correctly                                       | &#9744; |        |
 | <li></li> | dot, png/jpg , csv, script(python or other) included        | &#9744; |        |
 |           |                                                             |         |        |
-| <li></li> | Grade:                                                      | &#9744; |        |
+| <li></li> | Grade:                                                      |         |        |
