@@ -33,10 +33,10 @@
 ## Grading:    
 | Categories                |       | Grade |          |
 | :------------------------ | :---: | :---: | :------: |
-| Projects <sup>**1**</sup> |  70%  |   A   |  89-100  |
+| Projects <sup>**1**</sup> |  65%  |   A   |  89-100  |
 | Presention                |  20%  |   B   |  79-88   |
 | Github Repo               |  10%  |   C   |  69-78   |
-|                           |       |   C   |  69-78   |
+| Presentation Grading      |  05%  |   C   |  69-78   |
 |                           |       |   D   |  59-68   |
 |                           |       |   F   | below 59 |
 
