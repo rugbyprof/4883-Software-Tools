@@ -12,6 +12,6 @@
 | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07">A07</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07"> Assignment 7 </a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07"> Web Scraping</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07"> 06-19-2023 (Monday @ 10:10 a.m.)</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07">2023-06-19 00:00:00</a>~ | ---- |
 | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A08">A08</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A08"> Assignment 8 </a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A08"> Fast Api with Covid Data</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A08"> 07-05-2023 (Wednesday @ 10:10 a.m.)</a>~ | ~<a href="https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A08">2023-07-05 00:00:00</a>~ | ---- |
 
-<sup>Last Updated: 2023-07-13 (Thu @ 16:16)</sup> 
+<sup>Last Updated: 2023-07-13 (Thu @ 16:17)</sup> 
 
 <sup>***Days Left is only accurate if the `Last Updated` date is the same as todays date. Otherwise, use the due date!***</sup> 

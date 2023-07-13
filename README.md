@@ -43,7 +43,7 @@
 
 >**1**. Any projects that include programs as well as programs themselves must run without error. If they do not run, they will not be graded. Correctness is a different matter. However, the program must be close to the solution required and cannot be an over simplified version simply for the purpose of making it run. 
 
->**2**. The grading scheme listed is what I typically use for rounding errors, however, the letter grade assignment is ultimately left up to the professor based on the course and it's content.
+>**2**. The grading scheme listed is what I typically use for rounding errors, however, the letter grade assignment is ultimately left up to the professor based on the course and it's content. This means I can use the standard 90-100 for an A 80-89 for a B etc. if I choose to. 
 
 ### Attendance: 
 
